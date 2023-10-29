@@ -751,3 +751,17 @@ D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\
 D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.dll
 D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.xml
 D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaNegocio.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Debug\CapaDatos.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.vbproj.AssemblyReference.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.Resources.resources
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.vbproj.GenerateResource.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.vbproj.CoreCompileInputs.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.vbproj.CopyComplete
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Debug\CapaNegocio.pdb

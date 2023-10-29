@@ -4528,6 +4528,7 @@ D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Ma
 D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\obj\Release\Biblioteca_Mant.dll
 D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\obj\Release\Biblioteca_Mant.xml
 D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\obj\Release\Biblioteca_Mant.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.VisualStudio.Shell.Interop.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\SqlServerTypes\x64\msvcr120.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\SqlServerTypes\x86\msvcr120.dll
@@ -4596,7 +4597,6 @@ C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Ma
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.ReportViewer.DataVisualization.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\EnvDTE.dll
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.VisualStudio.Shell.Interop.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.ReportViewer.WinForms.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\bin\stdole.dll

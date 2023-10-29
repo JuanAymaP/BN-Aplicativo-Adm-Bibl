@@ -307,6 +307,17 @@
     <Content Include="INDICE\LIBROS\--no copiar nada aqui--.txt" />
     <Content Include="INDICE\LIBROS\9999_sinportada.jpg" />
     <Content Include="My Project\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="Dataset\dts_HistorialPrestLector.xsc">
+      <DependentUpon>dts_HistorialPrestLector.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dts_HistorialPrestLector.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dts_HistorialPrestLector.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dts_HistorialPrestLector.xss">
+      <DependentUpon>dts_HistorialPrestLector.xsd</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\efectosfinales.js" />
     <Content Include="Scripts\jquery-1.11.1.min.js" />
@@ -428,6 +439,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dtsPrestamos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dts_HistorialPrestLector.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dts_HistorialPrestLector.xsd</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.aspx.designer.vb">
       <DependentUpon>frmLogin.aspx</DependentUpon>

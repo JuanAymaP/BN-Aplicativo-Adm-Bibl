@@ -257,6 +257,26 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member>
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="F:Biblioteca_Mant.FrmLogin._loginForm">
 <summary>
 Control loginForm.
@@ -1070,15 +1090,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.frm_mantenimientoLibro._Label13">
 <summary>
 Control Label13.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_mantenimientoLibro._imgEmple">
-<summary>
-Control imgEmple.
 </summary>
 <remarks>
 Campo generado automáticamente.

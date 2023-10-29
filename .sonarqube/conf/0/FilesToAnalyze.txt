@@ -1,0 +1,9 @@
+﻿C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\cls_Conexion.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\cls_NombresSP.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\My Project\AssemblyInfo.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\Web.config
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\My Project\Resources.resx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\My Project\Application.myapp
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\My Project\Settings.settings
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\Web.Debug.config
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\Web.Release.config

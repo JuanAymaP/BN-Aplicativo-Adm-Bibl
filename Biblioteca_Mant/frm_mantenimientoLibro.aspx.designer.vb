@@ -608,15 +608,6 @@ Partial Public Class frm_mantenimientoLibro
     Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control imgEmple.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents imgEmple As Global.System.Web.UI.HtmlControls.HtmlImage
-
-    '''<summary>
     '''Control lblMsjMantLibro.
     '''</summary>
     '''<remarks>

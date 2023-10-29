@@ -1166,26 +1166,11 @@ Public Class frm_Reportes
 
     Private Sub btn_HistorialLector_Click(sender As Object, e As EventArgs) Handles btn_verHistorialEmpleado.Click
         Try
-            If Len(Trim(txt_ValorCodEmpleado.Text)) <> 0 Then
-
-                Dim query As String = "select convert(varchar,cId_Prestamo) as cId_Prestamo," &
-                                " cMov_FechaPedido, cMov_HoraPedido, cLector_Nombre," &
-                                " cLector_CodEmpleado, cEstado_Mov, cMovReserva_oficina, cLibro_Titulo," &
-                                " CONVERT(varchar,cLibro_CodNumerico) as cLibro_CodNumerico," &
-                                " cLibro_CodClasificacion, cLibro_Autor, cMov_FechaDevolucion " &
-                                " from " & tbMovimientos & " where cLector_CodEmpleado = '" & txt_ValorCodEmpleado.Text & "'" & "ORDER BY cMov_FechaPedido DESC"
-                Dim ds As New DataSet
-                Dim adp As New SqlDataAdapter(query, vConex_BDBiblioteca)
-                adp.Fill(ds, "Prestamo")
-                ds.Dispose()
-                ExportarReporte_RDLCPrestamo("rptFichaHistoriaLectorPrest.rdlc", "Ficha_Préstamo", ds, "PDF", "Ficha_Préstamo") 'nuevo usa report viewer
-            Else
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", "<script>alert('Seleccionar un registro de la tabla para visualizar su ficha')</script>", False)
-            End If
-        Catch ex As Exception
-            lbl_validaLector1.Visible = True
-            lbl_validaLector1.Text = ex.Message
-            lbl_validaLector1.ForeColor = Drawing.Color.Red
+            Dim v_FormatoReporte As String = "PDF"
+            Exportar_Reporte(v_FormatoReporte, "rptFichaHistoriaLectorPrest")
+        Catch ex As Exception ' En caso no se pueda exportar el archivo
+            lbl_validaLector1.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_validaLector1.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
@@ -1272,4 +1257,65 @@ Public Class frm_Reportes
         Response.Flush()
         Response.End()
     End Sub
+
+
+    Private Sub Exportar_Reporte(ByVal FormatoReporte As String, ByVal v_TipoReporte As String)
+        'AQUI EXPORTO UTILIZANDO DE NUEVO LOS FILTROS DEBIDO A QUE EL DATASET XSD RECIEN SE VA A CARGAR EN ESTE PROCESO.
+        Dim vValor As String
+        Dim vBandera As String
+
+        vValor = txt_ValorCodEmpleado.Text.Trim
+        vBandera = "7"
+
+        '-----------CASO TIPO REPORTE RPT---------------------------
+        If v_TipoReporte = "rptFichaHistoriaLectorPrest" Then
+
+            '-----------REALIZA LA CONSULTA SEGUN LOS FILTROS UTILIZADOS-------
+            Dim ds_Consulta_Reporte01 As DataSet = cls_Metodos.BuscarPestamo(vValor, vBandera)
+
+            '-------SI EXISTEN REGISTROS, SE CARGA EL REPORTE--------
+            Dim dts_HistorialPrestLector As New dts_HistorialPrestLector() ' Crea un nuevo dataset tipo xsd
+
+            For Each dr_Consulta_Reporte01 As DataRow In ds_Consulta_Reporte01.Tables(0).Rows 'Puebla el dataset ds_Reporte01
+                dts_HistorialPrestLector.Tables(0).Rows.Add(dr_Consulta_Reporte01.ItemArray) ' En base a la primera consulta realiza el llenado deds_Reporteo1
+            Next
+
+            rv_General.ProcessingMode = ProcessingMode.Local 'Invoca proceso del reportviewer
+            rv_General.LocalReport.ReportPath = Server.MapPath("~/Reportes/" & v_TipoReporte & ".rdlc") 'localiza la plantilla rdlc
+            Dim Movimiento_Rpt As New ReportDataSource("dt_HistPrestLector", dts_HistorialPrestLector.Tables(0)) 'se crea un datasource en base al dataset "ds_Movimiento" y busca el datatable "Movimiento"
+            rv_General.LocalReport.DataSources.Clear() 'Inicia la carga de datasource
+            rv_General.LocalReport.DataSources.Add(Movimiento_Rpt)
+
+        ElseIf v_TipoReporte = "rptFichaHistorialLibroPrest" Then
+            v_TipoReporte = "rptFichaHistorialLibroPrest" 'Muestra la lista de oficinas y cuantos registros tiene
+        Else
+            lbl_validaLector1.ForeColor = System.Drawing.Color.Red
+            lbl_validaLector1.Text = "El tipo de Reporte no existe o es incorrecto"
+            Exit Sub
+        End If
+
+        '----Declaraciones de variables igualadas a Nothing----
+        Dim warnings As Warning() = Nothing
+        Dim streamids As String() = Nothing
+        Dim mimeType As String = Nothing
+        Dim contentType As String = Nothing
+        Dim encoding As String = Nothing
+        Dim extension As String = Nothing
+
+        '----Exporta el reporte RDLC as un arreglo de bytes, rb_format es el formato elegido en la pagina ASPX
+        Dim bytes As Byte() = rv_General.LocalReport.Render(FormatoReporte, Nothing, mimeType, contentType, encoding, extension, streamids, warnings)
+
+        '----Descarga el reporte RDLC en formato word, Excel, PDF
+        Response.Clear()
+        Response.Buffer = True
+        Response.Charset = ""
+        Response.Cache.SetCacheability(HttpCacheability.NoCache) 'No guarda cache en la creacion del archivo
+        Response.ContentType = contentType
+        Response.AppendHeader("Content-Disposition", "attachment; filename=" & v_TipoReporte & "." & extension) 'El nombre del archivo de salida
+        Response.BinaryWrite(bytes)
+        Response.Flush()
+        Response.End()
+    End Sub
+
+
 End Class

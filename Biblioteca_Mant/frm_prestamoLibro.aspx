@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" MasterPageFile="~/base.Master" CodeBehind="frm_prestamoLibro.aspx.vb" Inherits="Biblioteca_Mant.frm_prestamoLibro" %>
-
 <%@ Register Assembly="Microsoft.ReportViewer.WebForms" Namespace="Microsoft.Reporting.WebForms" TagPrefix="rsweb" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cph_Base" runat="server">
@@ -12,40 +11,21 @@
     <script src="Scripts/validaciones.js"></script>
 
     <div style="display: flex; flex-wrap: wrap;">
-
         <div id="Content_General">
             <h1 style="color: green; font-size: 17px">
-                <%--<img src="Imagenes/ico_mantenim.jpg" class="Ico" />--%>
                 <asp:Label ID="lbl_Titulo" runat="server" Text="MANTENIMIENTO DE PRÉSTAMO" Style="color: green; font-size: 17px" Font-Bold="true"></asp:Label>
             </h1>
             <div id="Content_Datos" style="width: 1000px">
-                <%--<h1 style="color:green; font-size:17px">
-                    <img src="Imagenes/ico_consultasrep.jpg" class="Ico" />&nbsp;TITULO
-                </h1>--%>
-
                 <div class="tab" style="width: 800px; margin-bottom: -3px; border: none; background-color: #E8E8E8;">
-                    
                     <tr style="width: 800px">
                         <div style="margin-right:70px; display:inline-block">
                             <td style="width: 700px; height: 53px;">
-                                <%--<asp:RadioButtonList ID="rb_titular" runat="server" Width="700px" Height="25px" AutoPostBack="True" RepeatDirection="Horizontal">
-                                <asp:ListItem Text="Nuevo Préstamo  1) -> 2) -> 3)"  Value="1" Selected="True"></asp:ListItem>
-                                <asp:ListItem Text="Devolución"  Value="2"></asp:ListItem>
-                                <asp:ListItem Text="Prestar Reservas y Anulación"  Value="3"></asp:ListItem>
-                            </asp:RadioButtonList>--%>
-
                                 <asp:RadioButton ID="rdb_NuevoPrestamo" runat="server" Text="Nuevo Préstamo" AutoPostBack="true"
                                     GroupName="GrupoMov" OnCheckedChanged="rdb_NuevoPrestamo_Checked" Checked="true" />
                                 <div class="tooltip_Ayuda_Corto left" style="margin-left: 10px;">
-                                    <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" />
+                                    <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" alt="Simbolo Interrogacion" />
                                     <span class="tiptext_Ayuda_Corto"><strong><u>REGLAS:</u></strong><br />Seguir la secuencia:<br /> 1.Lector, 2.Libro y 3.Realizar nuevo Préstamo</span>
-                                </div>
-                                <%--<asp:RadioButton ID="rdb_devolucion" runat="server" Text="Devolución"  AutoPostBack="true" 
-                                GroupName="GrupoMov" OnCheckedChanged="rdb_devolucion_Checked"/>--%>
-                                <%--<asp:RadioButton ID="rdb_PrestarReservasAnul" runat="server" Text="Prestar Reservas y Anulación" AutoPostBack="true" 
-                                GroupName="GrupoMov" OnCheckedChanged="rdb_PrestarReservasAnul_Checked"/>--%>
-
-                            
+                                </div>                           
                             </td>
                         </div>
                         <div style="margin-right:70px; display:inline-block">
@@ -53,7 +33,7 @@
                                 <asp:RadioButton ID="rdb_devolucion" runat="server" Text="Devolución" AutoPostBack="true"
                                     GroupName="GrupoMov" OnCheckedChanged="rdb_devolucion_Checked" />
                                 <div class="tooltip_Ayuda_Largo left" style="margin-left: 10px;">
-                                    <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" />
+                                    <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" alt="Simbolo interrogacion"/>
                                     <span class="tiptext_Ayuda_Largo"><strong><u>REGLAS PARA DEVOLVER:</u></strong><br /> *Navegue en la grilla y seleccione un registro ó.<br /> *Utilice la opción "BUSCAR POR"<br /> *Utilice la opción modificar"<br />*Solo puede devolver lo prestado</span>
                                 </div>
                             </td>
@@ -64,32 +44,26 @@
                                     GroupName="GrupoMov" OnCheckedChanged="rdb_PrestarReservasAnul_Checked" />
                             </td>
                             <div class="tooltip_Ayuda_Corto left" style="margin-left: 10px;">
-                                <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" />
+                                <img src="Imagenes/img_interr.jpg" class="icono_Ayuda" alt="Simbolo interrogacion"/>
                                 <span class="tiptext_Ayuda_Corto"><strong><u>REGLAS:</u></strong><br />
                                     *Solo puede anular los préstamos y las reservas     
                             </div>
-                        </div>
-                        
+                        </div>                   
                     </tr>
                     <tr>
                         <br /> <br /> <br /> <br />
                     </tr>
 
                 </div>
-                <div class="tab" style="width: 670px; margin-bottom: -3px; border: none; background-color: #E8E8E8">
-                    
+                <div class="tab" style="width: 670px; margin-bottom: -3px; border: none; background-color: #E8E8E8"> 
                     <button id="btn_Libro" class="tablinks" runat="server" disabled>1) Libro</button>
                     <button id="btn_Lector" class="tablinks" runat="server">2) Lector</button>
-                    
-                  
                     <button id="btn_Prestamo" class="tablinks" runat="server">3) Realizar nuevo Préstamo</button>
                     <button id="btn_Devolver" class="tablinks" runat="server">3) Devolver</button>
                     <button id="btn_ReservasOAnular" class="tablinks" runat="server">3) Prestar Reservas</button>
                 </div>
                 
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_lector" runat="server">
-                    <%--<h1 class="Titulo_Cuadro">INGRESE NRO. CONTRATO:</h1>--%>
-
                     <table style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
                         <tr style="width: 400px;">
                             <td style="height: 26px; width: 87px; vertical-align: top">
@@ -124,21 +98,7 @@
                                     
                                 </div>
                             </td>
-                            <%--<td style="width: 174px">
-                                <div class="btn-group">
-                                    <asp:Button ID="Button6" runat="server" Text="Buscar Lector" />
-                                    <asp:Label ID="Label15" runat="server" Text=""></asp:Label>
-                                </div>
-                            </td>--%>
                         </tr>
-                        <%--<tr>
-                            <td style="width: 174px">
-                                <div class="btn-group">
-                                    
-                                    <asp:Label ID="LabelValida" runat="server" Text=""></asp:Label>
-                                </div>
-                            </td>c
-                        </tr>--%>
                         <tr>
                             <td style="display: flex;">
                                 <div class="btn-HistorialPrestamo">
@@ -156,14 +116,9 @@
                     <table style="display: inline-block">
                         <td>
                             <legend class="Titulo_Cuadro" style="align-items:center;" >Foto Lector</legend>
-                            <%--<center><img runat="server" src="" style="align-content:center;" id="imgLector" border="0" Width="100" Height="120"/>--%>
-                                <asp:Image ID="imgLector" Width="99px" Height="139px" ImageUrl="Imagenes/img_usuario.jpg" runat="server" />
+                             <asp:Image ID="imgLector" Width="99px" Height="139px" ImageUrl="Imagenes/img_usuario.jpg" runat="server" />
                         </td> 
                     </table>
-
-
-
-
 
                         <fieldset id="Fieldset1" runat="server" >
                         <legend class="Titulo_Cuadro" style="width: 10%">Listado Lectores</legend>
@@ -227,8 +182,6 @@
                                         <ItemStyle Width="130px" HorizontalAlign="Center"></ItemStyle>
                                     </asp:TemplateField>
 
-                                    <%--<asp:CommandField HeaderText="Ver" SelectImageUrl="~/Imagenes/img_FlechaDer.jpg" SelectText="Ver" ShowSelectButton="True" ButtonType="Image" />--%>
-
                                 </Columns>
                                 <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                                 <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" Wrap="True" Font-Italic="False" />
@@ -250,52 +203,6 @@
 
                 <!--VIEJO-->
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_libro" runat="server">      
-                    <%--<table>
-                        <tr>
-                            <td style="height: 26px; width: 100px;">
-                                <asp:Label ID="Label2" runat="server" Text="* Elegir:"></asp:Label>
-                            </td>
-                            <td colspan="2">
-                                <asp:DropDownList ID="DropDownList2" runat="server" Width="150px">
-                                    <asp:ListItem Value="fecha_Ing" Selected="True">Cod Registro de libro</asp:ListItem>
-                                </asp:DropDownList>
-                            </td>
-                            <td>
-                                <center><legend class="Titulo_Cuadro">Imagen Portada</legend>
-                                <center><img runat="server" src="Imagenes/img_02libro.jpg" id="imgLibro" border="0" Width="200" Height="240"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="height: 26px; width: 219px;">
-                                <asp:Label ID="Label3" runat="server" Text="* Digitar:"></asp:Label>
-                            </td>
-                            <td colspan="2">
-                                <asp:TextBox ID="txt_ValorLibro" runat="server" Width="93px"></asp:TextBox>
-                                <input id="Button1" type="button" value="x" title="Borra la casilla de búsqueda" runat="server" /><!--Limpia todo -->
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 174px">
-                                <div class="btn-group">
-                                    <asp:Button ID="btn_BuscarLibro" runat="server" Text="Buscar Libro" />
-                                </div>
-                            </td>
-                            <td style="display: flex;">
-                                <div class="btn-group">
-                                    <asp:Button ID="btn_historialLibro" runat="server" Text="Historial Libro" />
-                                </div>
-                                
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td colspan="4">
-                                <asp:Label ID="lbl_validaLibro" runat="server" Text=""></asp:Label>
-                            </td>
-                        </tr>
-                    </table>--%>
-
-
                     <!--NUEVO-->
                     <table style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
                         <tr style="width: 400px;">
@@ -332,18 +239,8 @@
                                     <asp:Button ID="btn_historialLibro" runat="server" Text="Historial de Préstamo Libro" />
                                 </div>
                             </td>
-                            <%--<td>
-                                <img runat="server" id="imgDisponible" src="" width="60" height="80" onclick="return imgDisponible_onclick()" />
-                            </td>--%>
                         </tr>
 
-                        <tr>
-                            <%--<td style="display: inline-block!important;">
-                                <div class="btn-group">
-                                    <asp:Button ID="btn_historialLibro" runat="server" Text="Historial Libro" />
-                                </div>
-                            </td>--%>
-                        </tr>
                         <tr>
                             <td colspan="4">
                                 <asp:Label ID="Label2" runat="server" Text=""></asp:Label>
@@ -352,40 +249,18 @@
                     </table>
 
                     <table style="display: inline-block; margin-left: 100px">
-                        <td>
-                            <center><legend class="Titulo_Cuadro" style="align-items:center;" >Imagen Portada</legend>    
-                            <center><img runat="server" src="Imagenes/img_02libro.jpg" id="imgLibro" border="0" Width="150" Height="170"/> 
-                                <asp:Label Visible="false" id="lbl_codClasif" runat="server"></asp:Label>
-                        </td>
-                        <td>
-                            <img runat="server" id="imgDisponible" src="" width="60" height="80" style="margin-left:100px;" onclick="return imgDisponible_onclick()" />
-                        </td>
-                    </table>
-
-                    <%--<table style="display: inline-block">
-                        
                         <tr>
-                            <td colspan="4">
-                                <asp:Label ID="Label18" runat="server" Text=""></asp:Label>
+                            <td>
+                                <legend class="Titulo_Cuadro" style="align-items: center;">Imagen Portada</legend>
+                                <img runat="server" src="Imagenes/img_02libro.jpg" id="imgLibro" alt="Imagen Libro" border="0" width="150" height="170" />
+                                <asp:Label Visible="false" ID="lbl_codClasif" runat="server"></asp:Label>
+                            </td>
+                            <td>
+                                <img runat="server" id="imgDisponible" src="" width="60" height="80" alt="Imagen libro" style="margin-left: 100px;" onclick="return imgDisponible_onclick()" />
                             </td>
                         </tr>
-                    </table>--%>
-
-                    <%--<table style="display: inline-block">
-                        <td>
-                            <legend class="Titulo_Cuadro" style="align-items:center;" >Imagen Portada</legend>    
-                            <center><img runat="server" src="Imagenes/img_02libro.jpg" id="imgLibro" border="0" Width="200" Height="240"/>               
-                        </td> 
-                    </table>--%>
-
-
-
-
-
-
-
-
-
+                        
+                    </table>
                         <fieldset id="fs_gvLibros" runat="server" style="" >
                         <legend class="Titulo_Cuadro" style="width: 9%">Listado Libros</legend>
                         <div style="border: 1px solid gray;">
@@ -447,11 +322,6 @@
                                         <HeaderStyle Font-Bold="True" />
                                         <ItemStyle Width="100px" HorizontalAlign="Center"></ItemStyle>
                                     </asp:TemplateField>
-
-                                    
-
-                                    <%--<asp:CommandField HeaderText="Ver" SelectImageUrl="~/Imagenes/img_FlechaDer.jpg" SelectText="Ver" ShowSelectButton="True" ButtonType="Image" />--%>
-
                                 </Columns>
                                 <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                                 <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" Wrap="True" Font-Italic="False" />
@@ -469,42 +339,14 @@
                     </fieldset>
                 </fieldset>
                 
-
-
-                <%--<fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_seleccionados" runat="server">
-                    <br />
-                    <br />
-                    <table>
-                        <tr>
-                            <td style="height: 26px; width: 300px;">
-                                <asp:Label ID="Label5" runat="server" Text="* Apellidos y nombres seleccionados:"></asp:Label>
-                            </td>
-                            <td colspan="2">
-                                <asp:TextBox ID="TextBox2" runat="server" Width="150px"></asp:TextBox>
-                            </td>
-                            <td style="height: 26px; width: 200px;">
-                                <asp:Label ID="Label6" runat="server" Text="* Titulo Libro seleccionado:"></asp:Label>
-                            </td>
-                            <td colspan="2">
-                                <asp:TextBox ID="TextBox3" runat="server" Width="150px"></asp:TextBox>
-                            </td>
-                        </tr>
-                        
-                    </table>  
-                </fieldset>--%>
-
-
                 <!--3. Prestamos, dev, otros-->
-
-                <div class="Datos_Buscar" style="width: 1000px; background-color: beige;">
-                
-                
+                <div class="Datos_Buscar" style="width: 1000px; background-color: beige;">            
                 <fieldset class="Datos_Personales" style="background-color: #c8e4f7; margin-bottom: 0px; padding-top: -100px; height: 273px; width: 190px; display: inline-block" id="fs_prestLibro" runat="server">
                         <div style="display: inline-block;">
                             <asp:Label class="Titulo_Cuadro" ID="Label3" runat="server" Text="Libro"></asp:Label>
                         </div>
                         <div style="display: block;">
-                            <img id="cph_Base_Image2" src="Imagenes/img_02libro.jpg" style="height: 30px; width: 25px; padding-left: 0px; padding-top: 0px;">
+                            <img id="cph_Base_Image2" alt="libro" src="Imagenes/img_02libro.jpg" style="height: 30px; width: 25px; padding-left: 0px; padding-top: 0px;"/>
                         </div>
                         <div style="display: inline-block;">
                             <table style="width: 190px; display: inline-table;">
@@ -527,9 +369,7 @@
                                 </tr>
                             </table>
                         </div>
-                    </fieldset>    
-
-
+                    </fieldset>
 
                 <!--LECTOR-->
                 <fieldset class="Datos_Personales" style="background-color: #ffd1cc; margin-bottom:0px; margin-top: 10px; height:273px; width: 120px; display: inline-block" id="fs_prestLector" runat="server">               
@@ -537,44 +377,37 @@
                         <asp:Label class="Titulo_Cuadro" Id="Label17" runat="server" text="Lector"></asp:Label>
                     </div>
                     <div style="display:block;">
-                        <img id="" src="Imagenes/img_usuario.jpg" style="height:30px;width:25px;padding-left:0px; padding-top: 0px; display: block">
+                        <img id="" alt="usuario" src="Imagenes/img_usuario.jpg" style="height:30px;width:25px;padding-left:0px; padding-top: 0px; display: block"/>
                     </div>
                     
                     <div style="display:inline-block;">
                         <table style="width: 190px; display: inline-table;">
-                            <!--656 px de ancho-->
-
                             <tr>
                                 <td style="width: 58px">
                                     <asp:Label ID="lbl_codRegistro" runat="server" Text="Cód Empleado / DNI:"></asp:Label>
                                 </td>
                                 <td style="width: 196px">
-                                    <asp:TextBox ID="txt_codEmpleado" runat="server" Width="130px"></asp:TextBox>
-                                    
+                                    <asp:TextBox ID="txt_codEmpleado" runat="server" Width="130px"></asp:TextBox>         
                                 </td>
-
                             </tr>
                             <tr>
                                 <td style="width: 90px">
                                     <asp:Label ID="Label7" runat="server" Text="Nombre:"></asp:Label>
                                 </td>
                                 <td style="width: 196px; height: 100px; padding-top: 20px;">
-                                   
                                     <textarea runat="server" style="width: 130px; height: 85%" id="txt_A_NombreEmpleado"></textarea>
                                 </td>
                             </tr>
                         </table>
                     </div>    
                 </fieldset> 
-                
-                
                     <!--PRESTAMO-->
                     <fieldset class="Datos_Personales" style="background-color: #e6fcf2; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; height: 273px; width: 200px; display: inline-block" id="fs_prestamo" runat="server">
                         <div style="display: inline-block;">
                             <asp:Label class="Titulo_Cuadro" ID="lbl_TituloPrestamo" runat="server" Text="Nuevo Préstamo"></asp:Label>
                         </div>
                         <div style="display: block;">
-                            <img id="cph_Base_Image3" src="Imagenes/img_03prestamo.jpg" style="height: 30px; width: 25px; padding-left: 0px">
+                            <img id="cph_Base_Image3" alt="prestamo" src="Imagenes/img_03prestamo.jpg" style="height: 30px; width: 25px; padding-left: 0px"/>
                         </div>
                         <div style="display: inline-block;">
                             <table style="width: 271px; display: inline-table;">
@@ -661,7 +494,6 @@
                             <td>
                                 <asp:DropDownList ID="cboxBusqueda" runat="server" Width="120px" BackColor="#FFFF9E" Height="25px" AutoPostBack="true">
                                     <asp:ListItem Value ="0">Cod. Empleado</asp:ListItem>
-                                    <%--<asp:ListItem  Value ="1">DNI --no se usa</asp:ListItem>--%>
                                     <asp:ListItem  Value ="2">Apellido o nombre</asp:ListItem>
                                     <asp:ListItem  Value ="3">Cod Registro de Libro</asp:ListItem>
                                 </asp:DropDownList>
@@ -677,34 +509,22 @@
                         <tr>
                             <td>
                                 <asp:Button ID="btn_BuscarPrestamo" CssClass="btnBuscar" runat="server" Text="Buscar" />
-                                
                             </td>
-                            
                         </tr>
                         <tr>
                             <td>
-                                <%--<asp:Label ID="lbl_Valida" runat="server" Text=""></asp:Label>--%>
                             </td>
                         </tr>
                     </table>
 
                     <div class="Datos_Botones"  style="margin-bottom: 13px; width: 180px;">
                                         <div class="btn-group">
-                                            
                                             <asp:Button ID="btnModificar" runat="server" Text="Modificar" />
-                                            <%--<asp:Button ID="btnGrabar3" runat="server" Text="Grabar." />--%>
                                             <asp:Button ID="btnGrabar2" runat="server" Text="Grabar.." />
                                             <asp:Button ID="btnCancelar2" runat="server" Text="Cancelar" />
                                             <asp:Button ID="btnVerFicha2" runat="server" Text="Ver ficha" />
-                                            
                                             <asp:Label ID="lbl_Valida" runat="server" Text=""></asp:Label>
-
-                                        </div>
-                      
-                               
-                          
-                        
-                                        
+                                        </div>                 
                     </div>
                     <div class="Datos_Botones" style="padding:10px; width: 161px;">
                         <div>
@@ -715,50 +535,11 @@
                     </fieldset>
 
                     <!--BUSCAR-->
-                    <%--<fieldset class="Datos_Buscar" id="fs_buscar" runat="server" style="width: 150px;">
-                    <legend class="Titulo_Cuadro">BUSCAR POR:</legend>
-                    
-                    <table>
-                        <tr>
-                            <td>
-                                <asp:DropDownList ID="cboxBusqueda" runat="server" Width="120px" BackColor="#FFFF9E" Height="25px">
-                                    <asp:ListItem Value ="0">Cod. Empleado</asp:ListItem>
-                                    <asp:ListItem  Value ="1">DNI</asp:ListItem>
-                                    <asp:ListItem  Value ="2">Apellido o nombre</asp:ListItem>
-                                    <asp:ListItem  Value ="3">Cod Registro de Libro</asp:ListItem>
-                                </asp:DropDownList>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:TextBox ID="txt_ValorPrestamo" runat="server" Width="150px" placeholder="(Buscar)" BackColor="#FFFF9E" Height="25px"></asp:TextBox>
-                                <asp:Label ID="lbl_Busqueda" runat="server" Text="" Visible="false"></asp:Label>
-                                <input id="Button7" type="button" value="x" title="Borra la casilla de búsqueda" runat="server" />  <!--Limpia todo -->
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:Button ID="btn_BuscarPrestamo" CssClass="btnBuscar" runat="server" Text="Buscar" />
-                                
-                            </td>
-                            
-                        </tr>
-                        <tr>
-                            <td>
-                                <asp:Label ID="lbl_Valida" runat="server" Text=""></asp:Label><!--Muestra mensajes-->
-                            </td>
-                        </tr>
-                    </table>
-                    </fieldset>--%>
-
                     <fieldset class="Datos_Buscar" id="fs_botones" runat="server" style="width: 150px;">
           
                     <div class="Datos_Botones"  style="margin-bottom: 13px; width: 180px;">
                                         <div class="btn-group">
-                                            <%--<asp:Label ID="lbl_validaNuevoPrest" runat="server" Text=""></asp:Label>--%>
-                                            <%--<asp:Button ID="btnModificar" runat="server" Text="Modificar" />--%>
                                             <asp:Button ID="btnGrabar" runat="server" Text="Grabar." />
-                                            
                                             <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" />
                                             <asp:Button ID="btnVerFicha" runat="server" Text="Ver ficha" />
                                             <asp:Label ID="lbl_validaNuevoPrest" runat="server" Text="" Style="margin:10px;" ></asp:Label>
@@ -771,19 +552,9 @@
                             <asp:Label ID="Label1" runat="server" Style="color:brown; font-weight:bold; line-height: 23px;">-Las 'reservas' se hacen solo por el modulo WEB de consultas (Verde)</asp:Label><br />
                             <asp:Label ID="Label4" runat="server" Style="color:brown; font-weight:bold; line-height: 23px;">-Un libro ya devuelto, no puede modificarse en sus datos</asp:Label>
                         </div>
-                    </div> 
-                    <%--<div class="Datos_Botones" style="padding:10px; width: 161px;">
-                        <div>
-                            <asp:Label ID="Label24" runat="server" Style="color:brown; font-weight:bold; line-height: 23px;">-Las 'reservas' se hacen solo por el modulo WEB de consultas (Verde)</asp:Label><br />
-                            <asp:Label ID="Label25" runat="server" Style="color:brown; font-weight:bold; line-height: 23px;">-Un libro ya devuelto, no puede modificarse sus datos</asp:Label>
-                        </div>
-                    </div> --%>            
+                    </div>           
                     </fieldset>
-
                     </div>
-
-
-
 
                     <!--GRID VIEW-->
                     <fieldset class="Datos_Buscar" style="width: 770px; background-color: beige; border: none;" id="fs_gvPrestamos" runat="server">
@@ -905,13 +676,6 @@
                                         <ItemStyle Width="100px" HorizontalAlign="Center"></ItemStyle>
                                     </asp:TemplateField>
 
-                                    
-
-
-                                    <%--<asp:CommandField HeaderText="Ver" HeaderStyle-BackColor="Black" SelectImageUrl="~/Imagenes/img_FlechaDer.jpg" SelectText="Ver" ShowSelectButton="True" ButtonType="Image">
-                                        <HeaderStyle BackColor="Black"></HeaderStyle>
-                                    </asp:CommandField>--%>
-
                                 </Columns>
                                 <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
                                 <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" Wrap="True" Font-Italic="False" />
@@ -934,26 +698,21 @@
             
             <!--AQUIII-->
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_seleccionados" runat="server">
-                    <%--<br />
-                    <br />--%>
                     <table>
                         <tr>
                             <td style="height: 26px; width: 181px; text-align:start">
                                 <asp:Label ID="Label5" runat="server" Text="* Apellidos y nombres seleccionados:"></asp:Label>
                             </td>
                             <td colspan="2">
-                                <%--<asp:TextBox ID="txt_apeYNombres" runat="server" Width="250px"></asp:TextBox>--%>
-                                <textarea runat="server" style="width:100%; height: 70%; width: 220px" id="txt_A_apeYNombres"></textarea> 
+                                <textarea runat="server" style="height: 70%; width: 220px" id="txt_A_apeYNombres"></textarea> 
                             </td>
                             <td style="height: 26px; width: 150px; padding-left: 100px; padding-right: -70px;">
                                 <asp:Label ID="Label6" runat="server" Text="* Título Libro seleccionado:"></asp:Label>
                             </td>
                             <td colspan="2">
-                                <%--<asp:TextBox ID="txt_tituloLibro" runat="server" Width="250px"></asp:TextBox>--%>
-                                <textarea runat="server" style="width:100%; height: 70%; width: 200px" id="txt_A_tituloLibro"></textarea> 
+                                <textarea runat="server" style="height: 70%; width: 200px" id="txt_A_tituloLibro"></textarea> 
                             </td>
-                        </tr>
-                        
+                        </tr>                   
                     </table>  
                 </fieldset>
 
@@ -967,9 +726,5 @@
 
         <br />
     </asp:Panel>
-
-
     </span>
-
-
 </asp:Content>

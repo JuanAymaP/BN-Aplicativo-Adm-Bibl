@@ -1,0 +1,233 @@
+﻿C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frmLogin.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frmLogin.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Configuracion.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Configuracion.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Contacto.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Contacto.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_mantenimientoLibro.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_mantenimientoLibro.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_prestamoLibro.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_prestamoLibro.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Reportes.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Reportes.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Global.asax.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Base.Master.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Base.Master.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\ModConexion.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\AssemblyInfo.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\MyExtensions\MyWebExtension.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_inicio.aspx.designer.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_inicio.aspx.vb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frmLogin.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Configuracion.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Contacto.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_mantenimientoLibro.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_prestamoLibro.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_Reportes.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Global.asax
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\admiracion.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\BancoNacion.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\bibl_imagen.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\bnLogoBlanco.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\bnLogoRojo.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\carrito1.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\close.gif
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\disponible_PC3.JPG
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\el_logo_bn.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\gif_cargando.gif
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\icono_libro.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\ico_NroReg.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\imgEngranajes_movi.gif
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_02libro.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_03prestamo.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\inicio.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_bgLogin2.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_biblioteca.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_cabecera.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_cara.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_casa.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_cerrarsesion.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_chrome.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_Enviar.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_EnviarDesact.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_EnviarDesact_Orig.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_Enviar_Orig.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_FlechaDer.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_fondo.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_interr.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_login.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_LogoBN.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_LogoBNold.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\img_usuario.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\logBN_blanco2.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_bgBody.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_bgLogin.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_bgLogin_OLD.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_border-inferior.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_border-superior.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_Boton.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_BotonActive.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_Chrome.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_InputGrande.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_LogoBN.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_LogoPestana.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_sbs.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\Login\img_userclave.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\pdf.gif
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\pestania_act.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\pestania_desact.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\prestado_PC1.JPG
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\prestamoEspecial_PC1.JPG
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\salir.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\sbs.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\SELLO_RESERVADO.JPG
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\suscripcion1.JPG
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Imagenes\tuerca.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Base.Master
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsBusquedaWeb.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\frm_inicio.aspx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsBusquedaWeb.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaDetalle.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaDetalle.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaPrestamo.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaPrestamo.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHCC.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHCC.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaPdf_Clicks.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaLibro.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaLibro.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaPdf_Clicks.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibros.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsInventarioLibro.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsInventarioLibro.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibros.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosMateria.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosMateria.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosxAnno.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosxAnno.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsPrestamos.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsPrestamos.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\INDICE\--no copiar nada aqui--.txt
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\INDICE\LIBROS\--no copiar nada aqui--.txt
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\INDICE\LIBROS\9999_sinportada.jpg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\DataSources\System.Data.DataSet.datasource
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dts_HistorialPrestLector.xsc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dts_HistorialPrestLector.xss
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\efectosfinales.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-1.11.1.min.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-1.4.1.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-1.4.1.min.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-ui.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-ui.min.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_flat_0_aaaaaa_40x100.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_flat_75_ffffff_40x100.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_glass_55_fbf9ee_1x400.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_glass_65_ffffff_1x400.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_glass_75_dadada_1x400.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_glass_75_e6e6e6_1x400.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_glass_95_fef1ec_1x400.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-bg_highlight-soft_75_cccccc_1x100.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-icons_222222_256x240.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-icons_2e83ff_256x240.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-icons_454545_256x240.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-icons_888888_256x240.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\images\ui-icons_cd0a0a_256x240.png
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\jquery-ui-1-10-1.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\jquery-ui-1-10-1.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\UI_Datepicker\jquery.ui.datepicker-es.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\validaciones.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\validacion_log.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\validacion_reportes.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\valida_login.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\Loader.cs
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\readme.htm
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x64\msvcr120.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x86\msvcr120.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.min.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.min.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\js\bootstrap.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\js\bootstrap.min.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario_emergente.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario_OLD1.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\jquery-ui.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\jquery-ui.min.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Login\login-principal.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Login\login.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Login\reset-login.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Login\resetearcss.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Site.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\tipografias.css
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Web.config
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptLibros_Lista.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptFichaPrestamo.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamos_Lista.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxMes.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxOficina_OLD.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxDia_OLD.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptRanking_Lectores_OLD.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptRanking_Lectores.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxDia.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxOficina.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptLibrosmasPedidos.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamos_lima_Provincia.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptPrestamosxTipo.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptLibrosComprados_Leidos.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptLibrosporAnno.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptLibrosxCategoria.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptFichaHistoriaLibroPrest.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptFichaHistoriaLectorPrest.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rptFichaDetalleLibro.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_BusquedasWeb.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Lista_Libros.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Lista_Prestamos.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Lista_PrestamosxOficina.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Inventario_Libro.rdlc
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.css.map
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.css.map
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.eot
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.svg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.ttf
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.woff
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\.DS_Store
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.eot
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.svg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.ttf
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.woff
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-medium-webfont.eot
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-medium-webfont.svg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-medium-webfont.ttf
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-medium-webfont.woff
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-regular-webfont.eot
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-regular-webfont.svg
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-regular-webfont.ttf
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-regular-webfont.woff
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\Resources.resx
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Connected Services\WS_ImagenEmpleadoBN_2Capas\ws_Imagen_EmpleadoBN.disco
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Connected Services\WS_ImagenEmpleadoBN_2Capas\configuration91.svcinfo
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Connected Services\WS_ImagenEmpleadoBN_2Capas\configuration.svcinfo
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Connected Services\WS_ImagenEmpleadoBN_2Capas\Reference.svcmap
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Connected Services\WS_ImagenEmpleadoBN_2Capas\ws_Imagen_EmpleadoBN.wsdl
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsBusquedaWeb.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaDetalle.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsFichaPrestamo.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHCC.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaLibro.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsHistoriaPdf_Clicks.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsInventarioLibro.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibros.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosMateria.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsLibrosxAnno.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dtsPrestamos.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Dataset\dts_HistorialPrestLector.xsd
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Scripts\jquery-1.4.1-vsdoc.js
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\Application.myapp
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\My Project\Settings.settings
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\packages.config
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Web.Debug.config
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Web.Release.config

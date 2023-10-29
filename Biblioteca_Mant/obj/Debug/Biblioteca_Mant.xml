@@ -117,6 +117,26 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member>
+<member name="T:Biblioteca_Mant.dtsHistoriaLibro">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsHistoriaLibro.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsHistoriaLibro.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsHistoriaLibro.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:Biblioteca_Mant.dtsHistoriaPdf_Clicks">
 <summary>
 Represents a strongly typed in-memory cache of data.
@@ -133,6 +153,26 @@ Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:Biblioteca_Mant.dtsHistoriaPdf_Clicks.DataTable_HistorialPdf_ClicksRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsInventarioLibro">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsInventarioLibro.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsInventarioLibro.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Biblioteca_Mant.dtsInventarioLibro.DataTable1RowChangeEvent">
 <summary>
 Row event argument class
 </summary>
@@ -217,482 +257,25 @@ Represents strongly named DataRow class.
 Row event argument class
 </summary>
 </member>
-<member name="F:Biblioteca_Mant.FrmCabecera._form1">
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector">
 <summary>
-Control form1.
+Represents a strongly typed in-memory cache of data.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member>
-<member name="F:Biblioteca_Mant.FrmCabecera._lnkPrestamosVencios">
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1DataTable">
 <summary>
-Control lnkPrestamosVencios.
+Represents the strongly named DataTable class.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member>
-<member name="F:Biblioteca_Mant.FrmCabecera._lnkReservas">
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1Row">
 <summary>
-Control lnkReservas.
+Represents strongly named DataRow class.
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member>
-<member name="F:Biblioteca_Mant.FrmCabecera._lnkcerrarSesion">
+<member name="T:Biblioteca_Mant.dts_HistorialPrestLector.DataTable1RowChangeEvent">
 <summary>
-Control lnkcerrarSesion.
+Row event argument class
 </summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._txtParrafo">
-<summary>
-Control txtParrafo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._btnGrabar">
-<summary>
-Control btnGrabar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._dgParrafo">
-<summary>
-Control dgParrafo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._lblMsj">
-<summary>
-Control lblMsj.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._btnReporteLibros">
-<summary>
-Control btnReporteLibros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._pnl_Visor">
-<summary>
-Control pnl_Visor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._ScriptManager1">
-<summary>
-Control ScriptManager1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frmConfiguracion._rv_Lista_Libros">
-<summary>
-Control rv_Lista_Libros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtFechaModificado">
-<summary>
-Control txtFechaModificado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtUsuario">
-<summary>
-Control txtUsuario.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._TextBox3">
-<summary>
-Control TextBox3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnAgregar">
-<summary>
-Control btnAgregar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnGrabar">
-<summary>
-Control btnGrabar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnFichaDetalle">
-<summary>
-Control btnFichaDetalle.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnRefrescar">
-<summary>
-Control btnRefrescar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtHora">
-<summary>
-Control txtHora.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtPerfil">
-<summary>
-Control txtPerfil.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtNroIP">
-<summary>
-Control txtNroIP.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._rbTipoCompra">
-<summary>
-Control rbTipoCompra.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._imgHcc">
-<summary>
-Control imgHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._rbTipoSuscripcion">
-<summary>
-Control rbTipoSuscripcion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._dbBusqueda">
-<summary>
-Control dbBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtBusqueda">
-<summary>
-Control txtBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._btnBuscar">
-<summary>
-Control btnBuscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtFechacompra">
-<summary>
-Control txtFechacompra.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtAnno">
-<summary>
-Control txtAnno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtNroHCC">
-<summary>
-Control txtNroHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtDocumento">
-<summary>
-Control txtDocumento.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtProveedor">
-<summary>
-Control txtProveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtNroLibrosHCC">
-<summary>
-Control txtNroLibrosHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtPublicacion">
-<summary>
-Control txtPublicacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtObservacion">
-<summary>
-Control txtObservacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtCodOficina">
-<summary>
-Control txtCodOficina.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtDependencia">
-<summary>
-Control txtDependencia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtImporteSoles">
-<summary>
-Control txtImporteSoles.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._txtImporteDolares">
-<summary>
-Control txtImporteDolares.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._lblIdHCC">
-<summary>
-Control lblIdHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._lblMsjHcc">
-<summary>
-Control lblMsjHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._panelContainer">
-<summary>
-Control panelContainer.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._dgFactura">
-<summary>
-Control dgFactura.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmFacturacion._lblCantidadHCC">
-<summary>
-Control lblCantidadHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmImgPastaLibro._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmImgPastaLibro._imgPastaLibro">
-<summary>
-Control imgPastaLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmImgPastaLibro._lblmsj">
-<summary>
-Control lblmsj.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmIndex._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
 </member>
 <member name="F:Biblioteca_Mant.FrmLogin._loginForm">
 <summary>
@@ -733,2301 +316,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.FrmLogin._lbl_Mensaje">
 <summary>
 Control lbl_Mensaje.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmLogin._lnk_ManualUsuario">
-<summary>
-Control lnk_ManualUsuario.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._lblFechaActualizacion">
-<summary>
-Control lblFechaActualizacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._chkRevisado">
-<summary>
-Control chkRevisado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_FechaReg">
-<summary>
-Control txtLibro_FechaReg.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_NroIP">
-<summary>
-Control txtLibro_NroIP.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxBusqueda">
-<summary>
-Control cboxBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._TxtBusqueda">
-<summary>
-Control TxtBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnBuscar">
-<summary>
-Control btnBuscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnAgregar">
-<summary>
-Control btnAgregar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnGrabar">
-<summary>
-Control btnGrabar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._lblMsjMantLibro">
-<summary>
-Control lblMsjMantLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._pnTipoLibro">
-<summary>
-Control pnTipoLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._rdbFisico">
-<summary>
-Control rdbFisico.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._rdbVirtual">
-<summary>
-Control rdbVirtual.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnVerFichaDet">
-<summary>
-Control btnVerFichaDet.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._Button5">
-<summary>
-Control Button5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._lnkPastalibro">
-<summary>
-Control lnkPastalibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._imgPastaLibro">
-<summary>
-Control imgPastaLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_HoraReg">
-<summary>
-Control txtLibro_HoraReg.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtUsuario_Sist">
-<summary>
-Control txtUsuario_Sist.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtId_Libro">
-<summary>
-Control txtId_Libro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._lbMensaje">
-<summary>
-Control lbMensaje.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_CodNumerico">
-<summary>
-Control txtLibro_CodNumerico.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_CodClasificacion">
-<summary>
-Control txtLibro_CodClasificacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxLibro_Modo">
-<summary>
-Control cboxLibro_Modo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Titulo">
-<summary>
-Control txtLibro_Titulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Lugar">
-<summary>
-Control txtLibro_Lugar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Autor">
-<summary>
-Control txtLibro_Autor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxLibro_Idioma">
-<summary>
-Control cboxLibro_Idioma.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Edicion">
-<summary>
-Control txtLibro_Edicion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Edicion_nro">
-<summary>
-Control txtLibro_Edicion_nro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Anno">
-<summary>
-Control txtLibro_Anno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxLibro_Categoria">
-<summary>
-Control cboxLibro_Categoria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._chkLibro_CD">
-<summary>
-Control chkLibro_CD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_PrecioD">
-<summary>
-Control txtLibro_PrecioD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_PrecioS">
-<summary>
-Control txtLibro_PrecioS.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtMaterias">
-<summary>
-Control txtMaterias.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtPie_Imprenta">
-<summary>
-Control txtPie_Imprenta.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtNroPaginas">
-<summary>
-Control txtNroPaginas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_NroEjemp">
-<summary>
-Control txtLibro_NroEjemp.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxLibro_Estado">
-<summary>
-Control cboxLibro_Estado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._cboxTipo">
-<summary>
-Control cboxTipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_Detalles">
-<summary>
-Control txtLibro_Detalles.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtLibro_ISBN">
-<summary>
-Control txtLibro_ISBN.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._txtMov_MesAnno_CompraLibro">
-<summary>
-Control txtMov_MesAnno_CompraLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._btnIndiceLibro">
-<summary>
-Control btnIndiceLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._TablaMantList">
-<summary>
-Control TablaMantList.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMantenimientoLibrosNuevos._lblNroRegistros">
-<summary>
-Control lblNroRegistros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._Prestamo">
-<summary>
-Control Prestamo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._MantLibros">
-<summary>
-Control MantLibros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._Facturacion">
-<summary>
-Control Facturacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._Reportes">
-<summary>
-Control Reportes.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmMenu._A1">
-<summary>
-Control A1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._txtNombre">
-<summary>
-Control txtNombre.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._txtDNI">
-<summary>
-Control txtDNI.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._txtDepto">
-<summary>
-Control txtDepto.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._btnAgregar">
-<summary>
-Control btnAgregar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._btnGrabar">
-<summary>
-Control btnGrabar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._lblMsj">
-<summary>
-Control lblMsj.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._lblId_Lector">
-<summary>
-Control lblId_Lector.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmNuevoLector._dgLectorExterno">
-<summary>
-Control dgLectorExterno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Tab1">
-<summary>
-Control Tab1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Tab2">
-<summary>
-Control Tab2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Tab3">
-<summary>
-Control Tab3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Tab4">
-<summary>
-Control Tab4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Tab5">
-<summary>
-Control Tab5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._MainView">
-<summary>
-Control MainView.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._View1">
-<summary>
-Control View1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbNombreApe">
-<summary>
-Control rdbNombreApe.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtApellidoPaterno_nombre">
-<summary>
-Control txtApellidoPaterno_nombre.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._imgEmple">
-<summary>
-Control imgEmple.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnBuscarPersonal">
-<summary>
-Control btnBuscarPersonal.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnPersonalExterno">
-<summary>
-Control btnPersonalExterno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Button3">
-<summary>
-Control Button3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Button4">
-<summary>
-Control Button4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnHistorialPrest">
-<summary>
-Control btnHistorialPrest.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbCodDni">
-<summary>
-Control rdbCodDni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtCodEmp_Dni">
-<summary>
-Control txtCodEmp_Dni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbDepSeccion">
-<summary>
-Control rdbDepSeccion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtOficnia_CD">
-<summary>
-Control txtOficnia_CD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblMensaje">
-<summary>
-Control lblMensaje.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgLector">
-<summary>
-Control dgLector.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgLectorExt">
-<summary>
-Control dgLectorExt.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._View2">
-<summary>
-Control View2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbTitulo">
-<summary>
-Control rdbTitulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtLibro_Titulo">
-<summary>
-Control txtLibro_Titulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._imgLibro">
-<summary>
-Control imgLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnBuscarlibro">
-<summary>
-Control btnBuscarlibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnVerFicha">
-<summary>
-Control btnVerFicha.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnLimpiar">
-<summary>
-Control btnLimpiar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnHistPrest">
-<summary>
-Control btnHistPrest.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbAutor">
-<summary>
-Control rdbAutor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtLibro_Autor">
-<summary>
-Control txtLibro_Autor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbCodReg">
-<summary>
-Control rdbCodReg.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtLibro_CodNumerico">
-<summary>
-Control txtLibro_CodNumerico.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbMateria">
-<summary>
-Control rdbMateria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtMaterias">
-<summary>
-Control txtMaterias.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbTitAutMat">
-<summary>
-Control rdbTitAutMat.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblMsjLibro">
-<summary>
-Control lblMsjLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblEstadoLibro">
-<summary>
-Control lblEstadoLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblCodClasificacion">
-<summary>
-Control lblCodClasificacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblIdLibro">
-<summary>
-Control lblIdLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblCD">
-<summary>
-Control lblCD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgLibro">
-<summary>
-Control dgLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._imgDisponible">
-<summary>
-Control imgDisponible.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._View3">
-<summary>
-Control View3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtIdPrestamo">
-<summary>
-Control txtIdPrestamo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbPrestamoNuevo">
-<summary>
-Control rdbPrestamoNuevo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rdbReserva">
-<summary>
-Control rdbReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnPrestamo">
-<summary>
-Control btnPrestamo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._Button13">
-<summary>
-Control Button13.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._VerFichaAsignacion">
-<summary>
-Control VerFichaAsignacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaPedido">
-<summary>
-Control txtFechaPedido.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtHora">
-<summary>
-Control txtHora.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaDevo">
-<summary>
-Control txtFechaDevo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnMas8Dias">
-<summary>
-Control btnMas8Dias.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblNomDia">
-<summary>
-Control lblNomDia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._chkPrestProvincia">
-<summary>
-Control chkPrestProvincia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dblBusqueda">
-<summary>
-Control dblBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtBusquedaReserva">
-<summary>
-Control txtBusquedaReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnBuscar">
-<summary>
-Control btnBuscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._chkConsultaSala">
-<summary>
-Control chkConsultaSala.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._chkPrestEspecial">
-<summary>
-Control chkPrestEspecial.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblMsjPrestamo">
-<summary>
-Control lblMsjPrestamo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblCodRegistro_Reserva">
-<summary>
-Control lblCodRegistro_Reserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgPrestamos">
-<summary>
-Control dgPrestamos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._View4">
-<summary>
-Control View4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._chkListaReserva">
-<summary>
-Control chkListaReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaDevolucionIdeal">
-<summary>
-Control txtFechaDevolucionIdeal.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnDevolucion">
-<summary>
-Control btnDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaDevolucionReal">
-<summary>
-Control txtFechaDevolucionReal.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dblDevolucion">
-<summary>
-Control dblDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnBuscarDevolucion">
-<summary>
-Control btnBuscarDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtBusquedaDevolucion">
-<summary>
-Control txtBusquedaDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaAnulacion">
-<summary>
-Control txtFechaAnulacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnAnularDevo">
-<summary>
-Control btnAnularDevo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtHoraAnulacion">
-<summary>
-Control txtHoraAnulacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtMotivoAnulacion">
-<summary>
-Control txtMotivoAnulacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblMsjDevolucion">
-<summary>
-Control lblMsjDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblCodigoLibroDevo">
-<summary>
-Control lblCodigoLibroDevo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblIdPrestamoDevo">
-<summary>
-Control lblIdPrestamoDevo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgDevolucion">
-<summary>
-Control dgDevolucion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._View5">
-<summary>
-Control View5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtFechaReserva">
-<summary>
-Control txtFechaReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtTipoReserva">
-<summary>
-Control txtTipoReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnReservar">
-<summary>
-Control btnReservar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnListaReservas">
-<summary>
-Control btnListaReservas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtHoraReserva">
-<summary>
-Control txtHoraReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtIPReserva">
-<summary>
-Control txtIPReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._lblMsjReserva">
-<summary>
-Control lblMsjReserva.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._dgReservas">
-<summary>
-Control dgReservas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtApellidosNombres">
-<summary>
-Control txtApellidosNombres.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._txtTitulo_libro">
-<summary>
-Control txtTitulo_libro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._pnl_Visor">
-<summary>
-Control pnl_Visor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._ScriptManager1">
-<summary>
-Control ScriptManager1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmPrestamoLibro._rv_General">
-<summary>
-Control rv_General.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._form1">
-<summary>
-Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Tab1">
-<summary>
-Control Tab1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Tab2">
-<summary>
-Control Tab2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Tab3">
-<summary>
-Control Tab3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Tab4">
-<summary>
-Control Tab4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._MultiView1">
-<summary>
-Control MultiView1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._View1">
-<summary>
-Control View1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkfechaPrestamo">
-<summary>
-Control chkfechaPrestamo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaIni">
-<summary>
-Control txtFechaIni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaFin">
-<summary>
-Control txtFechaFin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkEstado">
-<summary>
-Control chkEstado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._dboxEstados">
-<summary>
-Control dboxEstados.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkOficina">
-<summary>
-Control chkOficina.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtMovReserva_oficina">
-<summary>
-Control txtMovReserva_oficina.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkCodEmp">
-<summary>
-Control chkCodEmp.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtCodEmple">
-<summary>
-Control txtCodEmple.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkLector">
-<summary>
-Control chkLector.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtPrestamoLector">
-<summary>
-Control txtPrestamoLector.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkUsuario">
-<summary>
-Control chkUsuario.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._dboxUsuario">
-<summary>
-Control dboxUsuario.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkPrestEspe">
-<summary>
-Control chkPrestEspe.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._View2">
-<summary>
-Control View2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkFechaRegLibro">
-<summary>
-Control chkFechaRegLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaRegIni">
-<summary>
-Control txtFechaRegIni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaRegFin">
-<summary>
-Control txtFechaRegFin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkCompraRegLibro">
-<summary>
-Control chkCompraRegLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtCompraFechIni">
-<summary>
-Control txtCompraFechIni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtCompraFechFin">
-<summary>
-Control txtCompraFechFin.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkCodClasificacion">
-<summary>
-Control chkCodClasificacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtLibro_CodClasificacion">
-<summary>
-Control txtLibro_CodClasificacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkPorveedor">
-<summary>
-Control chkPorveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtPie_Imprenta">
-<summary>
-Control txtPie_Imprenta.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkISBN">
-<summary>
-Control chkISBN.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtLibro_ISBN">
-<summary>
-Control txtLibro_ISBN.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkAutor">
-<summary>
-Control chkAutor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtLibro_Autor">
-<summary>
-Control txtLibro_Autor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkIncluyeCD">
-<summary>
-Control chkIncluyeCD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._dboxLibro_CD">
-<summary>
-Control dboxLibro_CD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._View3">
-<summary>
-Control View3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkFechaRegHCC">
-<summary>
-Control chkFechaRegHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaIniHcc">
-<summary>
-Control txtFechaIniHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtFechaFinHcc">
-<summary>
-Control txtFechaFinHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkTipoHCC">
-<summary>
-Control chkTipoHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._dboxTipoHcc">
-<summary>
-Control dboxTipoHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkNumFac">
-<summary>
-Control chkNumFac.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._txtNumFac">
-<summary>
-Control txtNumFac.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._View4">
-<summary>
-Control View4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkBusquedaWeb">
-<summary>
-Control chkBusquedaWeb.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._chkNrClick">
-<summary>
-Control chkNrClick.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._CheckBox20">
-<summary>
-Control CheckBox20.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._btnCalcular">
-<summary>
-Control btnCalcular.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._lblCalcular">
-<summary>
-Control lblCalcular.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._btnReporte">
-<summary>
-Control btnReporte.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Panel2">
-<summary>
-Control Panel2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxListaPrest">
-<summary>
-Control rboxListaPrest.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxPrestamosMes">
-<summary>
-Control rboxPrestamosMes.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxPrestamoOfi">
-<summary>
-Control rboxPrestamoOfi.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxPrestamoDia">
-<summary>
-Control rboxPrestamoDia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxRanking">
-<summary>
-Control rboxRanking.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxMasLeidos">
-<summary>
-Control rboxMasLeidos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxLimaProv">
-<summary>
-Control rboxLimaProv.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxPrestamoTipo">
-<summary>
-Control rboxPrestamoTipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxGrafLineas">
-<summary>
-Control rboxGrafLineas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._btnVerReportePrestamos">
-<summary>
-Control btnVerReportePrestamos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Panel1">
-<summary>
-Control Panel1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rdbListadoLibro">
-<summary>
-Control rdbListadoLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxL_CompradoMasLeidos">
-<summary>
-Control rboxL_CompradoMasLeidos.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxLibrosxAno">
-<summary>
-Control rbxLibrosxAno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxLibrosxCategoria">
-<summary>
-Control rbxLibrosxCategoria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxLibrosxTipo">
-<summary>
-Control rbxLibrosxTipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxLibrosxModo">
-<summary>
-Control rbxLibrosxModo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._cbxLibrosxEstado">
-<summary>
-Control cbxLibrosxEstado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rptLibrosxIdioma">
-<summary>
-Control rptLibrosxIdioma.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxLibrosxMateria">
-<summary>
-Control rbxLibrosxMateria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._VerReporteLibro">
-<summary>
-Control VerReporteLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._lblMnsRpt">
-<summary>
-Control lblMnsRpt.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._pnlGroupBox">
-<summary>
-Control pnlGroupBox.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxListaHcc">
-<summary>
-Control rbxListaHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxHccporGrup">
-<summary>
-Control rbxHccporGrup.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rbxHccporAño">
-<summary>
-Control rbxHccporAño.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._btnVerReporteHcc">
-<summary>
-Control btnVerReporteHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Button1">
-<summary>
-Control Button1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._Panel3">
-<summary>
-Control Panel3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxBWeb">
-<summary>
-Control rboxBWeb.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rboxNroClick">
-<summary>
-Control rboxNroClick.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._btnVerReporteBWeb">
-<summary>
-Control btnVerReporteBWeb.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._pnl_Visor">
-<summary>
-Control pnl_Visor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._ScriptManager1">
-<summary>
-Control ScriptManager1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.FrmReportes._rv_General">
-<summary>
-Control rv_General.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -3151,6 +439,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Biblioteca_Mant.frm_Contacto._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Biblioteca_Mant.frm_Contacto._Label1">
 <summary>
 Control Label1.
@@ -3199,555 +496,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.frm_Contacto._lbl_Copyright">
 <summary>
 Control lbl_Copyright.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_Titulo">
-<summary>
-Control lbl_Titulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._rb_TipoHcc">
-<summary>
-Control rb_TipoHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._imgHcc">
-<summary>
-Control imgHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_fechaCompra">
-<summary>
-Control lbl_fechaCompra.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_FechaCompra">
-<summary>
-Control txt_FechaCompra.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_anio">
-<summary>
-Control lbl_anio.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_anio">
-<summary>
-Control txt_anio.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_numHcc">
-<summary>
-Control lbl_numHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_numHCC">
-<summary>
-Control txt_numHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_numFactura">
-<summary>
-Control lbl_numFactura.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_numFactura">
-<summary>
-Control txt_numFactura.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_proveedor">
-<summary>
-Control lbl_proveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_proveedor">
-<summary>
-Control txt_proveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_nroLibros">
-<summary>
-Control lbl_nroLibros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_nroLibros">
-<summary>
-Control txt_nroLibros.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_APublicacion">
-<summary>
-Control txt_APublicacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_AObservacion">
-<summary>
-Control txt_AObservacion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_codOficina">
-<summary>
-Control lbl_codOficina.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_codOficina">
-<summary>
-Control txt_codOficina.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_dependencia">
-<summary>
-Control lbl_dependencia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_dependencia">
-<summary>
-Control txt_dependencia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_importeS">
-<summary>
-Control lbl_importeS.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_importeS">
-<summary>
-Control txt_importeS.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_importeD">
-<summary>
-Control lbl_importeD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_importeD">
-<summary>
-Control txt_importeD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._cboxBusqueda">
-<summary>
-Control cboxBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._TxtBusqueda">
-<summary>
-Control TxtBusqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_Busqueda">
-<summary>
-Control lbl_Busqueda.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btn_Limpiar">
-<summary>
-Control btn_Limpiar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnBuscar">
-<summary>
-Control btnBuscar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_Valida">
-<summary>
-Control lbl_Valida.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnAgregar">
-<summary>
-Control btnAgregar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnModificar">
-<summary>
-Control btnModificar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnVerFichaDet">
-<summary>
-Control btnVerFichaDet.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnGrabar">
-<summary>
-Control btnGrabar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnGrabar2">
-<summary>
-Control btnGrabar2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btnCancelar">
-<summary>
-Control btnCancelar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label24">
-<summary>
-Control Label24.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lblIdHCC">
-<summary>
-Control lblIdHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lblMsjMantLibro">
-<summary>
-Control lblMsjMantLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._lbl_Orden">
-<summary>
-Control lbl_Orden.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Content_Gridview">
-<summary>
-Control Content_Gridview.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._gdv_Lista">
-<summary>
-Control gdv_Lista.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Fieldset1">
-<summary>
-Control Fieldset1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btn_Mostrar">
-<summary>
-Control btn_Mostrar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._btn_Ocultar">
-<summary>
-Control btn_Ocultar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label10">
-<summary>
-Control Label10.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._TextBox1">
-<summary>
-Control TextBox1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label14">
-<summary>
-Control Label14.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._TextBox3">
-<summary>
-Control TextBox3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label16">
-<summary>
-Control Label16.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_Hora">
-<summary>
-Control txt_Hora.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label18">
-<summary>
-Control Label18.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_UsActivo">
-<summary>
-Control txt_UsActivo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._Label19">
-<summary>
-Control Label19.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._txt_NoIP">
-<summary>
-Control txt_NoIP.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._pnl_Visor">
-<summary>
-Control pnl_Visor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._ScriptManager1">
-<summary>
-Control ScriptManager1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_facturacion._rv_General">
-<summary>
-Control rv_General.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -4339,9 +1087,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_mantenimientoLibro._imgEmple">
+<member name="F:Biblioteca_Mant.frm_mantenimientoLibro._Label13">
 <summary>
-Control imgEmple.
+Control Label13.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -4537,456 +1285,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_codRegistro">
-<summary>
-Control lbl_codRegistro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_codRegistro">
-<summary>
-Control txt_codRegistro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_codClasif">
-<summary>
-Control txt_codClasif.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_TituloLibro">
-<summary>
-Control lbl_TituloLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_TituloLibro">
-<summary>
-Control txt_TituloLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._td_Categoria">
-<summary>
-Control td_Categoria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_Categoria">
-<summary>
-Control lbl_Categoria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._cboxLibro_Categoria">
-<summary>
-Control cboxLibro_Categoria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label12">
-<summary>
-Control Label12.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label3">
-<summary>
-Control Label3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_autor">
-<summary>
-Control txt_autor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_Editorial">
-<summary>
-Control lbl_Editorial.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_Editorial">
-<summary>
-Control txt_Editorial.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_numEdicion">
-<summary>
-Control txt_numEdicion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label5">
-<summary>
-Control Label5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_anioEdic">
-<summary>
-Control txt_anioEdic.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_proveedor">
-<summary>
-Control lbl_proveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_proveedor">
-<summary>
-Control txt_proveedor.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label6">
-<summary>
-Control Label6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_numPaginas">
-<summary>
-Control txt_numPaginas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_LibroPrecioDolares">
-<summary>
-Control lbl_LibroPrecioDolares.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_LibroprecioDolares">
-<summary>
-Control txt_LibroprecioDolares.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label8">
-<summary>
-Control Label8.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_LibroPrecioSoles">
-<summary>
-Control txt_LibroPrecioSoles.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label7">
-<summary>
-Control Label7.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_numEjemplares">
-<summary>
-Control txt_numEjemplares.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_materias">
-<summary>
-Control txt_materias.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._ckhLibro_CD">
-<summary>
-Control ckhLibro_CD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_Detalles">
-<summary>
-Control txt_Detalles.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._td_Idioma">
-<summary>
-Control td_Idioma.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_Idioma">
-<summary>
-Control lbl_Idioma.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._cboxLibro_Idioma">
-<summary>
-Control cboxLibro_Idioma.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label11">
-<summary>
-Control Label11.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_ISBN">
-<summary>
-Control txt_ISBN.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_MesAnioCompraLibro">
-<summary>
-Control txt_MesAnioCompraLibro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_tipo">
-<summary>
-Control lbl_tipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._cboxTipo">
-<summary>
-Control cboxTipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label9">
-<summary>
-Control Label9.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._txt_lugar">
-<summary>
-Control txt_lugar.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._td_Modo">
-<summary>
-Control td_Modo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_Modo">
-<summary>
-Control lbl_Modo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._cboxLibro_Modo">
-<summary>
-Control cboxLibro_Modo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._Label10">
-<summary>
-Control Label10.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._td_Estado">
-<summary>
-Control td_Estado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_Estado">
-<summary>
-Control lbl_Estado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._cboxLibro_Estado">
-<summary>
-Control cboxLibro_Estado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_nuevoLector._lbl_TD">
-<summary>
-Control lbl_TD.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Biblioteca_Mant.frm_prestamoLibro._lbl_Titulo">
 <summary>
 Control lbl_Titulo.
@@ -5023,18 +1321,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._btn_Lector">
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._btn_Libro">
 <summary>
-Control btn_Lector.
+Control btn_Libro.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._btn_Libro">
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._btn_Lector">
 <summary>
-Control btn_Libro.
+Control btn_Lector.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -5302,6 +1600,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._imgDisponible">
+<summary>
+Control imgDisponible.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Biblioteca_Mant.frm_prestamoLibro._fs_gvLibros">
 <summary>
 Control fs_gvLibros.
@@ -5314,60 +1621,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.frm_prestamoLibro._grv_Libro">
 <summary>
 Control grv_Libro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._fs_prestLector">
-<summary>
-Control fs_prestLector.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._Label17">
-<summary>
-Control Label17.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._lbl_codRegistro">
-<summary>
-Control lbl_codRegistro.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._txt_codEmpleado">
-<summary>
-Control txt_codEmpleado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._Label7">
-<summary>
-Control Label7.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._txt_A_NombreEmpleado">
-<summary>
-Control txt_A_NombreEmpleado.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -5422,6 +1675,60 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.frm_prestamoLibro._txt_A_Librotitulo">
 <summary>
 Control txt_A_Librotitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._fs_prestLector">
+<summary>
+Control fs_prestLector.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._Label17">
+<summary>
+Control Label17.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._lbl_codRegistro">
+<summary>
+Control lbl_codRegistro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._txt_codEmpleado">
+<summary>
+Control txt_codEmpleado.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._Label7">
+<summary>
+Control Label7.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._txt_A_NombreEmpleado">
+<summary>
+Control txt_A_NombreEmpleado.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -5644,18 +1951,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._chk_PEspecial">
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._lbl_FechaAnulacion">
 <summary>
-Control chk_PEspecial.
+Control lbl_FechaAnulacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_prestamoLibro._chk_CSala">
+<member name="F:Biblioteca_Mant.frm_prestamoLibro._chk_PEspecial">
 <summary>
-Control chk_CSala.
+Control chk_PEspecial.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -5968,15 +2275,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_Reportes._rdb_HCC">
-<summary>
-Control rdb_HCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Biblioteca_Mant.frm_Reportes._rdb_Otros">
 <summary>
 Control rdb_Otros.
@@ -6034,24 +2332,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.frm_Reportes._btn_c2BusquedaAvanzada">
 <summary>
 Control btn_c2BusquedaAvanzada.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_d1BusquedaHcc">
-<summary>
-Control btn_d1BusquedaHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_d2BusquedaAvanzada">
-<summary>
-Control btn_d2BusquedaAvanzada.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -6193,9 +2473,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_Reportes._RadioButtonList2">
+<member name="F:Biblioteca_Mant.frm_Reportes._rdb_Libro1Formato">
 <summary>
-Control RadioButtonList2.
+Control rdb_Libro1Formato.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -6400,9 +2680,36 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Biblioteca_Mant.frm_Reportes._img_load">
+<summary>
+Control img_load.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_Reportes._img_loading">
+<summary>
+Control img_loading.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Biblioteca_Mant.frm_Reportes._btn_verFichaLibro2">
 <summary>
 Control btn_verFichaLibro2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.frm_Reportes._btn_VerInventario">
+<summary>
+Control btn_VerInventario.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -6697,258 +3004,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.frm_Reportes._fs_d1BusqHcc">
-<summary>
-Control fs_d1BusqHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._txt_valorHcc1">
-<summary>
-Control txt_valorHcc1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_Limpiar_ReporteBusquedaHcc">
-<summary>
-Control btn_Limpiar_ReporteBusquedaHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_CalcularHcc">
-<summary>
-Control btn_CalcularHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_verFichaHcc1">
-<summary>
-Control btn_verFichaHcc1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._RadioButtonList3">
-<summary>
-Control RadioButtonList3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._lbl_ValidaHcc1">
-<summary>
-Control lbl_ValidaHcc1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._fs_d2BusqAvanzada">
-<summary>
-Control fs_d2BusqAvanzada.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._txt_FechaDesdeHcc">
-<summary>
-Control txt_FechaDesdeHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Button12">
-<summary>
-Control Button12.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Calendar5">
-<summary>
-Control Calendar5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._txt_FechaHastaHcc">
-<summary>
-Control txt_FechaHastaHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Button13">
-<summary>
-Control Button13.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Calendar6">
-<summary>
-Control Calendar6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label6">
-<summary>
-Control Label6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._cbox_TipoHCC">
-<summary>
-Control cbox_TipoHCC.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label28">
-<summary>
-Control Label28.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._TextBox13">
-<summary>
-Control TextBox13.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_CalcularListaHcc">
-<summary>
-Control btn_CalcularListaHcc.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._lbl_ValidaHcc2">
-<summary>
-Control lbl_ValidaHcc2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._btn_verFichaHcc2">
-<summary>
-Control btn_verFichaHcc2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label32">
-<summary>
-Control Label32.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._DropDownList8">
-<summary>
-Control DropDownList8.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._Label33">
-<summary>
-Control Label33.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.frm_Reportes._DropDownList9">
-<summary>
-Control DropDownList9.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Biblioteca_Mant.frm_Reportes._fs_e1Otros">
 <summary>
 Control fs_e1Otros.
@@ -7066,18 +3121,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._Label8">
+<member name="F:Biblioteca_Mant.MasterInicio._div_WSUsuarioPrueba">
 <summary>
-Control Label8.
+Control div_WSUsuarioPrueba.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._lbl_CodEmpleado">
+<member name="F:Biblioteca_Mant.MasterInicio._Label2">
 <summary>
-Control lbl_CodEmpleado.
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.MasterInicio._lbl_WS_CodEmpl">
+<summary>
+Control lbl_WS_CodEmpl.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -7093,9 +3157,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._lbl_Usuario">
+<member name="F:Biblioteca_Mant.MasterInicio._lbl_WS_UserAplic">
 <summary>
-Control lbl_Usuario.
+Control lbl_WS_UserAplic.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -7111,27 +3175,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._lbl_UserName">
+<member name="F:Biblioteca_Mant.MasterInicio._lbl_WS_NombreCompleto">
 <summary>
-Control lbl_UserName.
+Control lbl_WS_NombreCompleto.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._Label13">
+<member name="F:Biblioteca_Mant.MasterInicio._Label3">
 <summary>
-Control Label13.
+Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.MasterInicio._lbl_Oficina">
+<member name="F:Biblioteca_Mant.MasterInicio._lbl_WS_Localidad">
 <summary>
-Control lbl_Oficina.
+Control lbl_WS_Localidad.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -7150,24 +3214,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.MasterInicio._lbl_Perfil">
 <summary>
 Control lbl_Perfil.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.MasterInicio._lnkPrestamosVencios">
-<summary>
-Control lnkPrestamosVencios.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.MasterInicio._lnkReservas">
-<summary>
-Control lnkReservas.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -7204,15 +3250,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Biblioteca_Mant.MasterInicio._frm_mantenimiento">
 <summary>
 Control frm_mantenimiento.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Biblioteca_Mant.MasterInicio._frm_facturacion">
-<summary>
-Control frm_facturacion.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -7264,54 +3301,144 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._Label4">
+<member name="F:Biblioteca_Mant.WebForm2._fs_libro">
 <summary>
-Control Label4.
+Control fs_libro.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._lbl_prestamos">
+<member name="F:Biblioteca_Mant.WebForm2._lbl_valida">
 <summary>
-Control lbl_prestamos.
+Control lbl_valida.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._Label6">
+<member name="F:Biblioteca_Mant.WebForm2._btn_PHay">
 <summary>
-Control Label6.
+Control btn_PHay.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._Label7">
+<member name="F:Biblioteca_Mant.WebForm2._btn_prestamos">
 <summary>
-Control Label7.
+Control btn_prestamos.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._lbl_reservas">
+<member name="F:Biblioteca_Mant.WebForm2._btn_Plibrosprestados">
 <summary>
-Control lbl_reservas.
+Control btn_Plibrosprestados.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Biblioteca_Mant.WebForm2._Label9">
+<member name="F:Biblioteca_Mant.WebForm2._btn_RHay">
 <summary>
-Control Label9.
+Control btn_RHay.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._btn_reservas">
+<summary>
+Control btn_reservas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._btn_RlibrosReservados">
+<summary>
+Control btn_RlibrosReservados.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._fs_grvPrestamos">
+<summary>
+Control fs_grvPrestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._Fieldset2">
+<summary>
+Control Fieldset2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._gdv_Lista_Prestamos">
+<summary>
+Control gdv_Lista_Prestamos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._fs_grvReservas">
+<summary>
+Control fs_grvReservas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._lbl_Orden">
+<summary>
+Control lbl_Orden.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._Content_Gridview">
+<summary>
+Control Content_Gridview.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Biblioteca_Mant.WebForm2._gdv_Lista_Reservas">
+<summary>
+Control gdv_Lista_Reservas.
 </summary>
 <remarks>
 Campo generado automáticamente.

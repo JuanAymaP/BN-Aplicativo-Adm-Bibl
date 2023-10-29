@@ -8,40 +8,31 @@ Public Class frm_prestamoLibro
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
         Session("menu") = "frmPrestamoLibro"
 
         If f_validarSesion() = True Then
-
             If Not Page.IsPostBack Then
                 Try
-
                     'Para saber si viene del frmInicio
                     If Session("frm_reserva") = "1" Then
                         cls_Metodos.culture_info()
                         Validacion("frm_inicio")
                         cargarLista50()
-
                     Else
                         cls_Metodos.culture_info()
                         Validacion("Page_Load")
                         cargarLista50()
                     End If
-
-
                 Catch ex As Exception
                     lbl_LectorNoSeEncontro.Text = ex.Message 'Muestra mensaje original del error.
                     lbl_LectorNoSeEncontro.ForeColor = System.Drawing.Color.Red
-                    'btn_CalcularContrato.Enabled = False
                 End Try
             End If
-
         Else
             Session("Expiro") = "1"
             Response.Redirect("frmLogin.aspx?Id_expiro=Su sesión ha expirado, ingrese nuevamente sus accesos")
         End If
     End Sub
-
 
     '=====================FUNCION PARA VALIDAR SESION====================================
     Public Function f_validarSesion() As Boolean
@@ -52,13 +43,11 @@ Public Class frm_prestamoLibro
     End Function
 
     Private Sub Validacion(ByVal Validacion As String) 'Valida Botones, campos, radiobuttons
-
         Dim tupla_FechaHora As Tuple(Of String, String) = Formato_Fecha_Hora()
         Dim dtHora As Date = Date.Now
         Dim hora As String = dtHora.Hour.ToString("00")
         Dim minuto As String = dtHora.Minute.ToString("00")
         Dim segundo As String = dtHora.Second.ToString("00")
-
         lbl_horaPrestamo.Text = hora & ":" & minuto & ":" & segundo
 
         'Validaciones de los botones de acción
@@ -128,12 +117,10 @@ Public Class frm_prestamoLibro
             End If
 
         ElseIf Validacion = "Page_Load" Then
-
             txt_valorLector.MaxLength = 8
             txt_valorLector.Attributes.Add("onKeyup", "onKeyup = verifPrest(this);")
             txt_ValorLibro.MaxLength = 5
             txt_ValorLibro.Attributes.Add("onKeyup", "onKeyup = verificarBusqLibro(this);")
-
             txt_FechaPrestamo.Text = (tupla_FechaHora.Item1) 'Formato de fecha
 
             Session("sBusqueda") = "0"
@@ -146,11 +133,9 @@ Public Class frm_prestamoLibro
             txt_A_NombreEmpleado.Disabled = True
             txt_codRegistroLibro.Enabled = False
             txt_A_Librotitulo.Disabled = True
-
             txt_FechaReserva.ReadOnly = True
             txt_FechaReserva.Visible = False
             lbl_fechaReserva.Visible = False
-
 
             chk_PProvincia.Enabled = False
             chk_PEspecial.Enabled = False
@@ -166,18 +151,15 @@ Public Class frm_prestamoLibro
             fs_lector.Visible = False
             fs_libro.Visible = True
             fs_seleccionados.Visible = True
-
             fs_prestLector.Visible = False
             fs_prestLibro.Visible = False
             fs_prestamo.Visible = False
             fs_botones.Visible = False
             fs_buscar.Visible = False
-
             fs_gvPrestamos.Visible = False
 
             btn_Libro.Attributes.Add("Style", "border-bottom:none; z-index:0;")
             btn_Lector.Attributes.Remove("Style")
-
             btn_Lector.Disabled = False
             btn_Libro.Disabled = True
             btn_Prestamo.Disabled = False
@@ -228,12 +210,10 @@ Public Class frm_prestamoLibro
             fs_lector.Visible = False
             fs_libro.Visible = False
             fs_seleccionados.Visible = True
-
             fs_prestLector.Visible = True
             fs_prestLibro.Visible = True
             fs_prestamo.Visible = True
             fs_botones.Visible = True
-
             fs_gvPrestamos.Visible = True
             fs_buscar.Visible = True
             fs_botones.Visible = False
@@ -244,22 +224,17 @@ Public Class frm_prestamoLibro
             btn_Prestamo.Visible = False
             btn_Devolver.Visible = False
             btn_ReservasOAnular.Visible = True
-
             btn_BuscarPrestamo.Enabled = True
             btn_BuscarPrestamo.Visible = True
             btnModificar.Visible = False
             btnGrabar2.Visible = True
-
             btnVerFicha2.Visible = True
             btnVerFicha2.Enabled = False
-
             btn_Prestamo.Disabled = True
             btn_Lector.Disabled = True
             btn_Libro.Disabled = True
             btn_ReservasOAnular.Disabled = True
             btn_ReservasOAnular.Attributes.Add("Style", "border-bottom:none; z-index:0;")
-            'btn_Lector.Attributes.Remove("Style")
-            'btn_Libro.Attributes.Remove("Style")
             cbox_EstadoPrestamo.Enabled = False
             lbl_TituloPrestamo.Text = "Devolver"
             txt_FechaPrestamo.Enabled = False
@@ -269,7 +244,6 @@ Public Class frm_prestamoLibro
             txt_A_NombreEmpleado.Disabled = True
             txt_codRegistroLibro.ReadOnly = True
             txt_A_Librotitulo.Disabled = True
-
             txt_FechaPrestamo.ReadOnly = True
             txt_FechaDevolucion.ReadOnly = True
 
@@ -278,7 +252,6 @@ Public Class frm_prestamoLibro
 
             fs_lector.Visible = False
             fs_libro.Visible = False
-
             fs_seleccionados.Visible = True
             fs_prestLector.Visible = True
             fs_prestLibro.Visible = True
@@ -288,12 +261,9 @@ Public Class frm_prestamoLibro
         ElseIf Validacion = "Modificado" Then
             txt_A_apeYNombres.Disabled = True
             txt_A_tituloLibro.Disabled = True
-
             txt_codEmpleado.ReadOnly = True
             txt_A_NombreEmpleado.Disabled = True
-
             txt_codRegistroLibro.ReadOnly = True
-
             txt_A_Librotitulo.Disabled = True
 
             btn_BuscarLector.Enabled = True
@@ -302,21 +272,16 @@ Public Class frm_prestamoLibro
             fs_lector.Visible = False
             fs_libro.Visible = False
             fs_seleccionados.Visible = True
-
             fs_prestLector.Visible = True
             fs_prestLibro.Visible = True
             fs_prestamo.Visible = True
-
             fs_gvPrestamos.Visible = True
 
             btn_Lector.Attributes.Add("Style", "border-bottom:none; z-index:0;")
-
             btn_Lector.Disabled = True
             btn_Libro.Disabled = False
             btn_Prestamo.Disabled = False
-
         End If
-
     End Sub
 
 
@@ -325,12 +290,10 @@ Public Class frm_prestamoLibro
         'Formato de fecha
         Dim dd As String = Day(Now)
         If Len(dd) = 1 Then dd = "0" & dd
-
         Dim mm As String = Month(Now)
         If Len(mm) = 1 Then mm = "0" & mm
 
         Dim aaaa As String = Year(Now)
-
         Dim formato_Fecha = dd & "/" & mm & "/" & aaaa
 
         'Formato de hora
@@ -343,103 +306,47 @@ Public Class frm_prestamoLibro
         If Len(seg) = 1 Then seg = "0" & seg
 
         Dim formato_hora = hor & ":" & min & ":" & seg
-
         Return New Tuple(Of String, String)(formato_Fecha, formato_hora)
     End Function
-
-
-    Private Function Aumentar_Formato_Fecha_Hora() As Tuple(Of String, String)
-        'Formato de fecha
-        Dim dd As String = Day(Now)
-        If Len(dd) = 1 Then dd = "0" & dd
-
-        Dim mm As String = Month(Now)
-        If Len(mm) = 1 Then mm = "0" & mm
-
-        Dim aaaa As String = Year(Now)
-
-
-
-        Dim formato_Fecha = dd & "/" & mm & "/" & aaaa
-
-
-
-        Dim fechaDevolucion As Date
-        Format(fechaDevolucion, "dd MM yyyy")
-
-        fechaDevolucion = formato_Fecha
-
-        DateAdd(DateInterval.Day, 8, fechaDevolucion)
-
-        formato_Fecha = fechaDevolucion
-
-        'Formato de hora
-        Dim hor As String = Hour(Now)
-        Dim min As String = Minute(Now)
-        Dim seg As String = Second(Now)
-
-        If Len(hor) = 1 Then hor = "0" & hor
-        If Len(min) = 1 Then min = "0" & min
-        If Len(seg) = 1 Then seg = "0" & seg
-
-        Dim formato_hora = hor & ":" & min & ":" & seg
-
-        Return New Tuple(Of String, String)(formato_Fecha, formato_hora)
-    End Function
-
-
-
 
     '=====================FUNCIONES DE LOS BOTONES TAB==============================
     Private Sub btn_Lector_ServerClick(sender As Object, e As EventArgs) Handles btn_Lector.ServerClick
-
         fs_lector.Visible = True
         fs_libro.Visible = False
         fs_seleccionados.Visible = True
-
         fs_prestLector.Visible = False
         fs_prestLibro.Visible = False
         fs_prestamo.Visible = False
         fs_botones.Visible = False
-
         fs_gvPrestamos.Visible = False
 
         btn_Lector.Attributes.Add("Style", "border-bottom:none; z-index:0;")
         btn_Libro.Attributes.Remove("Style")
         btn_Prestamo.Attributes.Remove("Style")
-
         btn_Lector.Disabled = True
         btn_Libro.Disabled = False
         btn_Prestamo.Disabled = False
-
     End Sub
 
     Private Sub btn_Libro_ServerClick(sender As Object, e As EventArgs) Handles btn_Libro.ServerClick
-
         fs_lector.Visible = False
         fs_libro.Visible = True
         fs_seleccionados.Visible = True
-
         fs_prestLector.Visible = False
         fs_prestLibro.Visible = False
         fs_prestamo.Visible = False
         fs_botones.Visible = False
-
         fs_gvPrestamos.Visible = False
 
         btn_Lector.Attributes.Remove("Style")
         btn_Libro.Attributes.Add("Style", "border-bottom:none; z-index:0;")
         btn_Prestamo.Attributes.Remove("Style")
-
         btn_Lector.Disabled = False
         btn_Libro.Disabled = True
-
         btn_Prestamo.Disabled = False
     End Sub
 
     Private Sub btn_Prestamo_ServerClick(sender As Object, e As EventArgs) Handles btn_Prestamo.ServerClick
-
-
         If Len(Trim(txt_A_apeYNombres.InnerText)) = 0 Or Len(Trim(txt_A_tituloLibro.InnerText)) = 0 Then
             lbl_validaLibro.Visible = True
             lbl_validaLibro.ForeColor = System.Drawing.Color.Red
@@ -448,7 +355,6 @@ Public Class frm_prestamoLibro
             fs_lector.Visible = False
             fs_libro.Visible = False
             fs_seleccionados.Visible = True
-
             fs_prestamo.Visible = True
             fs_prestLector.Visible = True
             fs_prestLibro.Visible = True
@@ -459,7 +365,6 @@ Public Class frm_prestamoLibro
             btn_Lector.Attributes.Remove("Style")
             btn_Libro.Attributes.Remove("Style")
             btn_Prestamo.Attributes.Add("Style", "border-bottom:none; z-index:0;")
-
             btn_Lector.Disabled = False
             btn_Libro.Disabled = False
             btn_Prestamo.Disabled = True
@@ -470,11 +375,8 @@ Public Class frm_prestamoLibro
             txt_CodPrestamo2.Text = vValor_Maximo + 1
             chk_PProvincia.Enabled = True
             chk_PEspecial.Enabled = True
-
-
         End If
     End Sub
-
 
     '=====================RADIOBUTTON NUEVO PRÉSTAMO==============================
     Protected Sub rdb_NuevoPrestamo_Checked(ByVal sender As Object, ByVal e As EventArgs) Handles rdb_NuevoPrestamo.CheckedChanged
@@ -502,12 +404,10 @@ Public Class frm_prestamoLibro
         fs_lector.Visible = False
         fs_libro.Visible = False
         fs_seleccionados.Visible = True
-
         fs_prestLector.Visible = True
         fs_prestLibro.Visible = True
         fs_prestamo.Visible = True
         fs_botones.Visible = True
-
         fs_gvPrestamos.Visible = True
         fs_buscar.Visible = True
         fs_botones.Visible = False
@@ -518,15 +418,12 @@ Public Class frm_prestamoLibro
         btn_Prestamo.Visible = False
         btn_Devolver.Visible = True
         btn_ReservasOAnular.Visible = False
-
         btn_BuscarPrestamo.Enabled = True
         btn_BuscarPrestamo.Visible = True
         btnModificar.Visible = False
         btnGrabar2.Visible = False
-
         btnVerFicha2.Visible = True
         btnVerFicha2.Enabled = False
-
         btn_Prestamo.Disabled = True
         btn_Lector.Disabled = True
         btn_Libro.Disabled = True
@@ -544,19 +441,16 @@ Public Class frm_prestamoLibro
         txt_FechaDevolucion.Text = ""
         txt_FechaDevolucion.Enabled = False
         btnMas8.Enabled = False
-
         txt_codEmpleado.Text = ""
         txt_A_NombreEmpleado.InnerText = ""
         txt_codRegistroLibro.Text = ""
         txt_A_Librotitulo.InnerText = ""
         txt_A_apeYNombres.InnerText = ""
         txt_A_tituloLibro.InnerText = ""
-
         cargarLista50()
     End Sub
     '=====================RADIOBUTTON PRESTAR RESERVAS Y ANULACIÓN==============================
     Protected Sub rdb_PrestarReservasAnul_Checked(ByVal sender As Object, ByVal e As EventArgs) Handles rdb_PrestarReservasAnul.CheckedChanged
-
         txt_CodPrestamo2.Text = ""
         txt_FechaPrestamo.Text = ""
         txt_FechaDevolucion.Text = ""
@@ -572,12 +466,10 @@ Public Class frm_prestamoLibro
         fs_lector.Visible = False
         fs_libro.Visible = False
         fs_seleccionados.Visible = True
-
         fs_prestLector.Visible = True
         fs_prestLibro.Visible = True
         fs_prestamo.Visible = True
         fs_botones.Visible = True
-
         fs_gvPrestamos.Visible = True
         fs_buscar.Visible = True
         fs_botones.Visible = False
@@ -588,19 +480,16 @@ Public Class frm_prestamoLibro
         btn_Prestamo.Visible = False
         btn_Devolver.Visible = False
         btn_ReservasOAnular.Visible = True
-
         btn_BuscarPrestamo.Enabled = True
         cbox_EstadoPrestamo.SelectedValue = "-1"
         cbox_EstadoPrestamo.Enabled = False
         txt_FechaPrestamo.Enabled = False
         txt_FechaDevolucion.Enabled = False
         btnMas8.Enabled = False
-
         btnGrabar2.Visible = False
         btnModificar.Visible = False
         btnVerFicha2.Enabled = False
         btnVerFicha2.Visible = True
-
         btn_Prestamo.Disabled = True
         btn_Lector.Disabled = True
         btn_Libro.Disabled = True
@@ -617,27 +506,20 @@ Public Class frm_prestamoLibro
         txt_A_Librotitulo.InnerText = ""
         txt_A_apeYNombres.InnerText = ""
         txt_A_tituloLibro.InnerText = ""
-
         cargarLista50()
     End Sub
 
 
     '==============BOTON BUSCAR LECTOR====================================='
     Protected Sub btn_BuscarLector_Click(sender As Object, e As EventArgs) Handles btn_BuscarLector.Click 'Realiza la busqueda
-
         Session("sBusqueda") = "1"
         Session("vBusqueda") = ""
         Session("vBandera") = ""
-
         Dim tipoBusqueda As String = "lector"
-
         Try
             Busqueda(tipoBusqueda)
             lbl_Busqueda.Text = txt_valorLector.Text
-            'Limpiar("Buscar")
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
             btn_BuscarLector.Visible = False
@@ -646,16 +528,11 @@ Public Class frm_prestamoLibro
 
     '==============BOTON BUSCAR LIBRO====================================='
     Protected Sub btn_BuscarLibro_Click(sender As Object, e As EventArgs) Handles btn_BuscarLibro.Click 'Realiza la busqueda
-
         Dim tipoBusqueda As String = "libro"
-
         Try
             Busqueda(tipoBusqueda)
             lbl_Busqueda.Text = txt_valorLector.Text
-            'Limpiar("Buscar")
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
             btn_BuscarLector.Visible = False
@@ -664,24 +541,19 @@ Public Class frm_prestamoLibro
 
     '==============BOTON BUSCAR LECTOR====================================='
     Protected Sub btn_BuscarPrestamo_Click(sender As Object, e As EventArgs) Handles btn_BuscarPrestamo.Click 'Realiza la busqueda
-
         Session("sBusqueda") = "1"
         Session("vBusqueda") = ""
         Session("vBandera") = ""
-
         Dim tipoBusqueda As String = "prestamo"
-
         Try
             Busqueda(tipoBusqueda)
             lbl_Busqueda.Text = txt_valorLector.Text
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede barbar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
             btn_BuscarLector.Visible = False
         End Try
     End Sub
-
 
     '==============BOTON GRABAR PRESTAMO=====================================
     Protected Sub btnGrabar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnGrabar.Click
@@ -698,13 +570,11 @@ Public Class frm_prestamoLibro
         Try
             Call grabar("Grabar2")
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
             btn_BuscarPrestamo.Visible = False
         End Try
     End Sub
-
 
     '==============BOTON MODIFICAR===================================='
     Private Sub btn_Modificar_Click(sender As Object, e As EventArgs) Handles btnModificar.Click
@@ -718,7 +588,6 @@ Public Class frm_prestamoLibro
             btn_BuscarPrestamo.Visible = False
         End Try
     End Sub
-
 
     '==============BOTON CANCELAR====================================='
     Private Sub btnCancelar_Click(sender As Object, e As EventArgs) Handles btnCancelar.Click 'Recarga la pagina desde cero
@@ -741,108 +610,42 @@ Public Class frm_prestamoLibro
 
     Private Sub btn_HistorialLector_Click(sender As Object, e As EventArgs) Handles btn_HistorialLector.Click
         Try
-            If Len(Trim(txt_A_apeYNombres.InnerText)) <> 0 Then
-
-                Dim query As String = "select convert(varchar,cId_Prestamo) as cId_Prestamo," &
-                                " cMov_FechaPedido, cMov_HoraPedido, cLector_Nombre," &
-                                " cLector_CodEmpleado, cEstado_Mov, cMovReserva_oficina, cLibro_Titulo," &
-                                " CONVERT(varchar,cLibro_CodNumerico) as cLibro_CodNumerico," &
-                                " cLibro_CodClasificacion, cLibro_Autor, cMov_FechaDevolucion " &
-                                " from " & tbMovimientos & " where cLector_CodEmpleado = '" & Session("codEmpleado") & "'" & "ORDER BY cMov_FechaPedido DESC"
-                Dim ds As New DataSet
-                Dim adp As New SqlDataAdapter(query, vConex_BDBiblioteca)
-                adp.Fill(ds, "Prestamo")
-                ds.Dispose()
-
-                ExportarReporte_RDLC("rptFichaHistoriaLectorPrest.rdlc", "Ficha_Préstamo", ds, "PDF", "Ficha_Préstamo") 'nuevo usa report viewer
-            Else
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", "<script>alert('Seleccionar un registro de la tabla para visualizar su ficha')</script>", False)
-            End If
-        Catch ex As Exception
-            lbl_validaLibro.Visible = True
-            lbl_validaLibro.Text = ex.Message
-            lbl_validaLibro.ForeColor = Drawing.Color.Red
+            Dim v_FormatoReporte As String = "PDF"
+            Exportar_Reporte(v_FormatoReporte, "rptFichaHistoriaLectorPrest")
+        Catch ex As Exception ' En caso no se pueda exportar el archivo
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
     Private Sub btn_historialLibro_Click(sender As Object, e As EventArgs) Handles btn_historialLibro.Click
         Try
-            If Len(Trim(txt_A_tituloLibro.InnerText)) <> 0 Then
-
-                Dim query As String = "select convert(varchar,cId_Prestamo) as cId_Prestamo," &
-                                " cMov_FechaPedido, cMov_HoraPedido, cLector_Nombre," &
-                                " cLector_CodEmpleado, cEstado_Mov, cMovReserva_oficina, cLibro_Titulo," &
-                                " CONVERT(varchar,cLibro_CodNumerico) as cLibro_CodNumerico," &
-                                " cLibro_CodClasificacion, cLibro_Autor, cMov_FechaDevolucion, cMovReserva_fecha" &
-                                " from " & tbMovimientos & " where cLibro_CodNumerico = '" & Session("codRegistroLibro") & "'" & "ORDER BY cMov_FechaPedido DESC"
-
-                Dim ds As New DataSet
-                Dim adp As New SqlDataAdapter(query, vConex_BDBiblioteca)
-                adp.Fill(ds, "Prestamo")
-                ds.Dispose()
-
-                'ExportarReporte(ds.Tables("Prestamo"), "rptFichaPrestamo.rpt", "Ficha_Préstamo") 'antiguo usa crystal reports
-                ExportarReporte_RDLC("rptFichaHistoriaLibroPrest.rdlc", "Ficha_Préstamo", ds, "PDF", "Ficha_Préstamo") 'nuevo usa report viewer
-            Else
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", "<script>alert('Seleccionar un registro de la tabla para visualizar su ficha')</script>", False)
-            End If
-        Catch ex As Exception
-            lbl_validaLibro.Visible = True
-            lbl_validaLibro.Text = ex.Message
-            lbl_validaLibro.ForeColor = Drawing.Color.Red
+            Dim v_FormatoReporte As String = "PDF"
+            Exportar_Reporte(v_FormatoReporte, "rptFichaHistoriaLibroPrest")
+        Catch ex As Exception ' En caso no se pueda exportar el archivo
+            lbl_validaLibro.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_validaLibro.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
 
     Private Sub btnVerFicha_Click(sender As Object, e As EventArgs) Handles btnVerFicha.Click
         Try
-            If Len(Trim(txt_CodPrestamo2.Text)) <> 0 Then
-                'Dim query As String = "select * from dbo.tbMovimientos where cId_Prestamo = '" & Trim(txtIdPrestamo.Text) & "'"
-                Dim query As String = "select convert(varchar,cId_Prestamo) as cId_Prestamo," &
-                                " cMov_FechaPedido, cMov_HoraPedido, cLector_Nombre," &
-                                " cLector_CodEmpleado, cMovReserva_oficina, cLibro_Titulo," &
-                                " CONVERT(varchar,cLibro_CodNumerico) as cLibro_CodNumerico," &
-                                " cLibro_CodClasificacion, cLibro_Autor, cMov_FechaDevolucion " &
-                                " from " & tbMovimientos & " where cId_Prestamo = '" & Trim(txt_CodPrestamo2.Text) & "'"
-                Dim ds As New DataSet
-                Dim adp As New SqlDataAdapter(query, vConex_BDBiblioteca)
-                adp.Fill(ds, "Prestamo")
-                ds.Dispose()
-
-                'ExportarReporte(ds.Tables("Prestamo"), "rptFichaPrestamo.rpt", "Ficha_Préstamo") 'antiguo usa crystal reports
-                ExportarReporte_RDLC("rptFichaPrestamo.rdlc", "Ficha_Préstamo", ds, "PDF", "Ficha_Préstamo") 'nuevo usa report viewer
-            Else
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", "<script>alert('Seleccionar un registro de la tabla para visualizar su ficha')</script>", False)
-            End If
-        Catch ex As Exception
-            lbl_Valida.Text = ex.Message
-            lbl_Valida.ForeColor = Drawing.Color.Red
+            Dim v_FormatoReporte As String = "PDF"
+            Exportar_Reporte(v_FormatoReporte, "rptFichaPrestamo")
+        Catch ex As Exception ' En caso no se pueda exportar el archivo
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
     Private Sub btnVerFicha2_Click(sender As Object, e As EventArgs) Handles btnVerFicha2.Click
         Try
-            If Len(Trim(lbl_IdPrestamo.Text)) <> 0 Then
-                'Dim query As String = "select * from dbo.tbMovimientos where cId_Prestamo = '" & Trim(txtIdPrestamo.Text) & "'"
-                Dim query As String = "select convert(varchar,cId_Prestamo) as cId_Prestamo," &
-                                " cMov_FechaPedido, cMov_HoraPedido, cLector_Nombre," &
-                                " cLector_CodEmpleado, cMovReserva_oficina, cLibro_Titulo," &
-                                " CONVERT(varchar,cLibro_CodNumerico) as cLibro_CodNumerico," &
-                                " cLibro_CodClasificacion, cLibro_Autor, cMov_FechaDevolucion " &
-                                " from " & tbMovimientos & " where cId_Prestamo = '" & Trim(lbl_IdPrestamo.Text) & "'"
-                Dim ds As New DataSet
-                Dim adp As New SqlDataAdapter(query, vConex_BDBiblioteca)
-                adp.Fill(ds, "Prestamo")
-                ds.Dispose()
-
-                'ExportarReporte(ds.Tables("Prestamo"), "rptFichaPrestamo.rpt", "Ficha_Préstamo") 'antiguo usa crystal reports
-                ExportarReporte_RDLC("rptFichaPrestamo.rdlc", "Ficha_Préstamo", ds, "PDF", "Ficha_Préstamo") 'nuevo usa report viewer
-            Else
-                ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", "<script>alert('Seleccionar un registro de la tabla para visualizar su ficha')</script>", False)
-            End If
-        Catch ex As Exception
-            lbl_Valida.Text = ex.Message
-            lbl_Valida.ForeColor = Drawing.Color.Red
+            Dim v_FormatoReporte As String = "PDF"
+            Exportar_Reporte(v_FormatoReporte, "rptFichaPrestamo")
+        Catch ex As Exception ' En caso no se pueda exportar el archivo
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
@@ -851,15 +654,11 @@ Public Class frm_prestamoLibro
         Dim año As String = Right((txt_FechaPrestamo.Text), 4)
         Dim mes As String = Trim(txt_FechaPrestamo.Text).Substring(3, 2)
         Dim dia As String = Left(Trim(txt_FechaPrestamo.Text), 2)
-        'Dim fecha As String = mes & "/" & dia & "/" & año
         Dim fecha As String = dia & "/" & mes & "/" & año
 
         Try
-
             Dim fechadevo As Date = DateAdd(DateInterval.Day, +8, DateValue(fecha)) 'aumentar 8 días a la fecha obtenida 
-
             txt_FechaDevolucion.Text = fechadevo
-
             Dim nombDia As String = UCase(WeekdayName(Weekday(fechadevo)))
             Select Case nombDia
                 Case "MONDAY"
@@ -885,17 +684,13 @@ Public Class frm_prestamoLibro
             Else
                 lblNomDia.ForeColor = Drawing.Color.Blue
             End If
-
         Catch ex As Exception
             lbl_Valida.Text = ex.Message
         End Try
-
     End Sub
 
     Protected Sub cBox_BusquedaLectorVAL(ByVal sender As Object, ByVal e As EventArgs) Handles cBox_BusquedaLector.SelectedIndexChanged
-
         txt_valorLector.Text = ""
-
         If cBox_BusquedaLector.SelectedIndex = 0 Then              'BÚSQUEDA POR COD EMPLEADO
             txt_valorLector.MaxLength = 8
             txt_valorLector.MaxLength = 8
@@ -910,7 +705,6 @@ Public Class frm_prestamoLibro
             txt_valorLector.Attributes.Add("onKeyup", "onKeyup = verifPrest(this);")
             txt_valorLector.Attributes.Add("placeholder", "(Buscar por Apellido o Nombre)")
         End If
-
     End Sub
 
     Protected Sub txt_FechaDevolucion_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles txt_FechaDevolucion.TextChanged
@@ -947,68 +741,13 @@ Public Class frm_prestamoLibro
         End Try
     End Sub
 
-
-    Sub ExportarReporte_RDLC(ByVal nombreReporte As String, ByVal tituloReporte As String, ByVal MydataSet As DataSet, ByVal strFile As String, ByVal subtituloRpt As String)
-        'JL 10-06-2022 FALTA TERMINAR
-        Dim ds_Ficha_Prestamo As New DataSet()
-        ds_Ficha_Prestamo = MydataSet
-
-        Try
-            Dim rds_Ficha_Prestamo As ReportDataSource
-            ds_Ficha_Prestamo.Tables(0).TableName = "Ficha_Libro"
-            rv_General.LocalReport.ReportPath = "Reportes\\" & nombreReporte
-            rds_Ficha_Prestamo = New ReportDataSource("dt_Ficha_Prestamo", ds_Ficha_Prestamo.Tables(0))
-            rv_General.LocalReport.DataSources.Clear()
-            rv_General.LocalReport.DataSources.Add(rds_Ficha_Prestamo)
-
-            rv_General.LocalReport.Refresh()
-
-            Exportar_Ficha_RDLC(strFile, subtituloRpt)
-
-        Catch ex As Exception
-            Exit Sub
-        Finally
-            ds_Ficha_Prestamo = Nothing
-        End Try
-
-    End Sub
-
-
-    Private Sub Exportar_Ficha_RDLC(ByVal FormatoReporte As String, ByVal v_TipoReporte As String)
-        'AQUI EXPORTO DIRECTO DEBIDO A QUE EL DATASET XSD YA ESTA CARGADO DESDE LA CONSULTA
-        '----Declaraciones de variables igualadas a Nothing----
-        Dim warnings As Warning() = Nothing
-        Dim streamids As String() = Nothing
-        Dim mimeType As String = Nothing
-        Dim contentType As String = Nothing
-        Dim encoding As String = Nothing
-        Dim extension As String = Nothing
-
-        '----Exporta el reporte RDLC as un arreglo de bytes, rb_format es el formato elegido en la pagina ASPX
-        'Dim bytes As Byte() = ReportViewer1.LocalReport.Render(rb_Format.SelectedItem.Value, Nothing, mimeType, contentType, encoding, extension, streamids, warnings)
-        Dim bytes As Byte() = rv_General.LocalReport.Render(FormatoReporte, Nothing, mimeType, contentType, encoding, extension, streamids, warnings)
-
-        '----Descarga el reporte RDLC en formato word, Excel, PDF
-        Response.Clear()
-        Response.Buffer = True
-        Response.Charset = ""
-        Response.Cache.SetCacheability(HttpCacheability.NoCache) 'No guarda cache en la creacion del archivo
-        Response.ContentType = contentType
-        Response.AppendHeader("Content-Disposition", "attachment; filename=" & v_TipoReporte & "." & extension) 'El nombre del archivo de salida
-        Response.BinaryWrite(bytes)
-        Response.Flush()
-        Response.End()
-    End Sub
-
     '==========================================FUNCION/PROCESO BUSCAR================================================================='
     Private Sub Busqueda(ByVal tipoBusqueda As String)
-
         '============================= BÚSQUEDA DE LECTOR =============================
         If tipoBusqueda = "lector" Then
             'Para espacios vacios
             If Len(Trim(txt_valorLector.Text)) = 0 Then
                 lbl_LectorNoSeEncontro.ForeColor = System.Drawing.Color.Red
-                'lbl_LectorNoSeEncontro.Text = "No se encontró registros"
                 lbl_LectorNoSeEncontro.Text = "Ingrese la búsqueda"
                 lbl_LectorSeEncontro.Text = ""
                 txt_valorLector.Text = ""
@@ -1018,7 +757,6 @@ Public Class frm_prestamoLibro
                 imgLector.ImageUrl = "Imagenes/img_usuario.jpg"
                 grv_Lector.DataBind()
                 Exit Sub
-
             End If
 
             If cBox_BusquedaLector.SelectedIndex = 0 Or cBox_BusquedaLector.SelectedIndex = 1 Then
@@ -1053,10 +791,8 @@ Public Class frm_prestamoLibro
 
             'RESULTADO DE BÚSQUEDA
             lbl_LectorSeEncontro.Visible = True
-            'LabelValida.Text = "N registros: " & ds.Tables(0).Rows.Count
             lbl_LectorSeEncontro.ForeColor = System.Drawing.Color.Green
             lbl_LectorSeEncontro.Text = "Se encontró: " & ds.Tables(0).Rows.Count & " registro(s), selecciónelo"
-
             btn_HistorialLector.Enabled = True
 
             'PARA CERO REGISTROS ENCONTRADOS
@@ -1067,12 +803,9 @@ Public Class frm_prestamoLibro
                 grv_Lector.DataBind()
             End If
 
-
             '============================= BÚSQUEDA DE LIBRO =============================
         ElseIf tipoBusqueda = "libro" Then
-
             imgDisponible.Visible = False
-
             'Para espacios vacios
             If Len(Trim(txt_ValorLibro.Text)) = 0 Then
                 lbl_validaLibro.ForeColor = System.Drawing.Color.Red
@@ -1155,16 +888,12 @@ Public Class frm_prestamoLibro
     Private Sub grabar(ByVal TipoGrabar As String)
 
         Dim tupla_FechaHora As Tuple(Of String, String) = Formato_Fecha_Hora()
-
         Dim v_IdPrestamo As String = lbl_IdPrestamo.Text.Trim
-
         Dim v_LectorCodEmpleado As String = txt_codEmpleado.Text.Trim
         Dim v_LectorNombre As String = txt_A_NombreEmpleado.InnerText.Trim
-
         Dim v_LibroCodRegistro As String = txt_codRegistroLibro.Text
         Dim v_LibroTitulo As String = txt_A_Librotitulo.InnerText
         Dim v_CodClasif As String = lbl_codClasif.Text
-
         Dim v_FechaPrestamo As String = txt_FechaPrestamo.Text.Trim
         Dim v_HoraPrestamo As String = lbl_horaPrestamo.Text.Trim
 
@@ -1175,10 +904,7 @@ Public Class frm_prestamoLibro
         End If
 
         Dim v_FechaReserva As String = txt_FechaReserva.Text.Trim
-
         Dim v_TipoOperacion As String = cbox_EstadoPrestamo.SelectedValue
-
-
 
         'ddl Anulacion
         Dim v_FechaAnulacion As String
@@ -1186,7 +912,6 @@ Public Class frm_prestamoLibro
             lbl_FechaAnulacion.Text = (tupla_FechaHora.Item1)
             v_FechaAnulacion = lbl_FechaAnulacion.Text
         End If
-
 
         'checkbox de prestamo a provincia
         Dim v_PrestamoProvincia As String
@@ -1212,8 +937,6 @@ Public Class frm_prestamoLibro
             End If
         End If
 
-
-
         If TipoGrabar = "Grabar1" Then                      'NUEVO PRÉSTAMO
             cls_Metodos.Registrar_Prestamo(v_LectorCodEmpleado, v_LectorNombre,
                                            v_LibroCodRegistro, v_LibroTitulo, v_CodClasif,
@@ -1225,10 +948,8 @@ Public Class frm_prestamoLibro
             lbl_validaNuevoPrest.ForeColor = System.Drawing.Color.Green
             lbl_validaNuevoPrest.Visible = True
             lbl_validaNuevoPrest.Text = "Registro agregado correctamente"
-            'cargarLista50()
             btnVerFicha.Enabled = True
             btnVerFicha.Visible = True
-
 
         ElseIf TipoGrabar = "Grabar2" Then                      'MODIFICAR REGISTRO DEVOLUCION, RESERVA
             cls_Metodos.Actualizar_Prestamo(v_IdPrestamo, v_LibroCodRegistro, v_FechaPrestamo,
@@ -1240,10 +961,6 @@ Public Class frm_prestamoLibro
             lbl_Valida.Text = "Registro actualizado correctamente"
             cargarLista50()
         End If
-
-        'cargarLista50()
-
-
     End Sub
 
 
@@ -1251,6 +968,7 @@ Public Class frm_prestamoLibro
     Public Function f_FormatoImagen(ByVal Foto As Byte()) As String 'Función para obtener imagen formateada
         Return "data:image/jpg;base64," + Convert.ToBase64String(Foto)
     End Function
+
     Private Function validarImagen(ByVal RowImagen As Object, ByVal Rowtype As String) 'Valida y formatea el campo imagen
         Dim imagen As String
         If RowImagen IsNot System.DBNull.Value Then
@@ -1268,13 +986,6 @@ Public Class frm_prestamoLibro
 
     'IMAGEN DE LIBRO
     Public Function verificarArchivo(ByVal rutaFile As String) As Boolean
-
-        'If File.Exists(rutaFile) Then
-        '    Return True
-        'Else
-        '    Return False
-        'End If
-
         Dim web_response As HttpWebResponse = Nothing
         Try
             Dim web_request As HttpWebRequest = HttpWebRequest.Create("http:" & rutaFile)
@@ -1291,17 +1002,13 @@ Public Class frm_prestamoLibro
         Dim dt_Movimiento As DataTable
 
         '--------------Mostrará en las casillas el registro seleccionado de la grilla-----------
-
         dt_Movimiento = CapaNegocio.cls_Metodos.ListarFormLibroGridView("registroSeleccionado", v_CodRegistro).Tables(0) 'Cargo dt_Lista
 
         '-----------Variables que toman los datos del datatable para pasarlas a las casillas respectivas--------
-
         Dim c_cCodRegistro As String = dt_Movimiento.Rows(0)("cLibro_CodNumerico").ToString()
         Dim c_cTitulo As String = dt_Movimiento.Rows(0)("cLibro_Titulo").ToString()
         Dim c_cCodClasif As String = dt_Movimiento.Rows(0)("cLibro_CodClasificacion").ToString()
-
         Dim c_cEstadoMovimiento As String = dt_Movimiento.Rows(0)("cEstado_libro").ToString
-
 
         If c_cEstadoMovimiento = "4" Or c_cEstadoMovimiento = "" Then
             lbl_validaLibro.Visible = True
@@ -1309,14 +1016,12 @@ Public Class frm_prestamoLibro
             lbl_validaLibro.Text = "Este libro se encuentra disponible"
             btn_Prestamo.Disabled = False
             imgDisponible.Src = "~/Imagenes/disponible_PC3.JPG"
-
         ElseIf c_cEstadoMovimiento = "1" Then
             lbl_validaLibro.Visible = True
             lbl_validaLibro.ForeColor = System.Drawing.Color.Red
             lbl_validaLibro.Text = "Este libro ya fue prestado"
             btn_Prestamo.Disabled = True
             imgDisponible.Src = "~/Imagenes/prestado_PC1.JPG"
-
         ElseIf c_cEstadoMovimiento = "0" Then
             lbl_validaLibro.Visible = True
             lbl_validaLibro.ForeColor = System.Drawing.Color.Red
@@ -1325,50 +1030,16 @@ Public Class frm_prestamoLibro
             imgDisponible.Src = "~/Imagenes/SELLO_RESERVADO.JPG"
         End If
 
-        ' Aquí se valida mediante http.webresponsive CON JORGEEEE
-        'If verificarArchivo(vRutaPortada & Trim(v_CodRegistro) & "\car.jpg") Then
-        '    'If True Then
-        '    'imgLibro.Src = vRutaPortada & Trim(v_CodRegistro) & "/car.jpg"
-        '    Dim img_Path As String = vRutaPortada & Trim(v_CodRegistro) & "\car.jpg"                    'Aquí esta la ruta que debes de poner              
-        '    Dim fs As System.IO.FileStream = New System.IO.FileStream(img_Path, System.IO.FileMode.Open) 'Creas una variable del tipo "FileStream" que llamará a la ruta
-        '    Dim stream As System.IO.MemoryStream = New System.IO.MemoryStream()                         'creas una variable del tipo "Stream", la cual se utilizará como memoria
-        '    Dim data As Byte() = New Byte(fs.Length - 1) {} 'creas una variable del tipo "Byte" la cual se basará en la variable "fs"
-        '    fs.Read(data, 0, CInt(fs.Length)) 'se lee el "fs" y puebla la variable "data"
-        '    Dim img As System.Drawing.Image = System.Drawing.Image.FromStream(fs) 'creas una variable del tipo "Drawing.Image" la cual consultará la ruta con el archivo en bytes de la variable "fs" 
-        '    img.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg) 'le das formato a la cadena de bytes, que se clonará en la variable "Stream"
-        '    imgLibro.Src = "data:image/jpeg;base64," + Convert.ToBase64String(stream.ToArray(), 0, stream.ToArray().Length) 'Aqui lo envía aL SRC de la imagen
-        '    fs.Close() ' cierras la variable "fs"
-        'Else
-        '    'imgLibro.Src = noPortada & "9999_sinportada.jpg"
-        '    Dim img_Path As String = noPortada & "9999_sinportada.jpg"                    'Aquí esta la ruta que debes de poner              
-        '    Dim fs As System.IO.FileStream = New System.IO.FileStream(img_Path, System.IO.FileMode.Open) 'Creas una variable del tipo "FileStream" que llamará a la ruta
-        '    Dim stream As System.IO.MemoryStream = New System.IO.MemoryStream()                         'creas una variable del tipo "Stream", la cual se utilizará como memoria
-        '    Dim data As Byte() = New Byte(fs.Length - 1) {} 'creas una variable del tipo "Byte" la cual se basará en la variable "fs"
-        '    fs.Read(data, 0, CInt(fs.Length)) 'se lee el "fs" y puebla la variable "data"
-        '    Dim img As System.Drawing.Image = System.Drawing.Image.FromStream(fs) 'creas una variable del tipo "Drawing.Image" la cual consultará la ruta con el archivo en bytes de la variable "fs" 
-        '    img.Save(stream, System.Drawing.Imaging.ImageFormat.Jpeg) 'le das formato a la cadena de bytes, que se clonará en la variable "Stream"
-        '    imgLibro.Src = "data:image/jpeg;base64," + Convert.ToBase64String(stream.ToArray(), 0, stream.ToArray().Length) 'Aqui lo envía aL SRC de la imagen
-        '    fs.Close() ' cierras la variable "fs"
-
-        'End If
-
-
-        'If verificarArchivo(vRutaPortada & Trim(v_CodRegistro) & "/car.jpg") Then
-
         If True Then
             imgLibro.Src = vRutaPortada & Trim(v_CodRegistro) & "/car.jpg"
         Else
             imgLibro.Src = noPortada & "9999_sinportada.jpg"
         End If
 
-
         txt_A_tituloLibro.InnerText = c_cTitulo.Trim
-
         lbl_codClasif.Text = c_cCodClasif.Trim
-
         txt_codRegistroLibro.Text = c_cCodRegistro.Trim
         txt_A_Librotitulo.InnerText = c_cTitulo.Trim
-
     End Sub
 
 
@@ -1376,7 +1047,6 @@ Public Class frm_prestamoLibro
         Dim dt_Movimiento As DataTable
 
         '--------------Mostrará en las casillas el registro seleccionado de la grilla-----------
-
         dt_Movimiento = CapaNegocio.cls_Metodos.ListarFormLectorGridVieW(v_CodEmpleado).Tables(0) 'Cargo dt_Lista
 
         Dim c_cApellidoPaterno As String = dt_Movimiento.Rows(0)("cApellido_Paterno").ToString()
@@ -1386,104 +1056,66 @@ Public Class frm_prestamoLibro
         Dim c_cCodEmpleado As String = dt_Movimiento.Rows(0)("cCod_Empleado").ToString()
         Dim c_cFoto_imagen As String = validarImagen(dt_Movimiento.Rows(0)("cFoto_imagen"), 1)
 
-        'txt_apeYNombres.Text = c_cApellidoPaterno + " " + c_cApellidoMaterno + " " + c_cPrimerNombre + " " + c_cSegundoNombre
         txt_A_apeYNombres.InnerText = c_cApellidoPaterno + " " + c_cApellidoMaterno + " " + c_cPrimerNombre + " " + c_cSegundoNombre
         txt_codEmpleado.Text = c_cCodEmpleado.Trim
-        'txt_A_CodEmpleado.InnerText = c_cCodEmpleado.Trim
-        'txt_nombreLector.Text = c_cApellidoPaterno + " " + c_cApellidoMaterno + " " + c_cPrimerNombre + " " + c_cSegundoNombre
         txt_A_NombreEmpleado.InnerText = c_cApellidoPaterno + " " + c_cApellidoMaterno + " " + c_cPrimerNombre + " " + c_cSegundoNombre
         imgLector.ImageUrl = c_cFoto_imagen
     End Sub
-
 
     Private Sub Listar_RegistroPrestamo(ByVal v_CodPrestamo As String) 'Funcion/procedimiento para listar movimiento sea el último o el Seleccionado
         Dim dt_Movimiento As DataTable
 
         '--------------Mostrará en las casillas el registro seleccionado de la grilla-----------
-
         dt_Movimiento = CapaNegocio.cls_Metodos.ListarFormPrestamoGridVieW(v_CodPrestamo).Tables(0) 'Cargo dt_Lista
 
-
         Dim c_cIdPrestamo As String = dt_Movimiento.Rows(0)("cId_Prestamo").ToString
-
         Dim c_cNombres As String = dt_Movimiento.Rows(0)("cLector_Nombre").ToString
         Dim c_cCodEmpleado As String = dt_Movimiento.Rows(0)("cLector_CodEmpleado").ToString()
-
         Dim c_cCodRegistroLibro As String = dt_Movimiento.Rows(0)("cLibro_CodNumerico").ToString()
         Dim c_cTituloLibro As String = dt_Movimiento.Rows(0)("cLibro_Titulo").ToString()
-
         Dim c_cFechaPrestamo As String = dt_Movimiento.Rows(0)("cMov_FechaPedido").ToString()
         Dim c_cFechaDevolucion As String = dt_Movimiento.Rows(0)("cMov_FechaDevolucion").ToString()
-
         Dim c_cFechaReserva As String = dt_Movimiento.Rows(0)("cMovReserva_fecha").ToString()
-
         Dim c_cEstado As String = dt_Movimiento.Rows(0)("cEstado_Mov").ToString()
-
         Dim c_cPrestProvincia As String = dt_Movimiento.Rows(0)("cPrest_a_Prov").ToString()
         Dim c_cPrestEspecial As String = dt_Movimiento.Rows(0)("cPrest_Especial").ToString()
 
-
         txt_codEmpleado.Text = c_cCodEmpleado.Trim
-        'txt_nombreLector.Text = c_cNombres
-        'txt_A_CodEmpleado.InnerText = c_cCodEmpleado.Trim
         txt_A_NombreEmpleado.InnerText = c_cNombres.Trim
-
-
         txt_codRegistroLibro.Text = c_cCodRegistroLibro.Trim
-        'txt_LibroTitulo.Text = c_cTituloLibro.Trim
-        'txt_A_CodRegistroLibro.InnerText = c_cCodRegistroLibro.Trim
         txt_A_Librotitulo.InnerText = c_cTituloLibro.Trim
 
         If c_cPrestProvincia = "0" Then
             chk_PProvincia.Checked = False
-
         ElseIf c_cPrestProvincia = "1" Then
             chk_PProvincia.Checked = True
         End If
 
         If c_cPrestEspecial.Trim = "0" Then
             chk_PEspecial.Checked = False
-
         ElseIf c_cPrestEspecial.Trim = "1" Then
             chk_PEspecial.Checked = True
         End If
 
-
         If c_cEstado = "0" Then
             Dim tupla_FechaHora As Tuple(Of String, String) = Formato_Fecha_Hora()
             txt_FechaPrestamo.Text = (tupla_FechaHora.Item1)
-
         Else
             txt_FechaPrestamo.Text = c_cFechaPrestamo.Trim
             txt_FechaDevolucion.Text = c_cFechaDevolucion.Trim
         End If
 
-
-        'txt_FechaPrestamo.Text = c_cFechaPrestamo.Trim
-        'txt_FechaDevolucion.Text = c_cFechaDevolucion.Trim
-
         txt_FechaReserva.Text = c_cFechaReserva.Trim
-
-
         txt_CodPrestamo2.Text = c_cIdPrestamo
         lbl_IdPrestamo.Text = c_cIdPrestamo
-
         cbox_EstadoPrestamo.SelectedIndex = -1
+
         If IsDBNull(c_cEstado.ToString) Or c_cEstado.ToString = "" Then
             cbox_EstadoPrestamo.Items.FindByValue("0").Selected = True
         Else
             cbox_EstadoPrestamo.Items.FindByValue(Trim(Left(c_cEstado.ToString, 4))).Selected = True
         End If
-
-
-
-
-
     End Sub
-
-
-
-
 
     '======================================================GRIDVIEW LECTOR========================================================================'
 
@@ -1543,10 +1175,8 @@ Public Class frm_prestamoLibro
 
             End If
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
-            'lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
-            'lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
@@ -1556,47 +1186,30 @@ Public Class frm_prestamoLibro
             'Realizo paginación de gdv_Lista
             grv_Lector.PageIndex = e.NewPageIndex
 
-
             If Session("sBusqueda") = "0" Then
-
-
-
                 ' lbl_Valida.Text = Session("gdv_Lista")
             ElseIf Session("sBusqueda") = "1" Then
                 Dim valor As String = Session("vBusqueda")
-
                 Dim vBandera As String = Session("vBandera")
-
                 'GridView
                 grv_Lector.DataSource = cls_Metodos.BuscarLector(valor, vBandera)
                 grv_Lector.DataBind()
             End If
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
-            'lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
-            'lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
-
-
-
 
     '=============================SELECCION DE UN REGISTRO DEL GRID VIEW========================================
     Protected Sub grv_Lector_SelectedIndexChanged(sender As Object, e As EventArgs) Handles grv_Lector.SelectedIndexChanged ' Muestra en los campos la informacion del libro seleccionado
         Try
             Dim v_codEmpleado As String = TryCast(grv_Lector.SelectedRow.FindControl("lbl_codEmpleado"), Label).Text 'Capturo el valor de lbl_codEmpleado
-
             Session("codEmpleado") = v_codEmpleado
-
             Listar_RegistroLector(v_codEmpleado)
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
-            'lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
-            'lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
@@ -1647,15 +1260,10 @@ Public Class frm_prestamoLibro
                 CType(e.Row.FindControl("lbl_Titulo"), WebControls.Label).Text = c_cTitulo
                 CType(e.Row.FindControl("lbl_Autor"), WebControls.Label).Text = c_cAutor
                 CType(e.Row.FindControl("lbl_Estado"), WebControls.Label).Text = c_cEstado
-
-
-
             End If
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
         End Try
     End Sub
 
@@ -1664,59 +1272,33 @@ Public Class frm_prestamoLibro
         Try
             'Realizo paginación de gdv_Lista
             grv_Libro.PageIndex = e.NewPageIndex
-
-
             If Session("sBusqueda") = "0" Then
-
-
-
                 ' lbl_Valida.Text = Session("gdv_Lista")
             ElseIf Session("sBusqueda") = "1" Then
                 Dim valor As String = Session("vBusqueda")
-
                 Dim vBandera As String = Session("vBandera")
-
                 'GridView
                 grv_Libro.DataSource = cls_Metodos.BuscarLibro(valor, vBandera)
                 grv_Libro.DataBind()
             End If
-
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
-            'lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
-            'lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
-
-
-
 
     '=============================SELECCION DE UN REGISTRO DEL GRID VIEW========================================
     Protected Sub grv_Libro_SelectedIndexChanged(sender As Object, e As EventArgs) Handles grv_Libro.SelectedIndexChanged ' Muestra en los campos la informacion del libro seleccionado
         Try
             Dim v_codRegistro As String = TryCast(grv_Libro.SelectedRow.FindControl("lbl_CodRegistro"), Label).Text 'Capturo el valor de lbl_codRegistro
-
-
             Session("codRegistroLibro") = v_codRegistro
-
-
             Listar_RegistroLibro(v_codRegistro)
-
             imgDisponible.Visible = True
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
         End Try
     End Sub
-
-
-
-
 
     '======================================================GRIDVIEW PRESTAMO========================================================================'
 
@@ -1740,17 +1322,12 @@ Public Class frm_prestamoLibro
                     c_cNombres = " "
                 End If
 
-
-
                 Dim c_cCodClasificacion As String
                 If Not IsDBNull(dr("cLibro_CodClasificacion")) Then
                     c_cCodClasificacion = dr("cLibro_CodClasificacion")
                 Else
                     c_cCodClasificacion = " "
                 End If
-
-
-
 
                 Dim c_cCodRegistroLibro As String
                 If Not IsDBNull(dr("cLibro_CodNumerico")) Then
@@ -1787,13 +1364,6 @@ Public Class frm_prestamoLibro
                     c_cFechaReserva = "--/--/--r"
                 End If
 
-                'Dim c_cEstadoOperacion As String                       ANTIGUO TIPO OPERACION
-                'If Not IsDBNull(dr("ctipo_operacion")) Then
-                '    c_cEstadoOperacion = dr("ctipo_operacion")
-                'Else
-                '    c_cEstadoOperacion = " "
-                'End If
-
                 Dim c_cEstadoOperacionViejo As String
                 If Not IsDBNull(dr("ctipo_operacion")) Then
                     c_cEstadoOperacionViejo = dr("ctipo_operacion")
@@ -1817,25 +1387,19 @@ Public Class frm_prestamoLibro
 
                 CType(e.Row.FindControl("lbl_codEmpleado"), WebControls.Label).Text = c_cCodEmpleado
                 CType(e.Row.FindControl("lbl_nombreEmpleado"), WebControls.Label).Text = c_cNombres
-
                 CType(e.Row.FindControl("lbl_CodClasificacion"), WebControls.Label).Text = c_cCodClasificacion
                 CType(e.Row.FindControl("lbl_CodRegistroLibro"), WebControls.Label).Text = c_cCodRegistroLibro
                 CType(e.Row.FindControl("lbl_TituloLibro"), WebControls.Label).Text = c_cTituloLibro
-
                 CType(e.Row.FindControl("lbl_FechaPrestamo"), WebControls.Label).Text = c_cFechaPrestamo
                 CType(e.Row.FindControl("lbl_FechaDevolucion"), WebControls.Label).Text = c_cFechaDevolucion
                 CType(e.Row.FindControl("lbl_FechaReserva"), WebControls.Label).Text = c_cFechaReserva
                 CType(e.Row.FindControl("lbl_Estado"), WebControls.Label).Text = c_cEstadoOperacionViejo
                 CType(e.Row.FindControl("lbl_EstadoN"), WebControls.Label).Text = c_cEstadoOperacion
                 CType(e.Row.FindControl("lbl_CodPrestamo"), WebControls.Label).Text = c_cIdPrestamo
-
-
             End If
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
-            'lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
-            'lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
+            lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
         End Try
     End Sub
 
@@ -1844,105 +1408,69 @@ Public Class frm_prestamoLibro
         Try
             'Realizo paginación de gdv_Lista
             grv_Prestamo.PageIndex = e.NewPageIndex
-
             If Session("sBusqueda") = "0" Then
                 cargarLista50()
-
-
-                ' lbl_Valida.Text = Session("gdv_Lista")
             ElseIf Session("sBusqueda") = "1" Then
                 Dim valor As String = Session("vBusqueda")
-
                 Dim vBandera As String = Session("vBandera")
-
                 'GridView
                 grv_Prestamo.DataSource = cls_Metodos.BuscarPestamo(valor, vBandera)
                 grv_Prestamo.DataBind()
             End If
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
             btn_BuscarPrestamo.Visible = False
         End Try
     End Sub
 
-
-
-
     '=============================SELECCION DE UN REGISTRO DEL GRID VIEW========================================
     Protected Sub grv_Prestamo_SelectedIndexChanged(sender As Object, e As EventArgs) Handles grv_Prestamo.SelectedIndexChanged ' Muestra en los campos la informacion del libro seleccionado
         Try
             Dim v_codPrestamo As String = TryCast(grv_Prestamo.SelectedRow.FindControl("lbl_CodPrestamo"), Label).Text 'Capturo el valor de lbl_codEmpleado
-
             Listar_RegistroPrestamo(v_codPrestamo)
-
             lbl_Valida.Text = "Ha seleccionado un registro de la grilla"
             lbl_Valida.ForeColor = System.Drawing.Color.DarkOrange
 
             If rdb_devolucion.Checked Then
                 cbox_EstadoPrestamo.Items.FindByValue("4").Enabled = True
                 cbox_EstadoPrestamo.Items.FindByValue("4").Selected = True
-
                 cbox_EstadoPrestamo.Items.FindByValue("-1").Enabled = False
                 cbox_EstadoPrestamo.Items.FindByValue("1").Enabled = False
                 cbox_EstadoPrestamo.Items.FindByValue("0").Enabled = False
                 cbox_EstadoPrestamo.Items.FindByValue("5").Enabled = False
-                'cbox_EstadoPrestamo.Items.FindByValue("CSAL").Enabled = False
-                'cbox_EstadoPrestamo.Items.FindByValue("ANUL").Enabled = False
-
             ElseIf rdb_PrestarReservasAnul.Checked Then
                 cbox_EstadoPrestamo.Items.FindByValue("4").Enabled = False
-                ' cbox_EstadoPrestamo.Items.FindByValue("CSAL").Enabled = False
                 cbox_EstadoPrestamo.Items.FindByValue("1").Enabled = True
                 cbox_EstadoPrestamo.Items.FindByValue("0").Enabled = True
                 cbox_EstadoPrestamo.Items.FindByValue("5").Enabled = True
-                'cbox_EstadoPrestamo.Items.FindByValue("CSAL").Enabled = True
-                'cbox_EstadoPrestamo.Items.FindByValue("ANUL").Enabled = True
             End If
-
-
-            'gdv_Lista.Columns(11).Visible = False
             Validacion("Gdv_Lista_Select")
-
         Catch ex As Exception
-            'lbl_Valida.Text = "{Por el momento no puede grabar log, error en la consulta a la base de datos}"
             lbl_Valida.Text = ex.Message 'Muestra mensaje original del error.
             lbl_Valida.ForeColor = System.Drawing.Color.Red
-            'btnBuscar.Visible = False
         End Try
     End Sub
 
     Private Sub cboxBusqueda_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cboxBusqueda.SelectedIndexChanged
         txt_ValorPrestamo.Text = ""
-
         If cboxBusqueda.SelectedIndex = 0 Then              'BÚSQUEDA POR COD DE EMPLEADO
             txt_ValorPrestamo.MaxLength = 8
-            'txt_ValorPrestamo.Attributes.Add("onKeyup", "onKeyup = verificarBusqMantenimientoLibro(this);")
             txt_ValorPrestamo.Attributes.Add("placeholder", "(Buscar por Cód de empleado)")
-
         ElseIf cboxBusqueda.SelectedIndex = 1 Then          'BÚSQUEDA POR DNI
             txt_ValorPrestamo.MaxLength = 8
-            'txt_ValorPrestamo.Attributes.Add("onKeyup", "onKeyup = verificarBusqMantenimientoLibro(this);")
             txt_ValorPrestamo.Attributes.Add("placeholder", "(Buscar por DNI)")
-
         ElseIf cboxBusqueda.SelectedIndex = 2 Then          'BÚSQUEDA POR APELLIDO O NOMBRE
             txt_ValorPrestamo.MaxLength = 30
-            'txt_ValorPrestamo.Attributes.Add("onKeyup", "onKeyup = verificarBusqMantenimientoLibro(this);")
             txt_ValorPrestamo.Attributes.Add("placeholder", "(Buscar por apellido o nombre)")
-
         ElseIf cboxBusqueda.SelectedIndex = 3 Then          'BÚSQUEDA POR COD DE REGISTRO DE LIBRO
             txt_ValorPrestamo.MaxLength = 6
-            'txt_ValorPrestamo.Attributes.Add("onKeyup", "onKeyup = verificarBusqMantenimientoLibro(this);")
             txt_ValorPrestamo.Attributes.Add("placeholder", "(Buscar por Cód Registro Libro)")
         End If
     End Sub
 
-
     Private Sub cbox_CodRegistroLibro_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbox_CodRegistroLibro.SelectedIndexChanged
         txt_ValorLibro.Text = ""
-
         If cbox_CodRegistroLibro.SelectedIndex = 0 Then              'BÚSQUEDA POR COD DE REGISTRO
             txt_ValorLibro.MaxLength = 5
             txt_ValorLibro.Attributes.Add("onKeyup", "onKeyup = verificarBusqLibro(this);")
@@ -1965,4 +1493,104 @@ Public Class frm_prestamoLibro
             btnMas8.Enabled = False
         End If
     End Sub
+
+    Private Sub Exportar_Reporte(ByVal FormatoReporte As String, ByVal v_TipoReporte As String)
+        'AQUI EXPORTO UTILIZANDO DE NUEVO LOS FILTROS DEBIDO A QUE EL DATASET XSD RECIEN SE VA A CARGAR EN ESTE PROCESO.
+        Dim vValor As String
+        Dim vBandera As String
+
+        '-----------CASO TIPO REPORTE RPT---------------------------
+        If v_TipoReporte = "rptFichaHistoriaLectorPrest" Then
+
+            vValor = Session("codEmpleado")
+            vBandera = "7"
+
+            '-----------REALIZA LA CONSULTA SEGUN LOS FILTROS UTILIZADOS-------
+            Dim ds_Consulta_Reporte01 As DataSet = cls_Metodos.BuscarPestamo(vValor, vBandera)
+            '-------SI EXISTEN REGISTROS, SE CARGA EL REPORTE--------
+            Dim dts_HistorialPrestLector As New dts_HistorialPrestLector() ' Crea un nuevo dataset tipo xsd
+
+            For Each dr_Consulta_Reporte01 As DataRow In ds_Consulta_Reporte01.Tables(0).Rows 'Puebla el dataset ds_Reporte01
+                dts_HistorialPrestLector.Tables(0).Rows.Add(dr_Consulta_Reporte01.ItemArray) ' En base a la primera consulta realiza el llenado deds_Reporteo1
+            Next
+
+            rv_General.ProcessingMode = ProcessingMode.Local 'Invoca proceso del reportviewer
+            rv_General.LocalReport.ReportPath = Server.MapPath("~/Reportes/" & v_TipoReporte & ".rdlc") 'localiza la plantilla rdlc
+            Dim Movimiento_Rpt As New ReportDataSource("dt_HistPrestLector", dts_HistorialPrestLector.Tables(0)) 'se crea un datasource en base al dataset "ds_Movimiento" y busca el datatable "Movimiento"
+            rv_General.LocalReport.DataSources.Clear() 'Inicia la carga de datasource
+            rv_General.LocalReport.DataSources.Add(Movimiento_Rpt)
+
+        ElseIf v_TipoReporte = "rptFichaHistoriaLibroPrest" Then
+
+            vValor = Session("codRegistroLibro")
+            vBandera = "6"
+
+            '-----------REALIZA LA CONSULTA SEGUN LOS FILTROS UTILIZADOS-------
+            Dim ds_Consulta_Reporte01 As DataSet = cls_Metodos.BuscarPestamo(vValor, vBandera)
+            '-------SI EXISTEN REGISTROS, SE CARGA EL REPORTE--------
+            Dim dtsFichaPrestamo As New dtsFichaPrestamo() ' Crea un nuevo dataset tipo xsd
+
+            For Each dr_Consulta_Reporte01 As DataRow In ds_Consulta_Reporte01.Tables(0).Rows 'Puebla el dataset ds_Reporte01
+                dtsFichaPrestamo.Tables(0).Rows.Add(dr_Consulta_Reporte01.ItemArray) ' En base a la primera consulta realiza el llenado deds_Reporteo1
+            Next
+
+            rv_General.ProcessingMode = ProcessingMode.Local 'Invoca proceso del reportviewer
+            rv_General.LocalReport.ReportPath = Server.MapPath("~/Reportes/" & v_TipoReporte & ".rdlc") 'localiza la plantilla rdlc
+            Dim Movimiento_Rpt As New ReportDataSource("dt_Ficha_Prestamo", dtsFichaPrestamo.Tables(0)) 'se crea un datasource en base al dataset "ds_Movimiento" y busca el datatable "Movimiento"
+            rv_General.LocalReport.DataSources.Clear() 'Inicia la carga de datasource
+            rv_General.LocalReport.DataSources.Add(Movimiento_Rpt)
+
+        ElseIf v_TipoReporte = "rptFichaPrestamo" Then
+
+            '-----------REALIZA LA CONSULTA SEGUN LOS FILTROS UTILIZADOS-------
+            vValor = txt_CodPrestamo2.Text.Trim
+            vBandera = "5"
+
+            Dim ds_Consulta_Reporte01 As DataSet = cls_Metodos.BuscarPestamo(vValor, vBandera)
+
+            '-------SI EXISTEN REGISTROS, SE CARGA EL REPORTE--------
+            Dim ds_Reporte01 As New dtsFichaPrestamo() ' Crea un nuevo dataset tipo xsd
+
+            For Each dr_Consulta_Reporte01 As DataRow In ds_Consulta_Reporte01.Tables(0).Rows 'Puebla el dataset ds_Reporte01
+                ds_Reporte01.Tables(0).Rows.Add(dr_Consulta_Reporte01.ItemArray) ' En base a la primera consulta realiza el llenado deds_Reporteo1
+            Next
+
+            rv_General.ProcessingMode = ProcessingMode.Local 'Invoca proceso del reportviewer
+            rv_General.LocalReport.ReportPath = Server.MapPath("~/Reportes/" & v_TipoReporte & ".rdlc") 'localiza la plantilla rdlc
+            Dim parameters As New List(Of ReportParameter)() 'Creo una lista para llenar los parametros del RDLC con los sgtes datos
+            rv_General.LocalReport.SetParameters(parameters) 'Luego de dar valores los setteo en el reportViewer
+            Dim Movimiento_Rpt As New ReportDataSource("dt_Ficha_Prestamo", ds_Reporte01.Tables(0)) 'se crea un datasource en base al dataset "ds_Movimiento" y busca el datatable "Movimiento"
+            rv_General.LocalReport.DataSources.Clear() 'Inicia la carga de datasource
+            rv_General.LocalReport.DataSources.Add(Movimiento_Rpt)
+
+        Else
+            lbl_Valida.ForeColor = System.Drawing.Color.Red
+            lbl_Valida.Text = "El tipo de Reporte no existe o es incorrecto"
+            Exit Sub
+        End If
+
+        '----Declaraciones de variables igualadas a Nothing----
+        Dim warnings As Warning() = Nothing
+        Dim streamids As String() = Nothing
+        Dim mimeType As String = Nothing
+        Dim contentType As String = Nothing
+        Dim encoding As String = Nothing
+        Dim extension As String = Nothing
+
+        '----Exporta el reporte RDLC as un arreglo de bytes, rb_format es el formato elegido en la pagina ASPX
+        Dim bytes As Byte() = rv_General.LocalReport.Render(FormatoReporte, Nothing, mimeType, contentType, encoding, extension, streamids, warnings)
+
+        '----Descarga el reporte RDLC en formato word, Excel, PDF
+        Response.Clear()
+        Response.Buffer = True
+        Response.Charset = ""
+        Response.Cache.SetCacheability(HttpCacheability.NoCache) 'No guarda cache en la creacion del archivo
+        Response.ContentType = contentType
+        Response.AppendHeader("Content-Disposition", "attachment; filename=" & v_TipoReporte & "." & extension) 'El nombre del archivo de salida
+        Response.BinaryWrite(bytes)
+        Response.Flush()
+        Response.End()
+    End Sub
+
+
 End Class
