@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsLibros" targetNamespace="http://tempuri.org/dtsLibros.xsd" xmlns:mstns="http://tempuri.org/dtsLibros.xsd" xmlns="http://tempuri.org/dtsLibros.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsLibros" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsLibros" msprop:Generator_UserDSName="dtsLibros">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_Libros" msprop:Generator_TableClassName="DataTable_LibrosDataTable" msprop:Generator_TableVarName="tableDataTable_Libros" msprop:Generator_RowChangedName="DataTable_LibrosRowChanged" msprop:Generator_TablePropName="DataTable_Libros" msprop:Generator_RowDeletingName="DataTable_LibrosRowDeleting" msprop:Generator_RowChangingName="DataTable_LibrosRowChanging" msprop:Generator_RowEvHandlerName="DataTable_LibrosRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_LibrosRowDeleted" msprop:Generator_RowClassName="DataTable_LibrosRow" msprop:Generator_UserTableName="DataTable_Libros" msprop:Generator_RowEvArgName="DataTable_LibrosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cLibro_CodNumerico" msprop:Generator_ColumnVarNameInTable="columncLibro_CodNumerico" msprop:Generator_ColumnPropNameInRow="cLibro_CodNumerico" msprop:Generator_ColumnPropNameInTable="cLibro_CodNumericoColumn" msprop:Generator_UserColumnName="cLibro_CodNumerico" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Titulo" msprop:Generator_ColumnVarNameInTable="columncLibro_Titulo" msprop:Generator_ColumnPropNameInRow="cLibro_Titulo" msprop:Generator_ColumnPropNameInTable="cLibro_TituloColumn" msprop:Generator_UserColumnName="cLibro_Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Estado" msprop:Generator_ColumnVarNameInTable="columncLibro_Estado" msprop:Generator_ColumnPropNameInRow="cLibro_Estado" msprop:Generator_ColumnPropNameInTable="cLibro_EstadoColumn" msprop:Generator_UserColumnName="cLibro_Estado" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_FechaReg" msprop:Generator_ColumnVarNameInTable="columncLibro_FechaReg" msprop:Generator_ColumnPropNameInRow="cLibro_FechaReg" msprop:Generator_ColumnPropNameInTable="cLibro_FechaRegColumn" msprop:Generator_UserColumnName="cLibro_FechaReg" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_HoraReg" msprop:Generator_ColumnVarNameInTable="columncLibro_HoraReg" msprop:Generator_ColumnPropNameInRow="cLibro_HoraReg" msprop:Generator_ColumnPropNameInTable="cLibro_HoraRegColumn" msprop:Generator_UserColumnName="cLibro_HoraReg" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Edicion" msprop:Generator_ColumnVarNameInTable="columncLibro_Edicion" msprop:Generator_ColumnPropNameInRow="cLibro_Edicion" msprop:Generator_ColumnPropNameInTable="cLibro_EdicionColumn" msprop:Generator_UserColumnName="cLibro_Edicion" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Anno" msprop:Generator_ColumnVarNameInTable="columncLibro_Anno" msprop:Generator_ColumnPropNameInRow="cLibro_Anno" msprop:Generator_ColumnPropNameInTable="cLibro_AnnoColumn" msprop:Generator_UserColumnName="cLibro_Anno" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Autor" msprop:Generator_ColumnVarNameInTable="columncLibro_Autor" msprop:Generator_ColumnPropNameInRow="cLibro_Autor" msprop:Generator_ColumnPropNameInTable="cLibro_AutorColumn" msprop:Generator_UserColumnName="cLibro_Autor" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CodClasificacion" msprop:Generator_ColumnVarNameInTable="columncLibro_CodClasificacion" msprop:Generator_ColumnPropNameInRow="cLibro_CodClasificacion" msprop:Generator_ColumnPropNameInTable="cLibro_CodClasificacionColumn" msprop:Generator_UserColumnName="cLibro_CodClasificacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Categoria" msprop:Generator_ColumnVarNameInTable="columncLibro_Categoria" msprop:Generator_ColumnPropNameInRow="cLibro_Categoria" msprop:Generator_ColumnPropNameInTable="cLibro_CategoriaColumn" msprop:Generator_UserColumnName="cLibro_Categoria" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Detalles" msprop:Generator_ColumnVarNameInTable="columncLibro_Detalles" msprop:Generator_ColumnPropNameInRow="cLibro_Detalles" msprop:Generator_ColumnPropNameInTable="cLibro_DetallesColumn" msprop:Generator_UserColumnName="cLibro_Detalles" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Idioma" msprop:Generator_ColumnVarNameInTable="columncLibro_Idioma" msprop:Generator_ColumnPropNameInRow="cLibro_Idioma" msprop:Generator_ColumnPropNameInTable="cLibro_IdiomaColumn" msprop:Generator_UserColumnName="cLibro_Idioma" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_NroEjemp" msprop:Generator_ColumnVarNameInTable="columncLibro_NroEjemp" msprop:Generator_ColumnPropNameInRow="cLibro_NroEjemp" msprop:Generator_ColumnPropNameInTable="cLibro_NroEjempColumn" msprop:Generator_UserColumnName="cLibro_NroEjemp" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Modo" msprop:Generator_ColumnVarNameInTable="columncLibro_Modo" msprop:Generator_ColumnPropNameInRow="cLibro_Modo" msprop:Generator_ColumnPropNameInTable="cLibro_ModoColumn" msprop:Generator_UserColumnName="cLibro_Modo" type="xs:string" minOccurs="0" />
+              <xs:element name="cPie_Imprenta" msprop:Generator_ColumnVarNameInTable="columncPie_Imprenta" msprop:Generator_ColumnPropNameInRow="cPie_Imprenta" msprop:Generator_ColumnPropNameInTable="cPie_ImprentaColumn" msprop:Generator_UserColumnName="cPie_Imprenta" type="xs:string" minOccurs="0" />
+              <xs:element name="cTipo" msprop:Generator_ColumnVarNameInTable="columncTipo" msprop:Generator_ColumnPropNameInRow="cTipo" msprop:Generator_ColumnPropNameInTable="cTipoColumn" msprop:Generator_UserColumnName="cTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_PrecioS" msprop:Generator_ColumnVarNameInTable="columncLibro_PrecioS" msprop:Generator_ColumnPropNameInRow="cLibro_PrecioS" msprop:Generator_ColumnPropNameInTable="cLibro_PrecioSColumn" msprop:Generator_UserColumnName="cLibro_PrecioS" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_PrecioD" msprop:Generator_ColumnVarNameInTable="columncLibro_PrecioD" msprop:Generator_ColumnPropNameInRow="cLibro_PrecioD" msprop:Generator_ColumnPropNameInTable="cLibro_PrecioDColumn" msprop:Generator_UserColumnName="cLibro_PrecioD" type="xs:string" minOccurs="0" />
+              <xs:element name="cMaterias" msprop:Generator_ColumnVarNameInTable="columncMaterias" msprop:Generator_ColumnPropNameInRow="cMaterias" msprop:Generator_ColumnPropNameInTable="cMateriasColumn" msprop:Generator_UserColumnName="cMaterias" type="xs:string" minOccurs="0" />
+              <xs:element name="cNroPaginas" msprop:Generator_ColumnVarNameInTable="columncNroPaginas" msprop:Generator_ColumnPropNameInRow="cNroPaginas" msprop:Generator_ColumnPropNameInTable="cNroPaginasColumn" msprop:Generator_UserColumnName="cNroPaginas" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_ISBN" msprop:Generator_ColumnVarNameInTable="columncLibro_ISBN" msprop:Generator_ColumnPropNameInRow="cLibro_ISBN" msprop:Generator_ColumnPropNameInTable="cLibro_ISBNColumn" msprop:Generator_UserColumnName="cLibro_ISBN" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CD" msprop:Generator_ColumnVarNameInTable="columncLibro_CD" msprop:Generator_ColumnPropNameInRow="cLibro_CD" msprop:Generator_ColumnPropNameInTable="cLibro_CDColumn" msprop:Generator_UserColumnName="cLibro_CD" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_MesAnno_CompraLibro" msprop:Generator_ColumnVarNameInTable="columncMov_MesAnno_CompraLibro" msprop:Generator_ColumnPropNameInRow="cMov_MesAnno_CompraLibro" msprop:Generator_ColumnPropNameInTable="cMov_MesAnno_CompraLibroColumn" msprop:Generator_UserColumnName="cMov_MesAnno_CompraLibro" type="xs:string" minOccurs="0" />
+              <xs:element name="cEstado_libro" msprop:Generator_ColumnVarNameInTable="columncEstado_libro" msprop:Generator_ColumnPropNameInRow="cEstado_libro" msprop:Generator_ColumnPropNameInTable="cEstado_libroColumn" msprop:Generator_UserColumnName="cEstado_libro" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

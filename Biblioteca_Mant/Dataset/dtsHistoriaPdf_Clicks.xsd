@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsHistoriaPdf_Clicks" targetNamespace="http://tempuri.org/dtsHistoriaPdf_Clicks.xsd" xmlns:mstns="http://tempuri.org/dtsHistoriaPdf_Clicks.xsd" xmlns="http://tempuri.org/dtsHistoriaPdf_Clicks.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsHistoriaPdf_Clicks" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsHistoriaPdf_Clicks" msprop:Generator_UserDSName="dtsHistoriaPdf_Clicks">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_HistorialPdf_Clicks" msprop:Generator_TableClassName="DataTable_HistorialPdf_ClicksDataTable" msprop:Generator_TableVarName="tableDataTable_HistorialPdf_Clicks" msprop:Generator_TablePropName="DataTable_HistorialPdf_Clicks" msprop:Generator_RowDeletingName="DataTable_HistorialPdf_ClicksRowDeleting" msprop:Generator_RowChangingName="DataTable_HistorialPdf_ClicksRowChanging" msprop:Generator_RowEvHandlerName="DataTable_HistorialPdf_ClicksRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_HistorialPdf_ClicksRowDeleted" msprop:Generator_UserTableName="DataTable_HistorialPdf_Clicks" msprop:Generator_RowChangedName="DataTable_HistorialPdf_ClicksRowChanged" msprop:Generator_RowEvArgName="DataTable_HistorialPdf_ClicksRowChangeEvent" msprop:Generator_RowClassName="DataTable_HistorialPdf_ClicksRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cLibro_CodReg" msprop:Generator_ColumnVarNameInTable="columncLibro_CodReg" msprop:Generator_ColumnPropNameInRow="cLibro_CodReg" msprop:Generator_ColumnPropNameInTable="cLibro_CodRegColumn" msprop:Generator_UserColumnName="cLibro_CodReg" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Titulo" msprop:Generator_ColumnVarNameInTable="columncLibro_Titulo" msprop:Generator_ColumnPropNameInRow="cLibro_Titulo" msprop:Generator_ColumnPropNameInTable="cLibro_TituloColumn" msprop:Generator_UserColumnName="cLibro_Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="as_nroreg" msprop:Generator_ColumnVarNameInTable="columnas_nroreg" msprop:Generator_ColumnPropNameInRow="as_nroreg" msprop:Generator_ColumnPropNameInTable="as_nroregColumn" msprop:Generator_UserColumnName="as_nroreg" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

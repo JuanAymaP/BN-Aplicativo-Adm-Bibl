@@ -1,0 +1,224 @@
+﻿#bn-contenidos {
+    margin: 0 auto;
+    width: 1001px;
+}
+
+.visa {
+    position: absolute;
+    top: 90px;
+    left: 45px;
+}
+
+/*Tamaño Icono Chrome*/
+.icono_Chorme {
+    width: 26px;
+    height: 26px;
+    border-radius:100%;
+}
+/*------------------*/
+#bn-contenidos #cuerpo form {
+    background: url(../../Imagenes/Login/img_bgLogin2.jpg) no-repeat;
+    height: 420px;
+    float: left;
+    margin: 30px 0px 0px 400px;
+    padding: 0px 0px 0px 0px;
+    width: 562px;
+    text-align: center;
+}
+
+    #bn-contenidos #cuerpo form h2 {
+        color: #fff;
+        font: 19px/39px 'daxcompact-regularregular';
+        height: 39px;
+        text-align: center;
+    }
+
+#bn-contenidos #cuerpo h2 {
+    color: #343434;
+    font: 18px/39px 'daxcompact-regularregular';
+    height: 39px;
+    text-align: center;
+    font: 22px 'daxcompact-boldregular';
+}
+
+#bn-contenidos #cuerpo form .limpiar {
+    padding: 0px 0px 17px 0px;
+}
+
+#bn-contenidos #cuerpo form label {
+    color: #444444;
+    cursor: pointer;
+    font: 13px/23px arial;
+    text-align: right;
+    float: left;
+    padding: 0px 5px 0px 30px; /*centro los labels y los texboxes*/
+    width: 100px;
+}
+
+/*Estilo del los textbox login*/
+#bn-contenidos #cuerpo form input.grande {
+   /* background: url(../../Imagenes/Login/img_InputGrande.jpg) no-repeat;*/
+    border:solid;
+    border-width:1px;
+    border-color:gray;
+    float: left;
+    color: #444444;
+    border-radius:5px;
+    font: 13px/23px arial;
+    padding: 0px 10px;
+    height: 23px;
+    width: 120px;
+}
+/*--------------------------------*/
+
+/*#bn-contenidos #cuerpo form input.pequeno {
+    background: url(../img/plantillaBN/input-pequeno.jpg) no-repeat;
+    border: none;
+    color: #444444;
+    float: left;
+    font: 13px/23px arial;
+    padding: 0px 10px;
+    height: 23px;
+    width: 165px;
+}
+*/
+
+/*Estilos para las etiquetas <p>*/
+#bn-contenidos #cuerpo form p.center {
+    text-align: center;
+}
+
+    #bn-contenidos #cuerpo form p.center a {
+        color: #c00a13;
+        font: italic 11px arial;
+        margin: 0px 0px 0px 138px;
+        text-decoration: underline;
+    }
+/*--------------------------------*/
+
+#bn-contenidos #cuerpo form input[type="submit"] {
+    background: url(../../Imagenes/Login/img_Boton.jpg) no-repeat;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px 0px 0px 0px; /*Margenes del boton ingresar*/
+    height: 33px;
+    font: 18px/33px 'daxcompact-mediumregular';
+    width: 120px;
+}
+
+.commandButton {
+    background: url(../../Imagenes/Login/img_Boton.jpg) no-repeat;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 33px;
+    font: 18px/33px 'daxcompact-mediumregular';
+    width: 120px;
+}
+
+
+/*#bn-contenidos #cuerpo form input[type="submit"]:hover {
+    background: url(../../Imagenes/Login/img_BotonActive.jpg) no-repeat;
+}
+
+.commandButton:hover {
+    background: url(../../Imagenes/Login/img_BotonActive.jpg) no-repeat;
+}*/
+
+#bn-contenidos #cuerpo form .texto {
+    position: absolute;
+    left: 95px;
+    top: 84px;
+    width: 260px;
+}
+
+#bn-contenidos #cuerpo form .texto-olvide-clave {
+    margin: 20px 0px 0px 0px;
+    bottom: 65px;
+    right: 102px;
+}
+
+#bn-contenidos #cuerpo form .texto-olvide-clave {
+    color: #ba1113;
+    font: 11px arial;
+}
+
+    #bn-contenidos #cuerpo form .texto-olvide-clave a {
+        color: #ba1113;
+        text-decoration: underline;
+    }
+
+        #bn-contenidos #cuerpo form .texto-olvide-clave a:hover {
+            text-decoration: none;
+        }
+
+#bn-contenidos #cuerpo form .texto-usuario {
+    position: absolute;
+    color: #676767;
+    font: 13px/16px 'daxcompact-mediumregular';
+    right: 75px;
+    top: 228px;
+    width: 80px;
+}
+
+#bn-contenidos #cuerpo form p {
+    color: #000;
+    font:  12px/20px arial;
+    padding: 0px 0px 30px 0px;
+}
+
+    #bn-contenidos #cuerpo form p.tributos {
+        color: #444444;
+        font:  12px/20px arial;
+        padding: 0px 0px 9px 0px;
+    }
+
+
+#bn-contenidos #cuerpo form .etiquetas-form {
+    padding: 25px 0px 0px 12px;
+    width: 432px;
+    margin: 0 auto;
+}
+
+    #bn-contenidos #cuerpo form .etiquetas-form .titulo-form {
+        color: #343434;
+        font: 22px 'daxcompact-boldregular';
+        text-align: center;
+        padding: 0px 0px 22px 0px;
+    }
+
+#pie-pagina {
+    color: #676767;
+    text-align: center;
+    font: 11px arial;
+    padding: 26px 0px 30px 0px;
+}
+
+ul.ui-selectmenu-menu {
+    width: 218px !important;
+}
+
+ul.select-chico {
+    width: 108px !important;
+}
+
+.radio-style label {
+    width: 60%
+}
+
+#listaEmpelados {
+    width: 100%;
+    margin-left: 17%;
+}
+
+#bn-contenidos #radioSelecOrg form label {
+    width: 60%;
+    text-align: left;
+}
+
+.texto{
+    width:400px;
+}

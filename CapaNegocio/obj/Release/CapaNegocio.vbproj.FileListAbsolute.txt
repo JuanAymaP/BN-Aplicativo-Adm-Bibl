@@ -1,0 +1,405 @@
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbprojAssemblyReference.cache
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+C:\OLSSA\BIBLIOTECA\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbprojAssemblyReference.cache
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+C:\PERCY2022\Proyectos\Biblioteca Rojo\VERSIONES\Octubre\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbprojAssemblyReference.cache
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy 2022\Proyectos\Desplegado\26-10-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbprojAssemblyReference.cache
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy 2022\Proyectos\Desplegado\Noviembre\03-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy\Proyectos\BIBL-ROJO\Noviembre\10-11-22 En la mañana\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\16-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\21-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\22-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\23-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\24-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\25-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\28-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\29-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Noviembre\30-11-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\02-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\05-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\06-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\12-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\Diciembre\13-12-22\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\12-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Enero\13-01-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\10-02-23 Tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Febrero\16-02-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\06-03-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\Bibl-Rojo\2023\Marzo\07-03-23 En la tarde\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Abril\17-04-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaNegocio.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.pdb
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\bin\Release\CapaDatos.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.AssemblyReference.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.Resources.resources
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.GenerateResource.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CoreCompileInputs.cache
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.vbproj.CopyComplete
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.dll
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.xml
+C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaNegocio\obj\Release\CapaNegocio.pdb

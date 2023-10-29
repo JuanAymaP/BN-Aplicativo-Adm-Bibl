@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsFichaPrestamo" targetNamespace="http://tempuri.org/dtsFichaPrestamo.xsd" xmlns:mstns="http://tempuri.org/dtsFichaPrestamo.xsd" xmlns="http://tempuri.org/dtsFichaPrestamo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsFichaPrestamo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsFichaPrestamo" msprop:Generator_UserDSName="dtsFichaPrestamo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cId_Prestamo" msprop:Generator_ColumnVarNameInTable="columncId_Prestamo" msprop:Generator_ColumnPropNameInRow="cId_Prestamo" msprop:Generator_ColumnPropNameInTable="cId_PrestamoColumn" msprop:Generator_UserColumnName="cId_Prestamo" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_FechaPedido" msprop:Generator_ColumnVarNameInTable="columncMov_FechaPedido" msprop:Generator_ColumnPropNameInRow="cMov_FechaPedido" msprop:Generator_ColumnPropNameInTable="cMov_FechaPedidoColumn" msprop:Generator_UserColumnName="cMov_FechaPedido" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_HoraPedido" msprop:Generator_ColumnVarNameInTable="columncMov_HoraPedido" msprop:Generator_ColumnPropNameInRow="cMov_HoraPedido" msprop:Generator_ColumnPropNameInTable="cMov_HoraPedidoColumn" msprop:Generator_UserColumnName="cMov_HoraPedido" type="xs:string" minOccurs="0" />
+              <xs:element name="cLector_Nombre" msprop:Generator_ColumnVarNameInTable="columncLector_Nombre" msprop:Generator_ColumnPropNameInRow="cLector_Nombre" msprop:Generator_ColumnPropNameInTable="cLector_NombreColumn" msprop:Generator_UserColumnName="cLector_Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="cLector_CodEmpleado" msprop:Generator_ColumnVarNameInTable="columncLector_CodEmpleado" msprop:Generator_ColumnPropNameInRow="cLector_CodEmpleado" msprop:Generator_ColumnPropNameInTable="cLector_CodEmpleadoColumn" msprop:Generator_UserColumnName="cLector_CodEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_oficina" msprop:Generator_ColumnVarNameInTable="columncMovReserva_oficina" msprop:Generator_ColumnPropNameInRow="cMovReserva_oficina" msprop:Generator_ColumnPropNameInTable="cMovReserva_oficinaColumn" msprop:Generator_UserColumnName="cMovReserva_oficina" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Titulo" msprop:Generator_ColumnVarNameInTable="columncLibro_Titulo" msprop:Generator_ColumnPropNameInRow="cLibro_Titulo" msprop:Generator_ColumnPropNameInTable="cLibro_TituloColumn" msprop:Generator_UserColumnName="cLibro_Titulo" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CodNumerico" msprop:Generator_ColumnVarNameInTable="columncLibro_CodNumerico" msprop:Generator_ColumnPropNameInRow="cLibro_CodNumerico" msprop:Generator_ColumnPropNameInTable="cLibro_CodNumericoColumn" msprop:Generator_UserColumnName="cLibro_CodNumerico" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CodClasificacion" msprop:Generator_ColumnVarNameInTable="columncLibro_CodClasificacion" msprop:Generator_ColumnPropNameInRow="cLibro_CodClasificacion" msprop:Generator_ColumnPropNameInTable="cLibro_CodClasificacionColumn" msprop:Generator_UserColumnName="cLibro_CodClasificacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Autor" msprop:Generator_ColumnVarNameInTable="columncLibro_Autor" msprop:Generator_ColumnPropNameInRow="cLibro_Autor" msprop:Generator_ColumnPropNameInTable="cLibro_AutorColumn" msprop:Generator_UserColumnName="cLibro_Autor" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_FechaDevolucion" msprop:Generator_ColumnVarNameInTable="columncMov_FechaDevolucion" msprop:Generator_ColumnPropNameInRow="cMov_FechaDevolucion" msprop:Generator_ColumnPropNameInTable="cMov_FechaDevolucionColumn" msprop:Generator_UserColumnName="cMov_FechaDevolucion" type="xs:string" minOccurs="0" />
+              <xs:element name="cEstado_Mov" msprop:Generator_ColumnVarNameInTable="columncEstado_Mov" msprop:Generator_ColumnPropNameInRow="cEstado_Mov" msprop:Generator_ColumnPropNameInTable="cEstado_MovColumn" msprop:Generator_UserColumnName="cEstado_Mov" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_fecha" msprop:Generator_ColumnVarNameInTable="columncMovReserva_fecha" msprop:Generator_ColumnPropNameInRow="cMovReserva_fecha" msprop:Generator_ColumnPropNameInTable="cMovReserva_fechaColumn" msprop:Generator_UserColumnName="cMovReserva_fecha" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

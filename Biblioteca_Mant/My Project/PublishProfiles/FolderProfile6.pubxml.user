@@ -1,0 +1,1008 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\PUBLICADOS\biblio_percy_rojo</_PublishTargetUrl>
+    <History>True|2022-11-29T19:30:31.7637596Z;True|2022-11-29T14:18:39.8555254-05:00;True|2022-11-29T09:58:02.6872628-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Base.Master">
+      <publishTime>11/29/2022 12:51:37</publishTime>
+    </File>
+    <File Include="bin/Biblioteca_Mant.dll">
+      <publishTime>11/29/2022 14:30:22</publishTime>
+    </File>
+    <File Include="bin/Biblioteca_Mant.pdb">
+      <publishTime>11/29/2022 14:30:22</publishTime>
+    </File>
+    <File Include="bin/Biblioteca_Mant.xml">
+      <publishTime>11/29/2022 14:30:22</publishTime>
+    </File>
+    <File Include="bin/CapaDatos.dll">
+      <publishTime>11/29/2022 14:30:19</publishTime>
+    </File>
+    <File Include="bin/CapaDatos.pdb">
+      <publishTime>11/29/2022 14:30:19</publishTime>
+    </File>
+    <File Include="bin/CapaNegocio.dll">
+      <publishTime>11/29/2022 14:30:19</publishTime>
+    </File>
+    <File Include="bin/CapaNegocio.pdb">
+      <publishTime>11/29/2022 14:30:19</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/EnvDTE.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>07/08/2020 21:52:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.MSXML.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Common.dll">
+      <publishTime>11/05/2019 10:43:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.DataVisualization.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.Design.dll">
+      <publishTime>11/05/2019 10:43:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.ProcessingObjectModel.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebDesign.dll">
+      <publishTime>11/05/2019 10:43:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WebForms.dll">
+      <publishTime>11/05/2019 10:43:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ReportViewer.WinForms.dll">
+      <publishTime>11/05/2019 10:43:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.Types.dll">
+      <publishTime>12/10/2016 15:26:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.OLE.Interop.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.8.0.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Shell.Interop.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.8.0.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.TextManager.Interop.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/pt/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/01/2018 13:23:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>11/01/2018 20:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>10/30/2018 11:39:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>11/01/2018 13:23:06</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>11/01/2018 20:08:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>11/01/2018 19:57:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/01/2018 19:57:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 01:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 01:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>10/30/2018 11:39:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/01/2018 19:57:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 11:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 11:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/15/2018 20:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 11:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 11:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 11:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 11:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 11:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 11:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 11:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 11:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 11:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 11:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 11:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/15/2018 20:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 11:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 11:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 11:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 11:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 11:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 11:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 11:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 11:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 11:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 11:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 11:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>11/01/2018 20:08:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>11/01/2018 19:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/01/2018 13:23:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/01/2018 20:08:18</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="bin/SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="bin/stdole.dll">
+      <publishTime>11/14/2022 09:32:51</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Common.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll">
+      <publishTime>11/05/2019 10:43:14</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.Design.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll">
+      <publishTime>11/05/2019 10:43:12</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="Dataset/dtsBusquedaWeb.xsc">
+      <publishTime>11/21/2022 09:25:06</publishTime>
+    </File>
+    <File Include="Dataset/dtsBusquedaWeb.xss">
+      <publishTime>11/21/2022 09:25:06</publishTime>
+    </File>
+    <File Include="Dataset/dtsFichaDetalle.xsc">
+      <publishTime>06/09/2022 12:08:47</publishTime>
+    </File>
+    <File Include="Dataset/dtsFichaDetalle.xss">
+      <publishTime>06/09/2022 12:08:47</publishTime>
+    </File>
+    <File Include="Dataset/dtsFichaPrestamo.xsc">
+      <publishTime>11/16/2022 09:47:00</publishTime>
+    </File>
+    <File Include="Dataset/dtsFichaPrestamo.xss">
+      <publishTime>11/16/2022 09:47:00</publishTime>
+    </File>
+    <File Include="Dataset/dtsHCC.xsc">
+      <publishTime>11/17/2022 12:02:23</publishTime>
+    </File>
+    <File Include="Dataset/dtsHCC.xss">
+      <publishTime>11/17/2022 12:02:23</publishTime>
+    </File>
+    <File Include="Dataset/dtsHistoriaPdf_Clicks.xsc">
+      <publishTime>06/09/2022 12:10:33</publishTime>
+    </File>
+    <File Include="Dataset/dtsHistoriaPdf_Clicks.xss">
+      <publishTime>06/09/2022 12:10:33</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibros.xsc">
+      <publishTime>11/21/2022 12:54:01</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibros.xss">
+      <publishTime>11/21/2022 12:54:01</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibrosMateria.xsc">
+      <publishTime>06/09/2022 12:11:42</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibrosMateria.xss">
+      <publishTime>06/09/2022 12:11:42</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibrosxAnno.xsc">
+      <publishTime>06/09/2022 12:12:16</publishTime>
+    </File>
+    <File Include="Dataset/dtsLibrosxAnno.xss">
+      <publishTime>06/09/2022 12:12:16</publishTime>
+    </File>
+    <File Include="Dataset/dtsPrestamos.xsc">
+      <publishTime>06/09/2022 12:12:49</publishTime>
+    </File>
+    <File Include="Dataset/dtsPrestamos.xss">
+      <publishTime>06/09/2022 12:12:49</publishTime>
+    </File>
+    <File Include="Efecto_Zoom/Scripts/jquery.ez-plus.js">
+      <publishTime>10/07/2022 11:03:16</publishTime>
+    </File>
+    <File Include="Efecto_Zoom/Scripts/jquery.min.js">
+      <publishTime>10/13/2021 11:24:26</publishTime>
+    </File>
+    <File Include="Efecto_Zoom/Scripts/main.js">
+      <publishTime>10/07/2022 11:03:55</publishTime>
+    </File>
+    <File Include="Efecto_Zoom/Styles/estilos.css">
+      <publishTime>10/07/2022 10:55:03</publishTime>
+    </File>
+    <File Include="frmCabecera.aspx">
+      <publishTime>06/23/2022 15:12:44</publishTime>
+    </File>
+    <File Include="frmConfiguracion.aspx">
+      <publishTime>06/10/2022 08:57:56</publishTime>
+    </File>
+    <File Include="frmFacturacion.aspx">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="frmImgPastaLibro.aspx">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="frmIndex.aspx">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="frmLogin.aspx">
+      <publishTime>11/29/2022 14:29:59</publishTime>
+    </File>
+    <File Include="frmMantenimientoLibrosNuevos.aspx">
+      <publishTime>09/01/2022 14:44:03</publishTime>
+    </File>
+    <File Include="frmMenu.aspx">
+      <publishTime>06/22/2022 10:17:15</publishTime>
+    </File>
+    <File Include="frmNuevoLector.aspx">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="frmPrestamoLibro.aspx">
+      <publishTime>09/23/2022 09:45:09</publishTime>
+    </File>
+    <File Include="frmPrincipal.htm">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="frmReportes.aspx">
+      <publishTime>08/24/2022 12:10:43</publishTime>
+    </File>
+    <File Include="frm_Configuracion.aspx">
+      <publishTime>11/18/2022 11:05:56</publishTime>
+    </File>
+    <File Include="frm_Contacto.aspx">
+      <publishTime>11/14/2022 11:01:42</publishTime>
+    </File>
+    <File Include="frm_facturacion.aspx">
+      <publishTime>11/29/2022 14:27:31</publishTime>
+    </File>
+    <File Include="frm_inicio.aspx">
+      <publishTime>11/24/2022 15:34:57</publishTime>
+    </File>
+    <File Include="frm_mantenimientoLibro.aspx">
+      <publishTime>11/29/2022 10:33:50</publishTime>
+    </File>
+    <File Include="frm_nuevoLector.aspx">
+      <publishTime>11/21/2022 08:50:36</publishTime>
+    </File>
+    <File Include="frm_prestamoLibro.aspx">
+      <publishTime>11/24/2022 11:54:48</publishTime>
+    </File>
+    <File Include="frm_Reportes.aspx">
+      <publishTime>11/25/2022 12:21:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/09/2022 11:32:49</publishTime>
+    </File>
+    <File Include="Imagenes/admiracion.jpg">
+      <publishTime>04/08/2015 14:39:42</publishTime>
+    </File>
+    <File Include="Imagenes/bibl_imagen.jpg">
+      <publishTime>04/08/2015 16:13:14</publishTime>
+    </File>
+    <File Include="Imagenes/bnLogoBlanco.jpg">
+      <publishTime>10/04/2022 08:50:25</publishTime>
+    </File>
+    <File Include="Imagenes/bnLogoRojo.png">
+      <publishTime>10/04/2022 08:50:25</publishTime>
+    </File>
+    <File Include="Imagenes/carrito1.jpg">
+      <publishTime>08/27/2013 14:59:06</publishTime>
+    </File>
+    <File Include="Imagenes/close.gif">
+      <publishTime>04/01/2015 11:06:40</publishTime>
+    </File>
+    <File Include="Imagenes/disponible_PC3.JPG">
+      <publishTime>03/31/2015 12:39:36</publishTime>
+    </File>
+    <File Include="Imagenes/el_logo_bn.jpg">
+      <publishTime>12/29/2014 09:29:28</publishTime>
+    </File>
+    <File Include="Imagenes/icono_libro.jpg">
+      <publishTime>04/08/2015 16:38:42</publishTime>
+    </File>
+    <File Include="Imagenes/imgEngranajes_movi.gif">
+      <publishTime>09/05/2016 11:20:56</publishTime>
+    </File>
+    <File Include="Imagenes/img_02libro.jpg">
+      <publishTime>10/12/2022 09:21:43</publishTime>
+    </File>
+    <File Include="Imagenes/img_03prestamo.jpg">
+      <publishTime>10/12/2022 09:21:44</publishTime>
+    </File>
+    <File Include="Imagenes/img_biblioteca.png">
+      <publishTime>06/13/2022 12:12:27</publishTime>
+    </File>
+    <File Include="Imagenes/img_cabecera.jpg">
+      <publishTime>10/04/2022 10:17:50</publishTime>
+    </File>
+    <File Include="Imagenes/img_cara.jpg">
+      <publishTime>07/08/2021 16:49:33</publishTime>
+    </File>
+    <File Include="Imagenes/img_casa.jpg">
+      <publishTime>09/23/2021 10:25:19</publishTime>
+    </File>
+    <File Include="Imagenes/img_cerrarsesion.jpg">
+      <publishTime>09/23/2021 10:25:19</publishTime>
+    </File>
+    <File Include="Imagenes/img_chrome.jpg">
+      <publishTime>11/02/2022 12:08:42</publishTime>
+    </File>
+    <File Include="Imagenes/img_Enviar.jpg">
+      <publishTime>10/19/2022 09:51:09</publishTime>
+    </File>
+    <File Include="Imagenes/img_EnviarDesact.jpg">
+      <publishTime>10/19/2022 09:45:53</publishTime>
+    </File>
+    <File Include="Imagenes/img_EnviarDesact_Orig.jpg">
+      <publishTime>05/17/2021 09:55:14</publishTime>
+    </File>
+    <File Include="Imagenes/img_Enviar_Orig.jpg">
+      <publishTime>05/17/2021 09:55:14</publishTime>
+    </File>
+    <File Include="Imagenes/img_FlechaDer.jpg">
+      <publishTime>05/17/2021 09:55:14</publishTime>
+    </File>
+    <File Include="Imagenes/img_fondo.jpg">
+      <publishTime>10/04/2022 10:17:45</publishTime>
+    </File>
+    <File Include="Imagenes/img_interr.jpg">
+      <publishTime>10/12/2022 14:00:31</publishTime>
+    </File>
+    <File Include="Imagenes/img_login.jpg">
+      <publishTime>10/05/2022 11:55:56</publishTime>
+    </File>
+    <File Include="Imagenes/img_LogoBN.jpg">
+      <publishTime>11/29/2022 12:45:53</publishTime>
+    </File>
+    <File Include="Imagenes/img_LogoBNold.jpg">
+      <publishTime>05/17/2021 09:55:15</publishTime>
+    </File>
+    <File Include="Imagenes/img_usuario.jpg">
+      <publishTime>10/04/2022 10:17:37</publishTime>
+    </File>
+    <File Include="Imagenes/logBN_blanco2.png">
+      <publishTime>04/08/2015 14:38:40</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_bgBody.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_bgLogin.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_bgLogin_OLD.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_border-inferior.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_border-superior.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_Boton.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_BotonActive.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_Chrome.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_InputGrande.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_LogoBN.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_LogoPestana.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_sbs.png">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/Login/img_userclave.jpg">
+      <publishTime>10/04/2022 10:23:00</publishTime>
+    </File>
+    <File Include="Imagenes/pdf.gif">
+      <publishTime>10/10/2013 11:55:46</publishTime>
+    </File>
+    <File Include="Imagenes/pestania_act.png">
+      <publishTime>12/17/2014 08:21:12</publishTime>
+    </File>
+    <File Include="Imagenes/pestania_desact.png">
+      <publishTime>12/17/2014 08:20:52</publishTime>
+    </File>
+    <File Include="Imagenes/prestado_PC1.JPG">
+      <publishTime>04/10/2015 08:46:16</publishTime>
+    </File>
+    <File Include="Imagenes/prestamoEspecial_PC1.JPG">
+      <publishTime>04/10/2015 08:46:38</publishTime>
+    </File>
+    <File Include="Imagenes/sbs.jpg">
+      <publishTime>04/08/2015 14:39:14</publishTime>
+    </File>
+    <File Include="Imagenes/SELLO_RESERVADO.JPG">
+      <publishTime>04/10/2015 08:45:18</publishTime>
+    </File>
+    <File Include="Imagenes/suscripcion1.JPG">
+      <publishTime>08/27/2013 15:00:06</publishTime>
+    </File>
+    <File Include="Imagenes/tuerca.jpg">
+      <publishTime>11/12/2015 16:34:55</publishTime>
+    </File>
+    <File Include="My Project/DataSources/System.Data.DataSet.datasource">
+      <publishTime>11/29/2022 11:33:37</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaDetalleHcc.rdlc">
+      <publishTime>11/22/2022 12:47:18</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaDetalleLibro.rdlc">
+      <publishTime>11/22/2022 12:49:25</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaHistoriaLectorPrest.rdlc">
+      <publishTime>11/21/2022 09:13:21</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaHistoriaLibroPrest.rdlc">
+      <publishTime>11/16/2022 11:22:26</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaListaHcc.rdlc">
+      <publishTime>11/22/2022 12:38:32</publishTime>
+    </File>
+    <File Include="Reportes/rptFichaPrestamo.rdlc">
+      <publishTime>11/22/2022 12:57:14</publishTime>
+    </File>
+    <File Include="Reportes/rptLibrosComprados_Leidos.rdlc">
+      <publishTime>06/23/2022 14:10:18</publishTime>
+    </File>
+    <File Include="Reportes/rptLibrosmasPedidos.rdlc">
+      <publishTime>06/23/2022 11:32:51</publishTime>
+    </File>
+    <File Include="Reportes/rptLibrosporAnno.rdlc">
+      <publishTime>06/23/2022 14:23:33</publishTime>
+    </File>
+    <File Include="Reportes/rptLibrosxCategoria.rdlc">
+      <publishTime>06/23/2022 14:53:13</publishTime>
+    </File>
+    <File Include="Reportes/rptLibros_Lista.rdlc">
+      <publishTime>10/12/2022 11:44:11</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxDia.rdlc">
+      <publishTime>06/23/2022 11:21:36</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxDia_OLD.rdlc">
+      <publishTime>06/23/2022 11:11:39</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxMes.rdlc">
+      <publishTime>06/22/2022 16:35:25</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxOficina.rdlc">
+      <publishTime>06/23/2022 11:21:36</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxOficina_OLD.rdlc">
+      <publishTime>06/23/2022 11:10:11</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamosxTipo.rdlc">
+      <publishTime>06/23/2022 12:45:03</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamos_lima_Provincia.rdlc">
+      <publishTime>06/23/2022 12:09:44</publishTime>
+    </File>
+    <File Include="Reportes/rptPrestamos_Lista.rdlc">
+      <publishTime>10/19/2022 14:46:27</publishTime>
+    </File>
+    <File Include="Reportes/rptRanking_Lectores.rdlc">
+      <publishTime>06/23/2022 11:21:36</publishTime>
+    </File>
+    <File Include="Reportes/rptRanking_Lectores_OLD.rdlc">
+      <publishTime>06/23/2022 11:04:23</publishTime>
+    </File>
+    <File Include="Reportes/rpt_BusquedasWeb.rdlc">
+      <publishTime>11/22/2022 12:51:08</publishTime>
+    </File>
+    <File Include="Reportes/rpt_Ficha_Lista_Libros.rdlc">
+      <publishTime>11/22/2022 12:45:40</publishTime>
+    </File>
+    <File Include="Reportes/rpt_Ficha_Lista_Prestamos.rdlc">
+      <publishTime>11/22/2022 12:46:21</publishTime>
+    </File>
+    <File Include="Reportes/rpt_Ficha_Lista_PrestamosxOficina.rdlc">
+      <publishTime>11/22/2022 12:46:57</publishTime>
+    </File>
+    <File Include="Scripts/efectosfinales.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/estilos.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/formulario_emergente.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.11.1.min.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>12/17/2014 08:19:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>12/17/2014 08:19:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.js">
+      <publishTime>01/23/2015 10:34:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui.min.js">
+      <publishTime>11/10/2014 05:58:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.js">
+      <publishTime>11/10/2014 05:58:22</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-icons_222222_256x240.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-icons_454545_256x240.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-icons_888888_256x240.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/jquery-ui-1-10-1.css">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/jquery-ui-1-10-1.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/UI_Datepicker/jquery.ui.datepicker-es.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/validaciones.js">
+      <publishTime>11/29/2022 14:14:04</publishTime>
+    </File>
+    <File Include="Scripts/validacion_log.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/validacion_reportes.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="Scripts/valida_login.js">
+      <publishTime>08/31/2022 08:51:32</publishTime>
+    </File>
+    <File Include="SqlServerTypes/Loader.cs">
+      <publishTime>06/10/2022 07:52:07</publishTime>
+    </File>
+    <File Include="SqlServerTypes/readme.htm">
+      <publishTime>06/10/2022 07:52:07</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/msvcr120.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x64/SqlServerSpatial140.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/msvcr120.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="SqlServerTypes/x86/SqlServerSpatial140.dll">
+      <publishTime>06/10/2022 07:52:08</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap-theme.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap-theme.css.map">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap-theme.min.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap.css.map">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/css/bootstrap.min.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/js/bootstrap.js">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Bootstrap 3.2.0/js/bootstrap.min.js">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/formulario.css">
+      <publishTime>11/29/2022 12:38:25</publishTime>
+    </File>
+    <File Include="Styles/formulario_emergente.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/formulario_OLD1.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/.DS_Store">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-bold-webfont.eot">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-bold-webfont.svg">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-bold-webfont.ttf">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-bold-webfont.woff">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-medium-webfont.eot">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-medium-webfont.svg">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-medium-webfont.ttf">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-medium-webfont.woff">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-regular-webfont.eot">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-regular-webfont.svg">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-regular-webfont.ttf">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/fuentes/daxcompact-regular-webfont.woff">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/jquery-ui.css">
+      <publishTime>09/07/2022 14:05:20</publishTime>
+    </File>
+    <File Include="Styles/jquery-ui.min.css">
+      <publishTime>04/07/2015 08:41:28</publishTime>
+    </File>
+    <File Include="Styles/Login/login-principal.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Login/login.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Login/reset-login.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Login/resetearcss.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>12/23/2014 16:51:16</publishTime>
+    </File>
+    <File Include="Styles/tipografias.css">
+      <publishTime>08/31/2022 08:51:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2022 14:30:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

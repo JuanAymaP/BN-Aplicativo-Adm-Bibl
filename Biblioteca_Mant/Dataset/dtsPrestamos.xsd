@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsPrestamos" targetNamespace="http://tempuri.org/dtsPrestamos.xsd" xmlns:mstns="http://tempuri.org/dtsPrestamos.xsd" xmlns="http://tempuri.org/dtsPrestamos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsPrestamos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsPrestamos" msprop:Generator_UserDSName="dtsPrestamos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_Prestamos" msprop:Generator_TableClassName="DataTable_PrestamosDataTable" msprop:Generator_TableVarName="tableDataTable_Prestamos" msprop:Generator_TablePropName="DataTable_Prestamos" msprop:Generator_RowDeletingName="DataTable_PrestamosRowDeleting" msprop:Generator_RowChangingName="DataTable_PrestamosRowChanging" msprop:Generator_RowEvHandlerName="DataTable_PrestamosRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_PrestamosRowDeleted" msprop:Generator_UserTableName="DataTable_Prestamos" msprop:Generator_RowChangedName="DataTable_PrestamosRowChanged" msprop:Generator_RowEvArgName="DataTable_PrestamosRowChangeEvent" msprop:Generator_RowClassName="DataTable_PrestamosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cLector_Nombre" msprop:Generator_ColumnVarNameInTable="columncLector_Nombre" msprop:Generator_ColumnPropNameInRow="cLector_Nombre" msprop:Generator_ColumnPropNameInTable="cLector_NombreColumn" msprop:Generator_UserColumnName="cLector_Nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CodNumerico" msprop:Generator_ColumnVarNameInTable="columncLibro_CodNumerico" msprop:Generator_ColumnPropNameInRow="cLibro_CodNumerico" msprop:Generator_ColumnPropNameInTable="cLibro_CodNumericoColumn" msprop:Generator_UserColumnName="cLibro_CodNumerico" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_FechaPedido" msprop:Generator_ColumnVarNameInTable="columncMov_FechaPedido" msprop:Generator_ColumnPropNameInRow="cMov_FechaPedido" msprop:Generator_ColumnPropNameInTable="cMov_FechaPedidoColumn" msprop:Generator_UserColumnName="cMov_FechaPedido" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_HoraPedido" msprop:Generator_ColumnVarNameInTable="columncMov_HoraPedido" msprop:Generator_ColumnPropNameInRow="cMov_HoraPedido" msprop:Generator_ColumnPropNameInTable="cMov_HoraPedidoColumn" msprop:Generator_UserColumnName="cMov_HoraPedido" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_FechaDevolucion" msprop:Generator_ColumnVarNameInTable="columncMov_FechaDevolucion" msprop:Generator_ColumnPropNameInRow="cMov_FechaDevolucion" msprop:Generator_ColumnPropNameInTable="cMov_FechaDevolucionColumn" msprop:Generator_UserColumnName="cMov_FechaDevolucion" type="xs:string" minOccurs="0" />
+              <xs:element name="cUsuario_asigna" msprop:Generator_ColumnVarNameInTable="columncUsuario_asigna" msprop:Generator_ColumnPropNameInRow="cUsuario_asigna" msprop:Generator_ColumnPropNameInTable="cUsuario_asignaColumn" msprop:Generator_UserColumnName="cUsuario_asigna" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovDevolucion" msprop:Generator_ColumnVarNameInTable="columncMovDevolucion" msprop:Generator_ColumnPropNameInRow="cMovDevolucion" msprop:Generator_ColumnPropNameInTable="cMovDevolucionColumn" msprop:Generator_UserColumnName="cMovDevolucion" type="xs:string" minOccurs="0" />
+              <xs:element name="ctipo_operacion" msprop:Generator_ColumnVarNameInTable="columnctipo_operacion" msprop:Generator_ColumnPropNameInRow="ctipo_operacion" msprop:Generator_ColumnPropNameInTable="ctipo_operacionColumn" msprop:Generator_UserColumnName="ctipo_operacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cPrest_a_Prov" msprop:Generator_ColumnVarNameInTable="columncPrest_a_Prov" msprop:Generator_ColumnPropNameInRow="cPrest_a_Prov" msprop:Generator_ColumnPropNameInTable="cPrest_a_ProvColumn" msprop:Generator_UserColumnName="cPrest_a_Prov" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_oficina" msprop:Generator_ColumnVarNameInTable="columncMovReserva_oficina" msprop:Generator_ColumnPropNameInRow="cMovReserva_oficina" msprop:Generator_ColumnPropNameInTable="cMovReserva_oficinaColumn" msprop:Generator_UserColumnName="cMovReserva_oficina" type="xs:string" minOccurs="0" />
+              <xs:element name="cMov_FechaDevolucionReal" msprop:Generator_ColumnVarNameInTable="columncMov_FechaDevolucionReal" msprop:Generator_ColumnPropNameInRow="cMov_FechaDevolucionReal" msprop:Generator_ColumnPropNameInTable="cMov_FechaDevolucionRealColumn" msprop:Generator_UserColumnName="cMov_FechaDevolucionReal" type="xs:string" minOccurs="0" />
+              <xs:element name="cLector_CodEmpleado" msprop:Generator_ColumnVarNameInTable="columncLector_CodEmpleado" msprop:Generator_ColumnPropNameInRow="cLector_CodEmpleado" msprop:Generator_ColumnPropNameInTable="cLector_CodEmpleadoColumn" msprop:Generator_UserColumnName="cLector_CodEmpleado" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_CodClasificacion" msprop:Generator_ColumnVarNameInTable="columncLibro_CodClasificacion" msprop:Generator_ColumnPropNameInRow="cLibro_CodClasificacion" msprop:Generator_ColumnPropNameInTable="cLibro_CodClasificacionColumn" msprop:Generator_UserColumnName="cLibro_CodClasificacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_fecha" msprop:Generator_ColumnVarNameInTable="columncMovReserva_fecha" msprop:Generator_ColumnPropNameInRow="cMovReserva_fecha" msprop:Generator_ColumnPropNameInTable="cMovReserva_fechaColumn" msprop:Generator_UserColumnName="cMovReserva_fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_hora" msprop:Generator_ColumnVarNameInTable="columncMovReserva_hora" msprop:Generator_ColumnPropNameInRow="cMovReserva_hora" msprop:Generator_ColumnPropNameInTable="cMovReserva_horaColumn" msprop:Generator_UserColumnName="cMovReserva_hora" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovReserva_tipo" msprop:Generator_ColumnVarNameInTable="columncMovReserva_tipo" msprop:Generator_ColumnPropNameInRow="cMovReserva_tipo" msprop:Generator_ColumnPropNameInTable="cMovReserva_tipoColumn" msprop:Generator_UserColumnName="cMovReserva_tipo" type="xs:string" minOccurs="0" />
+              <xs:element name="cAnexo_Empleado" msprop:Generator_ColumnVarNameInTable="columncAnexo_Empleado" msprop:Generator_ColumnPropNameInRow="cAnexo_Empleado" msprop:Generator_ColumnPropNameInTable="cAnexo_EmpleadoColumn" msprop:Generator_UserColumnName="cAnexo_Empleado" type="xs:string" minOccurs="0" />
+              <xs:element name="cMovAnulacion" msprop:Generator_ColumnVarNameInTable="columncMovAnulacion" msprop:Generator_ColumnPropNameInRow="cMovAnulacion" msprop:Generator_ColumnPropNameInTable="cMovAnulacionColumn" msprop:Generator_UserColumnName="cMovAnulacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Autor" msprop:Generator_ColumnVarNameInTable="columncLibro_Autor" msprop:Generator_ColumnPropNameInRow="cLibro_Autor" msprop:Generator_ColumnPropNameInTable="cLibro_AutorColumn" msprop:Generator_UserColumnName="cLibro_Autor" type="xs:string" minOccurs="0" />
+              <xs:element name="cPrest_Especial" msprop:Generator_ColumnVarNameInTable="columncPrest_Especial" msprop:Generator_ColumnPropNameInRow="cPrest_Especial" msprop:Generator_ColumnPropNameInTable="cPrest_EspecialColumn" msprop:Generator_UserColumnName="cPrest_Especial" type="xs:string" minOccurs="0" />
+              <xs:element name="cLibro_Titulo" msprop:Generator_ColumnVarNameInTable="columncLibro_Titulo" msprop:Generator_ColumnPropNameInRow="cLibro_Titulo" msprop:Generator_ColumnPropNameInTable="cLibro_TituloColumn" msprop:Generator_UserColumnName="cLibro_Titulo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

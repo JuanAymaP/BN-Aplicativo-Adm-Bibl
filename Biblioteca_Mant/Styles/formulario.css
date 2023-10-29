@@ -1,0 +1,829 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-width:100%;
+    /*    padding-left: 200px;*/
+    margin: 0;
+    background-color: #F0F0F0;
+    font: 12px/12px 'daxcompact-regularregular';
+}
+
+/*----Estilo para la seccion cabecera-------*/
+
+div#contenedor_principal {
+    min-height: calc(100% - 4rem);
+/*    min-width:100vw;*/
+}
+
+div#contenedor_cabecera {
+    /*height: 30px;*/
+    background-color: white;
+/*    box-shadow: inset 0px 0px 15px 0 gray;*/
+    margin-bottom:10px;
+/*    display: flex;*/
+}
+
+div#subcabecera_imagenes {
+    display: flex; 
+  /*  margin:0 auto; */
+    width:1340px;
+}
+
+div#subcabecera_opciones{ 
+    background-color:gainsboro;
+    display: flex;
+   padding:5px;
+}
+
+div#sub_subcabecera_opciones{
+    width:900px;
+    margin:0 auto;
+    display:flex;
+}
+
+div#contenedor_cuerpo {
+    margin: 0 auto;
+    /*    background-color: orange;*/
+    width: 1200px;
+    display: flex;
+}
+/*----Estilo para la seccion Menu-------*/
+div#subcuerpo_menú {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: #E8E8E8;
+    box-shadow: inset 0 0 15px 0 gray;
+    width: 200px;
+    height: 350px;
+    border-radius: 7px 0 0 7px; /*arriba_izq arriba_der abajo_der abajo_izq */
+    font-weight:bold;
+}
+
+    div#subcuerpo_menú table {
+        background-color: #eee;
+        color: black;
+        display: block;
+        padding: 0px;
+        text-decoration: none;
+        border-radius: 7px;
+        border: 1px solid grey;
+        width: 40px;
+        height: 40px;
+    }
+
+    div#subcuerpo_menú a {      
+        background-color: #eee;   
+        color: black;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 7px;
+        border: 1px solid grey;
+
+        
+    }
+
+        div#subcuerpo_menú a:hover {
+            /*background-color: #ccc;*/
+            background-color: #f50a1d;
+            box-shadow: inset 0 0 15px 0 gray;
+            color: white;
+            
+        }
+
+.btnSeleccionado {
+    background-color: #f50a1d !important;
+    box-shadow: inset 0 0 15px 0 gray;
+    color: white !important;
+}
+
+div#subcuerpo_formulario {
+    /*position:absolute;*/
+    margin: 0;
+    padding: 10px;
+    background-color: #E8E8E8;
+    /*background-image: linear-gradient(to right, gray, white, gray);*/
+    box-shadow: inset 0 0 15px 0 gray;
+    width: 1000px;
+    border-radius: 0 7px 7px 7px; /*arriba_izq arriba_der abajo_der abajo_izq */
+}
+
+
+
+#Content_General {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    /*    background-color: lightgreen;*/
+}
+
+#Content_Datos {
+    width: 680px;
+    margin: 0 auto 0 auto;
+    /*    background-color: pink;*/
+    float: left;
+}
+
+#Content_Fotos {
+    width: 300px;
+    /*    background-color: lightblue;*/
+    float: right;
+}
+
+.Datos_Personales {
+        width: 650px;
+        border: 1px gray solid;
+        /*   margin: 0 auto 0 auto;*/
+        /* background-color: beige; */
+        background-color: beige;
+}
+
+.Datos_Buscar {
+    width: 270px;
+    border: 1px gray solid;
+    /* margin: 0 auto 0 auto;*/
+    background-color: #EBEBEB;
+    margin-left: 0px;
+}
+
+.Datos_Botones {
+    width: 280px;
+    /*margin: 0 auto 0 auto;*/
+    border: 1px gray solid;
+    background-color: beige;
+    display: flex;
+}
+
+
+.Datos_Fotos {
+    width: 180px;
+     border: 1px gray solid;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+    float: left;
+}
+
+
+.Datos_Devolucion {
+    margin-top:-10px;
+    border: 1px Gray solid;
+    /* margin: 0 auto 0 auto;*/
+    background-color: #EBEBEB;
+}
+
+.Titulo_Cuadro {
+    width: 50%;
+    white-space: nowrap;
+    margin-left: 7px;
+    color: blue;
+    font: 14px/23px 'daxcompact-regularregular';
+    font-weight: bold;
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+footer {
+    height: 4rem;
+    background-color: #e2e2e2
+}
+/*------------------*/
+
+h1 {
+  /*  padding: 0px;*/
+}
+
+h2 {
+    font-size:12px;
+    margin: 0px;
+}
+
+/*Controla estilo de las etiquetas "span" en general*/
+span {
+    /*color: #EA1E00;*/
+    color: #373737;
+    /*font: 16px/22px arial;*/
+    padding: 0px;
+    /*margin-left:5px;*/
+    font: 12px/12px 'daxcompact-regularregular';
+}
+
+
+/*Estilos Icono de funcionalidades*/
+.Ico {
+    width: 42px;
+    height: 42px;
+    border-radius: 3px;
+    margin-top: -10px;
+}
+
+/*Estilos Logo BN*/
+.icono_BN {
+    /*    height: 67px;
+    width: 198px;*/
+    height: 61px;
+    width: 195px;
+    top: 188px;
+    left: -22px;
+    padding: 0 20px;
+}
+/*Estilos boton "Buscar"*/
+
+ .btnBuscar:enabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_Enviar.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+}
+
+.btnBuscar:disabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: not-allowed; /* Pointer/hand icon */
+    /* width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+}
+
+.btnMasOchodias:enabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_Enviar.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*width: 90px; Set a width if needed */
+    font: 13px 'daxcompact-boldregular';
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    padding: 0px 1px;
+}
+
+.btnMasOchodias:disabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*width: 90px; Set a width if needed */
+    font: 13px 'daxcompact-boldregular';
+    text-align: center;
+    width: 50px;
+    height: 25px;
+    padding: 0px 1px;
+}
+
+/*Estilos botones de accion*/
+.btn_Accion:enabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_Enviar.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+    border: 1px solid black;
+    width:200px;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.btn_Accion:disabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: not-allowed; /* Pointer/hand icon */
+    /* width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/*Globo de Ayuda corto*/
+.icono_Ayuda {
+    width: 18px;
+    height: 18px;
+}
+
+.tooltip_Ayuda_Corto {
+    margin: 0 auto 0 auto;
+    /*margin*/
+    position: relative;
+    display: inline-block;
+}
+
+    .tooltip_Ayuda_Corto .tiptext_Ayuda_Corto {
+        font-family: Calibri;
+        font-size: 11.5px;
+        visibility: hidden;
+        width: 150px;
+        background-color: #ffff;
+        color: black;
+        text-align: justify;
+        border-radius: 3px;
+        padding: 6px 6px;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .tooltip_Ayuda_Corto .tiptext_Ayuda_Corto::after {
+            content: "";
+            position: absolute;
+            border-width: 5px;
+            border-style: solid;
+        }
+
+    .tooltip_Ayuda_Corto:hover .tiptext_Ayuda_Corto {
+        visibility: visible;
+    }
+
+    .tooltip_Ayuda_Corto.left .tiptext_Ayuda_Corto {
+        top: -5px;
+        left: 110%;
+    }
+
+        .tooltip_Ayuda_Corto.left .tiptext_Ayuda_Corto::after {
+            margin-top: -5px;
+            top: 50%;
+            right: 100%;
+            border-color: transparent #2E2E2E transparent transparent;
+        }
+
+/*Tooltip de ayuda mas largo*/
+.tooltip_Ayuda_Largo {
+    margin: 0 auto 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+    .tooltip_Ayuda_Largo .tiptext_Ayuda_Largo {
+        font-family: Calibri;
+        font-size: 11.5px;
+        visibility: hidden;
+        width: 230px;
+        background-color: #ffff;
+        color: black;
+        text-align: justify;
+        border-radius: 3px;
+        padding: 6px 6px;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .tooltip_Ayuda_Largo .tiptext_Ayuda_Largo::after {
+            content: "";
+            position: absolute;
+            border-width: 5px;
+            border-style: solid;
+        }
+
+    .tooltip_Ayuda_Largo:hover .tiptext_Ayuda_Largo {
+        visibility: visible;
+    }
+
+    .tooltip_Ayuda_Largo.left .tiptext_Ayuda_Largo {
+        left: 110%;
+    }
+
+        .tooltip_Ayuda_Largo.left .tiptext_Ayuda_Largo::after {
+            margin-top: -5px;
+            top: 50%;
+            right: 100%;
+            border-color: transparent #2E2E2E transparent transparent;
+        }
+
+
+/*Selectores*/
+select:enabled{
+    background-color:white;
+}
+select:disabled {
+    background-color: gainsboro;
+}
+
+/*Botones de accion*/
+.btn-group input:enabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_Enviar.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 120px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: pointer;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+
+.btn-group input:disabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 120px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: not-allowed;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+
+/*Botones de accion*/
+.btn-BuscarLector input:enabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_Enviar.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 150px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: pointer;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+
+.btn-BuscarLector input:disabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 150px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: not-allowed;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+
+.btn-HistorialPrestamo input:enabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_Enviar.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 150px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: pointer;
+    font: 12px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    height: 38px;
+}
+
+.btn-HistorialPrestamo input:disabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 150px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: not-allowed;
+    font: 12px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    height: 38px;
+}
+
+/* Add a background color on hover
+    .btn-group input:hover {
+        background-color: maroon;
+    }*/
+.btn-group {
+    /*    margin: 10px;*/
+    /*border: 1px solid black;*/
+    /*background-color: beige;*/
+}
+
+textarea {
+    background-color: #F0F0F0;
+    font: 12px/12px 'Arial';
+}
+
+
+textarea:enabled {
+    background-color: white;
+    font: 12px/12px 'Arial';
+}
+
+
+
+input[type=text]:read-only, textarea:read-only {
+    /*background-color: lightgrey;*/
+    background-color: #ebebe4;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+}
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        font: 14px 'daxcompact-boldregular';
+        background-color: #e4e4ba;
+        float: left;
+        border: 1px solid gray;
+        outline: none;
+        cursor: pointer;
+        padding: 10px 10px;
+        transition: 0.3s;
+        /*font-size: 17px;*/
+        border-radius:5px 5px 0 0;
+    }
+
+        /* Change background color of buttons on hover */
+        .tab button:enabled:hover {
+            background-color: #ddd;
+        }
+        .tab button:disabled {
+            background-color: beige;
+            color: black;
+            cursor:text;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #E8E8E8;
+        }
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+
+
+    div#calendario table {
+        /*background-color: #eee;*/
+        /*background-image: linear-gradient(to top, gainsboro, white, gainsboro); Lo comente hoy*/
+        background-color: #eee;
+        color: black;
+        display: block;
+        padding: 0px;
+        text-decoration: none;
+        border-radius: 0px;
+        border: 1px solid grey;
+        width: 5px;
+        height: 5px;
+    }
+
+div#calendario table th tr td {
+    /*background-color: #eee;*/
+    /*background-image: linear-gradient(to top, gainsboro, white, gainsboro); Lo comente hoy*/
+    
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 0px;
+    text-decoration: none;
+    border-radius: 0px;
+    border: 1px solid grey;
+    width: 50px;
+    height: 5px;
+}
+
+.my-fixed-item { /*banner WS usuario*/
+    /*position: fixed;*/
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    /*  word-wrap: break-word;*/
+    background-color: #CD1818;
+    z-index: 1;
+}
+
+/*Estilos para la foto de usuario del WS*/
+/*.tablaWS {*/
+.div_WSDatosUsuario { /* tamaño y alineación del div datos usuario*/
+    /*    width: 100%;*/
+    /*    margin: 0 0 0 70%;*/
+    /*    margin: 0 auto;*/
+    text-align: left;
+    float: left; /*Necesario para que la imagen de usuario no se ubique abajo*/
+}
+    /*  .tablaWS span {*/
+    .div_WSDatosUsuario span {
+        color: white;
+    }
+
+#img_WSFoto { /*tamaño de la Foto WS*/
+    width: 50px;
+    height: 70px;
+}
+
+.contenWSFoto { /* Estilo para el div que contiene la Foto WS*/
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+    border-radius: 50%; /*Estilo para mostrar circular la Foto WS*/
+
+    margin: 0 auto;
+    display: inline-block;
+}
+
+    .contenWSFoto > .cropWSFoto { /*Estilo para recortar y mostrar la parte que que es necesaria de la Foto WS*/
+        position: absolute;
+        left: -100%;
+        right: -100%;
+        top: -60%; /*Aqui cambia el espacio superior que se le da a la Foto WS*/
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+/*Nueva cabecera*/
+.hero {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: #eceaff;
+    color: #525252;
+}
+
+nav {
+    background: #DD0000;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+}
+
+.user-pic {
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+nav ul {
+    width: 100%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif !important;
+            font-size: 14px !important;
+        }
+
+            nav ul li a:hover {
+                text-decoration: solid !important;
+                font-weight: bold;
+            }
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+    .sub-menu-wrap.open-menu {
+        max-height: 400px;
+    }
+
+.sub-menu {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+    .user-info h3 {
+        font-weight: 500;
+    }
+
+    .user-info img {
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
+
+.sub-menu hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+}
+
+    .sub-menu-link p {
+        width: 100%;
+    }
+
+    .sub-menu-link img {
+        width: 20px;
+        background: #e5e5e5;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 15px;
+    }
+
+    .sub-menu-link span {
+        font-size: 22px;
+        transition: transform 0.5s;
+    }
+
+    .sub-menu-link:hover span {
+        transform: translateX(5px);
+    }
+
+    .sub-menu-link:hover p {
+        font-weight: 600;
+    }

@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{2D3990ED-BF09-4FEE-A19D-B2A36F0609A6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Biblioteca_Mant</RootNamespace>
+    <AssemblyName>Biblioteca_Mant</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Biblioteca_Mant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Biblioteca_Mant.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebDesign, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1400.0\lib\net40\Microsoft.ReportViewer.WebDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1400.0\lib\net40\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\ws_Imagen_EmpleadoBN.disco" />
+    <None Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\configuration91.svcinfo" />
+    <None Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\configuration.svcinfo" />
+    <None Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="frmLogin.aspx" />
+    <Content Include="frm_Configuracion.aspx" />
+    <Content Include="frm_Contacto.aspx" />
+    <Content Include="frm_mantenimientoLibro.aspx" />
+    <Content Include="frm_prestamoLibro.aspx" />
+    <Content Include="frm_Reportes.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Imagenes\admiracion.jpg" />
+    <Content Include="Imagenes\BancoNacion.png" />
+    <Content Include="Imagenes\bibl_imagen.jpg" />
+    <Content Include="Imagenes\bnLogoBlanco.jpg" />
+    <Content Include="Imagenes\bnLogoRojo.png" />
+    <Content Include="Imagenes\carrito1.jpg" />
+    <Content Include="Imagenes\close.gif" />
+    <Content Include="Imagenes\disponible_PC3.JPG" />
+    <Content Include="Imagenes\el_logo_bn.jpg" />
+    <Content Include="Imagenes\gif_cargando.gif" />
+    <Content Include="Imagenes\icono_libro.jpg" />
+    <Content Include="Imagenes\ico_NroReg.png" />
+    <Content Include="Imagenes\imgEngranajes_movi.gif" />
+    <Content Include="Imagenes\img_02libro.jpg" />
+    <Content Include="Imagenes\img_03prestamo.jpg" />
+    <Content Include="Imagenes\inicio.png" />
+    <Content Include="Imagenes\Login\img_bgLogin2.jpg" />
+    <Content Include="Imagenes\img_biblioteca.png" />
+    <Content Include="Imagenes\img_cabecera.jpg" />
+    <Content Include="Imagenes\img_cara.jpg" />
+    <Content Include="Imagenes\img_casa.jpg" />
+    <Content Include="Imagenes\img_cerrarsesion.jpg" />
+    <Content Include="Imagenes\img_chrome.jpg" />
+    <Content Include="Imagenes\img_Enviar.jpg" />
+    <Content Include="Imagenes\img_EnviarDesact.jpg" />
+    <Content Include="Imagenes\img_EnviarDesact_Orig.jpg" />
+    <Content Include="Imagenes\img_Enviar_Orig.jpg" />
+    <Content Include="Imagenes\img_FlechaDer.jpg" />
+    <Content Include="Imagenes\img_fondo.jpg" />
+    <Content Include="Imagenes\img_interr.jpg" />
+    <Content Include="Imagenes\img_login.jpg" />
+    <Content Include="Imagenes\img_LogoBN.jpg" />
+    <Content Include="Imagenes\img_LogoBNold.jpg" />
+    <Content Include="Imagenes\img_usuario.jpg" />
+    <Content Include="Imagenes\logBN_blanco2.png" />
+    <Content Include="Imagenes\Login\img_bgBody.jpg" />
+    <Content Include="Imagenes\Login\img_bgLogin.jpg" />
+    <Content Include="Imagenes\Login\img_bgLogin_OLD.jpg" />
+    <Content Include="Imagenes\Login\img_border-inferior.jpg" />
+    <Content Include="Imagenes\Login\img_border-superior.jpg" />
+    <Content Include="Imagenes\Login\img_Boton.jpg" />
+    <Content Include="Imagenes\Login\img_BotonActive.jpg" />
+    <Content Include="Imagenes\Login\img_Chrome.jpg" />
+    <Content Include="Imagenes\Login\img_InputGrande.jpg" />
+    <Content Include="Imagenes\Login\img_LogoBN.jpg" />
+    <Content Include="Imagenes\Login\img_LogoPestana.jpg" />
+    <Content Include="Imagenes\Login\img_sbs.png" />
+    <Content Include="Imagenes\Login\img_userclave.jpg" />
+    <Content Include="Imagenes\pdf.gif" />
+    <Content Include="Imagenes\pestania_act.png" />
+    <Content Include="Imagenes\pestania_desact.png" />
+    <Content Include="Imagenes\prestado_PC1.JPG" />
+    <Content Include="Imagenes\prestamoEspecial_PC1.JPG" />
+    <Content Include="Imagenes\salir.png" />
+    <Content Include="Imagenes\sbs.jpg" />
+    <Content Include="Imagenes\SELLO_RESERVADO.JPG" />
+    <Content Include="Imagenes\suscripcion1.JPG" />
+    <Content Include="Imagenes\tuerca.jpg" />
+    <Content Include="Base.Master" />
+    <Content Include="Dataset\dtsBusquedaWeb.xsc">
+      <DependentUpon>dtsBusquedaWeb.xsd</DependentUpon>
+    </Content>
+    <Content Include="frm_inicio.aspx" />
+    <None Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\ws_Imagen_EmpleadoBN.wsdl" />
+    <None Include="Dataset\dtsBusquedaWeb.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsBusquedaWeb.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsBusquedaWeb.xss">
+      <DependentUpon>dtsBusquedaWeb.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsFichaDetalle.xsc">
+      <DependentUpon>dtsFichaDetalle.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsFichaDetalle.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsFichaDetalle.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsFichaDetalle.xss">
+      <DependentUpon>dtsFichaDetalle.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsFichaPrestamo.xsc">
+      <DependentUpon>dtsFichaPrestamo.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsFichaPrestamo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsFichaPrestamo.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsFichaPrestamo.xss">
+      <DependentUpon>dtsFichaPrestamo.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsHCC.xsc">
+      <DependentUpon>dtsHCC.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsHCC.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsHCC.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsHCC.xss">
+      <DependentUpon>dtsHCC.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsHistoriaPdf_Clicks.xsc">
+      <DependentUpon>dtsHistoriaPdf_Clicks.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsHistoriaLibro.xsc">
+      <DependentUpon>dtsHistoriaLibro.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsHistoriaLibro.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsHistoriaLibro.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsHistoriaLibro.xss">
+      <DependentUpon>dtsHistoriaLibro.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsHistoriaPdf_Clicks.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsHistoriaPdf_Clicks.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsHistoriaPdf_Clicks.xss">
+      <DependentUpon>dtsHistoriaPdf_Clicks.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsLibros.xsc">
+      <DependentUpon>dtsLibros.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsInventarioLibro.xsc">
+      <DependentUpon>dtsInventarioLibro.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsInventarioLibro.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsInventarioLibro.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsInventarioLibro.xss">
+      <DependentUpon>dtsInventarioLibro.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsLibros.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsLibros.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsLibros.xss">
+      <DependentUpon>dtsLibros.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsLibrosMateria.xsc">
+      <DependentUpon>dtsLibrosMateria.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsLibrosMateria.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsLibrosMateria.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsLibrosMateria.xss">
+      <DependentUpon>dtsLibrosMateria.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsLibrosxAnno.xsc">
+      <DependentUpon>dtsLibrosxAnno.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsLibrosxAnno.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsLibrosxAnno.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsLibrosxAnno.xss">
+      <DependentUpon>dtsLibrosxAnno.xsd</DependentUpon>
+    </Content>
+    <Content Include="Dataset\dtsPrestamos.xsc">
+      <DependentUpon>dtsPrestamos.xsd</DependentUpon>
+    </Content>
+    <None Include="Dataset\dtsPrestamos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtsPrestamos.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Dataset\dtsPrestamos.xss">
+      <DependentUpon>dtsPrestamos.xsd</DependentUpon>
+    </Content>
+    <Content Include="INDICE\--no copiar nada aqui--.txt" />
+    <Content Include="INDICE\LIBROS\--no copiar nada aqui--.txt" />
+    <Content Include="INDICE\LIBROS\9999_sinportada.jpg" />
+    <Content Include="My Project\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\efectosfinales.js" />
+    <Content Include="Scripts\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-icons_454545_256x240.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-icons_888888_256x240.png" />
+    <Content Include="Scripts\UI_Datepicker\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\UI_Datepicker\jquery-ui-1-10-1.css" />
+    <Content Include="Scripts\UI_Datepicker\jquery-ui-1-10-1.js" />
+    <Content Include="Scripts\UI_Datepicker\jquery.ui.datepicker-es.js" />
+    <Content Include="Scripts\validaciones.js" />
+    <Content Include="Scripts\validacion_log.js" />
+    <Content Include="Scripts\validacion_reportes.js" />
+    <Content Include="Scripts\valida_login.js" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.css" />
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.min.css" />
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.css" />
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.min.css" />
+    <Content Include="Styles\Bootstrap 3.2.0\js\bootstrap.js" />
+    <Content Include="Styles\Bootstrap 3.2.0\js\bootstrap.min.js" />
+    <Content Include="Styles\formulario.css" />
+    <Content Include="Styles\formulario_emergente.css" />
+    <Content Include="Styles\formulario_OLD1.css" />
+    <Content Include="Styles\jquery-ui.css" />
+    <Content Include="Styles\jquery-ui.min.css" />
+    <Content Include="Styles\Login\login-principal.css" />
+    <Content Include="Styles\Login\login.css" />
+    <Content Include="Styles\Login\reset-login.css" />
+    <Content Include="Styles\Login\resetearcss.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\tipografias.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsBusquedaWeb.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsBusquedaWeb.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsFichaDetalle.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsFichaDetalle.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsFichaPrestamo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsFichaPrestamo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsHCC.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsHCC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsHistoriaLibro.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsHistoriaLibro.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsHistoriaPdf_Clicks.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsHistoriaPdf_Clicks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsInventarioLibro.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsInventarioLibro.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsLibros.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsLibros.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsLibrosMateria.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsLibrosMateria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsLibrosxAnno.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsLibrosxAnno.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\dtsPrestamos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtsPrestamos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.designer.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.aspx.vb">
+      <DependentUpon>frmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Configuracion.aspx.designer.vb">
+      <DependentUpon>frm_Configuracion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Configuracion.aspx.vb">
+      <DependentUpon>frm_Configuracion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_Contacto.aspx.designer.vb">
+      <DependentUpon>frm_Contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Contacto.aspx.vb">
+      <DependentUpon>frm_Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_mantenimientoLibro.aspx.designer.vb">
+      <DependentUpon>frm_mantenimientoLibro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mantenimientoLibro.aspx.vb">
+      <DependentUpon>frm_mantenimientoLibro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_prestamoLibro.aspx.designer.vb">
+      <DependentUpon>frm_prestamoLibro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_prestamoLibro.aspx.vb">
+      <DependentUpon>frm_prestamoLibro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="frm_Reportes.aspx.designer.vb">
+      <DependentUpon>frm_Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Reportes.aspx.vb">
+      <DependentUpon>frm_Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Base.Master.designer.vb">
+      <DependentUpon>Base.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Base.Master.vb">
+      <DependentUpon>Base.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModConexion.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frm_inicio.aspx.designer.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_inicio.aspx.vb">
+      <DependentUpon>frm_inicio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Reportes\rptLibros_Lista.rdlc" />
+    <Content Include="Reportes\rptFichaPrestamo.rdlc" />
+    <Content Include="Reportes\rptPrestamos_Lista.rdlc" />
+    <Content Include="Reportes\rptPrestamosxMes.rdlc" />
+    <Content Include="Reportes\rptPrestamosxOficina_OLD.rdlc" />
+    <Content Include="Reportes\rptPrestamosxDia_OLD.rdlc" />
+    <Content Include="Reportes\rptRanking_Lectores_OLD.rdlc" />
+    <Content Include="Reportes\rptRanking_Lectores.rdlc" />
+    <Content Include="Reportes\rptPrestamosxDia.rdlc" />
+    <Content Include="Reportes\rptPrestamosxOficina.rdlc" />
+    <Content Include="Reportes\rptLibrosmasPedidos.rdlc" />
+    <Content Include="Reportes\rptPrestamos_lima_Provincia.rdlc" />
+    <Content Include="Reportes\rptPrestamosxTipo.rdlc" />
+    <Content Include="Reportes\rptLibrosComprados_Leidos.rdlc" />
+    <Content Include="Reportes\rptLibrosporAnno.rdlc" />
+    <Content Include="Reportes\rptLibrosxCategoria.rdlc" />
+    <Content Include="Reportes\rptFichaHistoriaLibroPrest.rdlc" />
+    <Content Include="Reportes\rptFichaHistoriaLectorPrest.rdlc" />
+    <Content Include="Reportes\rptFichaDetalleLibro.rdlc" />
+    <Content Include="Reportes\rpt_BusquedasWeb.rdlc" />
+    <Content Include="Reportes\rpt_Ficha_Lista_Libros.rdlc" />
+    <Content Include="Reportes\rpt_Ficha_Lista_Prestamos.rdlc" />
+    <Content Include="Reportes\rpt_Ficha_Lista_PrestamosxOficina.rdlc" />
+    <Content Include="Reportes\rpt_Ficha_Inventario_Libro.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.css.map" />
+    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.css.map" />
+    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Styles\fuentes\.DS_Store" />
+    <Content Include="Styles\fuentes\daxcompact-bold-webfont.eot" />
+    <Content Include="Styles\fuentes\daxcompact-bold-webfont.svg" />
+    <Content Include="Styles\fuentes\daxcompact-bold-webfont.ttf" />
+    <Content Include="Styles\fuentes\daxcompact-bold-webfont.woff" />
+    <Content Include="Styles\fuentes\daxcompact-medium-webfont.eot" />
+    <Content Include="Styles\fuentes\daxcompact-medium-webfont.svg" />
+    <Content Include="Styles\fuentes\daxcompact-medium-webfont.ttf" />
+    <Content Include="Styles\fuentes\daxcompact-medium-webfont.woff" />
+    <Content Include="Styles\fuentes\daxcompact-regular-webfont.eot" />
+    <Content Include="Styles\fuentes\daxcompact-regular-webfont.svg" />
+    <Content Include="Styles\fuentes\daxcompact-regular-webfont.ttf" />
+    <Content Include="Styles\fuentes\daxcompact-regular-webfont.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.vbproj">
+      <Project>{24ed6ec2-3032-46c1-a6e1-a3feff45b356}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.vbproj">
+      <Project>{fc6022fd-f895-4919-88fa-b1f89921b084}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\WS_ImagenEmpleadoBN_2Capas\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64132</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64132/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

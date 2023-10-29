@@ -1,0 +1,672 @@
+
+html, body {
+
+    color: #121212;
+    font-family: 'arial';
+    font-size: 10px;
+    position: relative;
+    text-align: left;
+    /*Necesario para pie de pagina fijo*/
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {/*Estilos para que se vea el Banner*/
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+/*---Estilo Focus 
+*:focus {
+    outline: green solid;
+}*/
+
+/*input:focus, input:hover{
+    outline: 2px auto rgb(229, 151, 0);
+    outline-offset: -2px;
+ }*/
+
+input[type="radio"]:focus {
+    outline: none !important;
+    border-color: green;
+    box-decoration-break:slice;
+    box-shadow: 0 0 5px 1px green;
+}
+/*Estilos Logo BN*/
+.icono_BN {
+    /*    height: 67px;
+    width: 198px;*/
+    height: 50px;
+    width: 147px;
+    top: 188px;
+    left: -22px;
+}
+/*Estilos Logo Fotocheck*/
+.icono_Fotock {
+    height: 50px;
+    width: 73px;
+    top: 188px;
+    left: -22px;
+}
+
+/*-----Inicio de codigo para pie de pagina fijo*/
+#container {
+    min-height: 100%;
+    position: relative;
+    /*    width:100%;
+    margin:0 auto;*/
+}
+p{
+    font-size:14px;
+}
+input[type="text"], [type="file"] {
+    font-family: 'arial';
+    font-size: 13px;
+}
+
+textarea {
+    font-family: 'arial';
+    font-size: 13px;
+}
+
+#body {
+    padding: 10px;
+    padding-bottom: 60px; /* Height of the footer */
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Height of the footer */
+    /*background: #6cf;*/
+}
+/*------Fin de codigo para pie de pagina fijo*/
+
+/*Pone en color rojo las fechas desde y hasta del panel de busqueda*/
+.rojo_Menu {
+    font-family: 'arial';
+    color:black;
+    font-weight:bold;
+}
+
+/*Pone en color rojo las fechas desde y hasta de los gdv cabecera e identificacion*/
+.rojo_Detalles {
+    color: red;
+}
+
+/*Iconos que se muestran cuando hay resultados*/
+.iconos_resultado {
+    width: 25px;
+    height: 28px;
+    border-radius: 20%;
+}
+
+/*Icono de volver a la página anterior*/
+.icono_Volver {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*Quita espacio inferior de cada celda en el formulario de busqueda*/
+.padding_bottom {
+    padding-bottom: 0;
+    /*border: 0;*/
+}
+
+/*tabla cabecera de gdv_Movimiento*/
+.cabeceraMOV {
+    background: gray;
+    color: white;
+}
+
+/*Coloca a la derecha el titulo "Saldo Cuenta"*/
+.saldoTitulo {
+	/*color: #373737;
+    float: left;*/
+	font: 14px/28px 'daxcompact-regularregular';
+	font-weight: bold;
+	text-align: right;
+	padding-right: 8px;
+	/*padding: 0px 6px 0px 0px;*/
+}
+
+/*Controla el padding de lbl_Saldo_Cta*/
+.saldo {
+	padding-right: 4px;
+	padding-left: 0px;
+}
+
+/*resalta y da formato de letra al "lbl_Periodo_Reporte"*/
+.resaltado {
+    /*background-color: #FFCCCC;*/
+    background-color: yellow;
+    font-family: 'arial';
+    border-bottom:0;
+    font-weight:bold;
+    color:red;
+}
+
+/*Resalto los ampos de periodo de generacion del informe y nombre cliente*/
+.resaltado_Detalles {
+    background-color: #FFBFBF;
+}
+
+/*Controla el espacio y los margenes de los titulos y las celdas de las tablas en general*/
+th, td {
+    padding: 0px;
+    border:0px;
+    margin:0px;
+}
+
+/* Pinta las grillas intercaladas
+   este codigo no debe moverse por la configuracion del gridview */
+#gdv_Encontrados tr:nth-child(even), #gdv_Movimiento tr:nth-child(even) {
+    /*background-color: #CEECF5;*/
+    background-color: #E0ECF8; /* celeste tenue */
+}
+
+/*Controla los estilos de las etiquetas "h1" en general*/
+h1 {
+    color: #333333;
+    margin: 10px 0 6px 0px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 20px;
+    line-height: normal;
+    font-family: daxcompact-mediumregular;
+  
+}
+
+/*Controla el estilo de los numeros de orden "N°" */
+.ord {
+    /*color: #373737;
+    float: left;*/
+    font: 10px/10px 'daxcompact-regularregular';
+    font-weight: bold;
+    text-align: center;
+    /*padding: 0px 6px 0px 0px;*/
+    font-style: oblique;
+}
+
+/*Controla el estilo del titulo "N°" */
+.ordN {
+    /*color: #373737;
+    float: left;
+    font-weight: bold;
+    padding: 0px 6px 0px 0px;*/
+    font: 9px/10px 'daxcompact-regularregular';
+    text-align: center;
+    font-style: oblique;
+}
+
+/*Controla estilo de letra de los gridviews*/
+.letra {
+	font: 12px/10px 'daxcompact-regularregular';
+   /*padding: 0px;
+	 text-align: center;
+	font-style: oblique;*/
+}
+
+/*Controla estilo de las etiquetas "span" en general*/
+span {
+    /*color: #EA1E00;*/
+    color: #373737;
+    /*font: 16px/22px arial;*/
+    padding: 0px;
+    /*margin-left:5px;*/
+    font: 12px/12px 'daxcompact-regularregular';
+}
+
+/*Controla estilas de los botones "input" en general*/
+/*input[type="submit"]{
+	background: url(../imagenes/img_Enviar.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+	font: 16px 'daxcompact-boldregular';
+	color: #fff;
+	margin: 0 auto;
+	padding: 3px 0 5px;
+	text-align: center;
+	width: 120px;
+	margin-left:20px;
+}*/
+
+.btn_Buscar:enabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_Enviar.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius:7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /*width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+}
+.btn_Buscar:disabled {
+    /*background-color: tomato;  Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) repeat;
+    /*border: 1px solid black;  Green border */
+    border-radius: 7px;
+    color: white; /* White text */
+    padding: 4px 18px; /* Some padding */
+    cursor: not-allowed; /* Pointer/hand icon */
+   /* width: 90px; Set a width if needed */
+    font: 16px 'daxcompact-boldregular';
+    text-align: center;
+}
+
+/* Add a background color on hover 
+.btn-group input:hover {
+    background-color: maroon;
+}*/
+
+/*Coloca a la derecha el titulo "Saldo Cuenta"*/
+.saldoTitulo {
+	/*color: #373737;
+    float: left;*/
+	font: 14px/23px 'daxcompact-regularregular';
+	font-weight: bold;
+	text-align: right;
+	/*padding: 0px 6px 0px 0px;*/
+}
+
+/*Controla los titulos de los gridviews*/
+th {
+    /*color: #373737;
+    float: left;*/
+    font: 14px/23px 'daxcompact-regularregular';
+    font-weight: bold;
+    text-align:center;
+    /*padding: 0px 6px 0px 0px;*/
+}
+
+/*Pone en negrita los subtitulos del formulario de búsqueda*/
+.subtitulo {
+    font-weight: bold;
+}
+
+/*Controla el espacio de las celdas de las tablas en general*/
+td {
+    padding: 5px 9px;
+}
+
+#Global {
+    width: 1120px;
+   /*height: 1000px;*/
+    margin: 0 auto 0 auto;
+/*    background-color: lemonchiffon;*/
+}
+
+#Content_General {
+    width: 1120px;
+    margin: 0 auto 0 auto;
+    background-color: lightgreen;
+}
+
+#Content_Gridview {
+    width: 1120px;
+    margin: 0 auto 0 auto;
+/*    background-color: lightgreen;*/
+    float: left;
+}
+
+#Content_Datos {
+    width: 700px;
+    margin: 0 auto 0 auto;
+/*    background-color: pink;*/
+    float: left;
+}
+#Content_Fotos {
+    width: 390px;
+/*    background-color: lightblue;*/
+    float: right;
+}
+
+#Content_Opciones {
+    width: 20px;
+    margin: 0 auto 0 auto;
+    background-color: lightcyan;
+    float: left;
+}
+
+#Datos_Sistemas {
+    width: 1120px;
+    border: 1px black solid;
+    margin: 0 auto 0 auto;
+    /*    background-color: #ffCD68;*/
+    background-color: beige;
+}
+
+.div_Activo {
+    background-color: #F0F0F0;
+    /*background-color: #AAFFAA;*/
+    /*    color: white;
+    font: 20px/23px 'daxcompact-regularregular';
+    font-weight: bold;
+    text-align: center;*/
+}
+.div_Inactivo {
+    background-color: #FFAAAA;
+    /*    color: white;
+    font: 20px/23px 'daxcompact-regularregular';
+    font-weight: bold;*/
+}
+
+.div_BackGroundAdvertencia {
+    background-color: #FFE786;
+    /*    color: white;
+    font: 20px/23px 'daxcompact-regularregular';
+    font-weight: bold;*/
+}
+
+.div_BackgroundBase {
+    background-color: #F0F0F0;
+    /*    color: white;
+    font: 20px/23px 'daxcompact-regularregular';
+    font-weight: bold;*/
+}
+
+#lbl_Activo {
+    color: white;
+    font: 20px/23px 'daxcompact-regularregular';
+    font-weight: bold;
+}
+
+.div_EmplEstAre {
+    width: 233.3px;
+    height: 135px;
+    margin: 0 auto 0 auto;
+    /*    background-color: plum;*/
+    background-color: beige;
+    float: left;
+    border: 1px black solid;
+}
+.div_FotoOpciones {
+    height:1200px;
+}
+
+.Datos_Personales {
+    width: 700px;
+    border: 1px black solid;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+.Datos_Buscar {
+    width: 270px;
+    border: 1px black solid;
+    /* margin: 0 auto 0 auto;*/
+    background-color: #EBEBEB;
+}
+
+.Datos_Fotos {
+    width: 180px;
+    border: 1px black solid;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+    float: left;
+}
+
+.Datos_Botones {
+    width: 110px;
+
+    /*margin: 0 auto 0 auto;*/
+    background-color: beige;
+}
+
+.Datos_Firma {
+    width: 200px;
+    border: 1px black solid;
+    /*margin: 0 auto 0 auto;*/
+    margin: 0 auto 0 auto;
+    background-color: beige;
+    float: right;
+}
+
+.Titulo_Cuadro {
+    width:50%;
+    white-space:nowrap;
+    margin-left: 7px;
+    color:blue;
+    font: 14px/23px 'daxcompact-regularregular';
+    font-weight: bold;
+    border:0px;
+    padding:0px;
+    margin-bottom:0px;
+
+}
+
+/*Botones de accion*/
+.btn-group input:enabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_Enviar.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 90px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor: pointer;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+.btn-group input:disabled {
+    /*background-color: tomato;*/ /*Green background */
+    background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
+    /*border: 1px solid black; Green border */
+    color: white; /* White text */
+    /*padding: 4px 18px;  Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 90px; /*Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    cursor:not-allowed;
+    font: 16px 'daxcompact-boldregular';
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 4px 18px
+}
+
+    /* Add a background color on hover
+    .btn-group input:hover {
+        background-color: maroon;
+    }*/
+    .btn-group {
+    /*    margin: 10px;*/
+          border: 1px solid black;
+    }
+
+input[type=text]:read-only, textarea:read-only{
+    background-color:lightgrey;
+}
+
+input[type="radio"]:checked{
+    border: 5px solid red;
+    background: red;
+    color: red;
+}
+/*input[type=radio]:checked ~ .check {
+    border: 5px solid red;
+}
+
+    input[type=radio]:checked ~ .check::before {
+        background: red;
+    }
+
+input[type=radio]:checked ~ label {
+    color: red;
+}*/
+
+/*Globo de Ayuda corto*/
+.icono_Ayuda {
+    width: 18px;
+    height: 18px;
+}
+.tooltip_Ayuda_Corto {
+    margin: 0 auto 0 auto;
+    position: relative;
+    display: inline-block;
+}
+    .tooltip_Ayuda_Corto .tiptext_Ayuda_Corto {
+        font-family: Calibri;
+        font-size: 11.5px;
+        visibility: hidden;
+        width: 170px;
+        background-color: #ffff;
+        color: black;
+        text-align: justify;
+        border-radius: 3px;
+        padding: 6px 6px;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+        .tooltip_Ayuda_Corto .tiptext_Ayuda_Corto::after {
+            content: "";
+            position: absolute;
+            border-width: 5px;
+            border-style: solid;
+        }
+    .tooltip_Ayuda_Corto:hover .tiptext_Ayuda_Corto {
+        visibility: visible;
+    }
+    .tooltip_Ayuda_Corto.left .tiptext_Ayuda_Corto {
+        top: -5px;
+        left: 110%;
+    }
+
+        .tooltip_Ayuda_Corto.left .tiptext_Ayuda_Corto::after {
+            margin-top: -5px;
+            top: 50%;
+            right: 100%;
+            border-color: transparent #2E2E2E transparent transparent;
+        }
+
+/*Tooltip de ayuda mas largo*/
+.tooltip_Ayuda_Largo {
+    margin: 0 auto 0 auto;
+    position: relative;
+    display: inline-block;
+}
+
+    .tooltip_Ayuda_Largo .tiptext_Ayuda_Largo {
+        font-family: Calibri;
+        font-size: 11.5px;
+        visibility: hidden;
+        width: 360px;
+        background-color: #ffff;
+        color: black;
+        text-align: justify;
+        border-radius: 3px;
+        padding: 6px 6px;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+        .tooltip_Ayuda_Largo .tiptext_Ayuda_Largo::after {
+            content: "";
+            position: absolute;
+            border-width: 5px;
+            border-style: solid;
+        }
+
+    .tooltip_Ayuda_Largo:hover .tiptext_Ayuda_Largo {
+        visibility: visible;
+    }
+
+    .tooltip_Ayuda_Largo.left .tiptext_Ayuda_Largo {
+        left: 110%;
+    }
+
+        .tooltip_Ayuda_Largo.left .tiptext_Ayuda_Largo::after {
+            margin-top: -5px;
+            top: 50%;
+            right: 100%;
+            border-color: transparent #2E2E2E transparent transparent;
+        }
+/*Dar forma al codigo de barras para que se vea mas nítido*/
+.contenbarras { /* Estilo para el div que contiene la imagen del cod. barras*/
+    width: 250px;
+    height: 100px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+    .contenbarras > .crop {/*Estilo para recortar y mostrar la parte que que es necesaria del cod. barras*/
+        position: absolute;
+        left: -100%;
+        right: -100%;
+        top: -200%; /*Aqui cambia el espacio superior que se le da a la imagen de cod. barras*/
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+.my-fixed-item { /*banner WS usuario*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+     text-align: center;
+     /*  word-wrap: break-word;*/
+    background-color: #CD1818;
+    z-index: 1;
+}
+
+/*Estilos para la foto de usuario del WS*/
+/*.tablaWS {*/
+.div_WSDatosUsuario { /* tamaño y alineación del div datos usuario*/
+    /*    width: 100%;*/
+    /*    margin: 0 0 0 70%;*/
+    /*    margin: 0 auto;*/
+    text-align:left;
+    float: left;/*Necesario para que la imagen de usuario no se ubique abajo*/
+}
+  /*  .tablaWS span {*/
+    .div_WSDatosUsuario span {
+        color: white;
+    }
+
+#img_WSFoto { /*tamaño de la Foto WS*/
+    width: 50px;
+    height: 70px;
+}
+
+.contenWSFoto { /* Estilo para el div que contiene la Foto WS*/
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0px;
+    position: relative;
+    border-radius: 50%; /*Estilo para mostrar circular la Foto WS*/
+
+    margin: 0 auto;
+    display: inline-block;
+}
+
+    .contenWSFoto > .cropWSFoto { /*Estilo para recortar y mostrar la parte que que es necesaria de la Foto WS*/
+        position: absolute;
+        left: -100%;
+        right: -100%;
+        top: -60%; /*Aqui cambia el espacio superior que se le da a la Foto WS*/
+        bottom: -100%;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+    }

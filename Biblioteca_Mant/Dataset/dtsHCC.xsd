@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsHCC" targetNamespace="http://tempuri.org/dtsHCC.xsd" xmlns:mstns="http://tempuri.org/dtsHCC.xsd" xmlns="http://tempuri.org/dtsHCC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsHCC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsHCC" msprop:Generator_UserDSName="dtsHCC">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_HCC" msprop:Generator_TableClassName="DataTable_HCCDataTable" msprop:Generator_TableVarName="tableDataTable_HCC" msprop:Generator_TablePropName="DataTable_HCC" msprop:Generator_RowDeletingName="DataTable_HCCRowDeleting" msprop:Generator_RowChangingName="DataTable_HCCRowChanging" msprop:Generator_RowEvHandlerName="DataTable_HCCRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_HCCRowDeleted" msprop:Generator_UserTableName="DataTable_HCC" msprop:Generator_RowChangedName="DataTable_HCCRowChanged" msprop:Generator_RowEvArgName="DataTable_HCCRowChangeEvent" msprop:Generator_RowClassName="DataTable_HCCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cFechaCompra" msprop:Generator_ColumnVarNameInTable="columncFechaCompra" msprop:Generator_ColumnPropNameInRow="cFechaCompra" msprop:Generator_ColumnPropNameInTable="cFechaCompraColumn" msprop:Generator_UserColumnName="cFechaCompra" type="xs:string" minOccurs="0" />
+              <xs:element name="cHora" msprop:Generator_ColumnVarNameInTable="columncHora" msprop:Generator_ColumnPropNameInRow="cHora" msprop:Generator_ColumnPropNameInTable="cHoraColumn" msprop:Generator_UserColumnName="cHora" type="xs:string" minOccurs="0" />
+              <xs:element name="cNroHCC" msprop:Generator_ColumnVarNameInTable="columncNroHCC" msprop:Generator_ColumnPropNameInRow="cNroHCC" msprop:Generator_ColumnPropNameInTable="cNroHCCColumn" msprop:Generator_UserColumnName="cNroHCC" type="xs:string" minOccurs="0" />
+              <xs:element name="cTipo" msprop:Generator_ColumnVarNameInTable="columncTipo" msprop:Generator_ColumnPropNameInRow="cTipo" msprop:Generator_ColumnPropNameInTable="cTipoColumn" msprop:Generator_UserColumnName="cTipo" type="xs:string" minOccurs="0" />
+              <xs:element name="cAnno" msprop:Generator_ColumnVarNameInTable="columncAnno" msprop:Generator_ColumnPropNameInRow="cAnno" msprop:Generator_ColumnPropNameInTable="cAnnoColumn" msprop:Generator_UserColumnName="cAnno" type="xs:string" minOccurs="0" />
+              <xs:element name="cDocumento" msprop:Generator_ColumnVarNameInTable="columncDocumento" msprop:Generator_ColumnPropNameInRow="cDocumento" msprop:Generator_ColumnPropNameInTable="cDocumentoColumn" msprop:Generator_UserColumnName="cDocumento" type="xs:string" minOccurs="0" />
+              <xs:element name="cProveedor" msprop:Generator_ColumnVarNameInTable="columncProveedor" msprop:Generator_ColumnPropNameInRow="cProveedor" msprop:Generator_ColumnPropNameInTable="cProveedorColumn" msprop:Generator_UserColumnName="cProveedor" type="xs:string" minOccurs="0" />
+              <xs:element name="cPublicacion" msprop:Generator_ColumnVarNameInTable="columncPublicacion" msprop:Generator_ColumnPropNameInRow="cPublicacion" msprop:Generator_ColumnPropNameInTable="cPublicacionColumn" msprop:Generator_UserColumnName="cPublicacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cObservacion" msprop:Generator_ColumnVarNameInTable="columncObservacion" msprop:Generator_ColumnPropNameInRow="cObservacion" msprop:Generator_ColumnPropNameInTable="cObservacionColumn" msprop:Generator_UserColumnName="cObservacion" type="xs:string" minOccurs="0" />
+              <xs:element name="cCodOficina" msprop:Generator_ColumnVarNameInTable="columncCodOficina" msprop:Generator_ColumnPropNameInRow="cCodOficina" msprop:Generator_ColumnPropNameInTable="cCodOficinaColumn" msprop:Generator_UserColumnName="cCodOficina" type="xs:string" minOccurs="0" />
+              <xs:element name="cDependencia" msprop:Generator_ColumnVarNameInTable="columncDependencia" msprop:Generator_ColumnPropNameInRow="cDependencia" msprop:Generator_ColumnPropNameInTable="cDependenciaColumn" msprop:Generator_UserColumnName="cDependencia" type="xs:string" minOccurs="0" />
+              <xs:element name="cImporteSoles" msprop:Generator_ColumnVarNameInTable="columncImporteSoles" msprop:Generator_ColumnPropNameInRow="cImporteSoles" msprop:Generator_ColumnPropNameInTable="cImporteSolesColumn" msprop:Generator_UserColumnName="cImporteSoles" type="xs:string" minOccurs="0" />
+              <xs:element name="cImporteDolares" msprop:Generator_ColumnVarNameInTable="columncImporteDolares" msprop:Generator_ColumnPropNameInRow="cImporteDolares" msprop:Generator_ColumnPropNameInTable="cImporteDolaresColumn" msprop:Generator_UserColumnName="cImporteDolares" type="xs:string" minOccurs="0" />
+              <xs:element name="cFechaModificado" msprop:Generator_ColumnVarNameInTable="columncFechaModificado" msprop:Generator_ColumnPropNameInRow="cFechaModificado" msprop:Generator_ColumnPropNameInTable="cFechaModificadoColumn" msprop:Generator_UserColumnName="cFechaModificado" type="xs:string" minOccurs="0" />
+              <xs:element name="cId_HCC" msprop:Generator_ColumnVarNameInTable="columncId_HCC" msprop:Generator_ColumnPropNameInRow="cId_HCC" msprop:Generator_ColumnPropNameInTable="cId_HCCColumn" msprop:Generator_UserColumnName="cId_HCC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

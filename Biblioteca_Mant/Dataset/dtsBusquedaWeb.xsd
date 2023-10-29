@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dtsBusquedaWeb" targetNamespace="http://tempuri.org/dtsBusquedaWeb.xsd" xmlns:mstns="http://tempuri.org/dtsBusquedaWeb.xsd" xmlns="http://tempuri.org/dtsBusquedaWeb.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dtsBusquedaWeb" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dtsBusquedaWeb" msprop:Generator_UserDSName="dtsBusquedaWeb">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable_BusquedaWeb" msprop:Generator_TableClassName="DataTable_BusquedaWebDataTable" msprop:Generator_TableVarName="tableDataTable_BusquedaWeb" msprop:Generator_TablePropName="DataTable_BusquedaWeb" msprop:Generator_RowDeletingName="DataTable_BusquedaWebRowDeleting" msprop:Generator_RowChangingName="DataTable_BusquedaWebRowChanging" msprop:Generator_RowEvHandlerName="DataTable_BusquedaWebRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable_BusquedaWebRowDeleted" msprop:Generator_UserTableName="DataTable_BusquedaWeb" msprop:Generator_RowChangedName="DataTable_BusquedaWebRowChanged" msprop:Generator_RowEvArgName="DataTable_BusquedaWebRowChangeEvent" msprop:Generator_RowClassName="DataTable_BusquedaWebRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cBusq_Detalle" msprop:Generator_ColumnVarNameInTable="columncBusq_Detalle" msprop:Generator_ColumnPropNameInRow="cBusq_Detalle" msprop:Generator_ColumnPropNameInTable="cBusq_DetalleColumn" msprop:Generator_UserColumnName="cBusq_Detalle" type="xs:string" minOccurs="0" />
+              <xs:element name="cBusq_Fecha" msprop:Generator_ColumnVarNameInTable="columncBusq_Fecha" msprop:Generator_ColumnPropNameInRow="cBusq_Fecha" msprop:Generator_ColumnPropNameInTable="cBusq_FechaColumn" msprop:Generator_UserColumnName="cBusq_Fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="cBusq_Hora" msprop:Generator_ColumnVarNameInTable="columncBusq_Hora" msprop:Generator_ColumnPropNameInRow="cBusq_Hora" msprop:Generator_ColumnPropNameInTable="cBusq_HoraColumn" msprop:Generator_UserColumnName="cBusq_Hora" type="xs:string" minOccurs="0" />
+              <xs:element name="cBusq_DireccionIP" msprop:Generator_ColumnVarNameInTable="columncBusq_DireccionIP" msprop:Generator_ColumnPropNameInRow="cBusq_DireccionIP" msprop:Generator_ColumnPropNameInTable="cBusq_DireccionIPColumn" msprop:Generator_UserColumnName="cBusq_DireccionIP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
