@@ -35,8 +35,9 @@ function txt_FechaDesde(elEvento) {
 ///-----Funcion de fechas usando libreria de Jquery UI Datepicker---///
 $(function () {
     $.datepicker.setDefaults($.datepicker.regional["es"]);
-    $(".datepicker").datepicker();
-    firstDay: 1
+    $(".datepicker").datepicker({
+        firstDay: 1
+    });
 });
 
 //Funcion para validar Fechas desde y hasta 

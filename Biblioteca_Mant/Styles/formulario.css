@@ -263,7 +263,6 @@ span {
     /*border: 1px solid black;  Green border */
     border-radius: 7px;
     color: white; /* White text */
-    padding: 4px 18px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     /*width: 90px; Set a width if needed */
     font: 13px 'daxcompact-boldregular';
@@ -279,7 +278,7 @@ span {
     /*border: 1px solid black;  Green border */
     border-radius: 7px;
     color: white; /* White text */
-    padding: 4px 18px; /* Some padding */
+    /*padding: 4px 18px;*/ /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     /*width: 90px; Set a width if needed */
     font: 13px 'daxcompact-boldregular';
@@ -435,12 +434,10 @@ select:disabled {
     /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_Enviar.jpg) no-repeat;
     /*border: 1px solid black; Green border */
-    color: white; /* White text */
     /*padding: 4px 18px;  Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: 120px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
-    cursor: pointer;
     font: 16px 'daxcompact-boldregular';
     color: #fff;
     margin: 10px;
@@ -455,12 +452,10 @@ select:disabled {
     /*border: 1px solid black; Green border */
     color: white; /* White text */
     /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
     width: 120px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     cursor: not-allowed;
     font: 16px 'daxcompact-boldregular';
-    color: #fff;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -477,9 +472,7 @@ select:disabled {
     cursor: pointer; /* Pointer/hand icon */
     width: 150px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
-    cursor: pointer;
     font: 16px 'daxcompact-boldregular';
-    color: #fff;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -492,7 +485,6 @@ select:disabled {
     /*border: 1px solid black; Green border */
     color: white; /* White text */
     /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
     width: 150px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     cursor: not-allowed;
@@ -513,9 +505,7 @@ select:disabled {
     cursor: pointer; /* Pointer/hand icon */
     width: 150px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
-    cursor: pointer;
     font: 12px 'daxcompact-boldregular';
-    color: #fff;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -528,12 +518,10 @@ select:disabled {
     /*border: 1px solid black; Green border */
     color: white; /* White text */
     /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
     width: 150px; /*Set a width if needed */
     display: block; /* Make the buttons appear below each other */
     cursor: not-allowed;
     font: 12px 'daxcompact-boldregular';
-    color: #fff;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -679,7 +667,6 @@ div#calendario table th tr td {
     width: 50px;
     height: 50px;
     overflow: hidden;
-    margin: 0px;
     position: relative;
     border-radius: 50%; /*Estilo para mostrar circular la Foto WS*/
 

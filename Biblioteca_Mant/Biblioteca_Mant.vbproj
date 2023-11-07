@@ -360,15 +360,8 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.css" />
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.min.css" />
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.css" />
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.min.css" />
-    <Content Include="Styles\Bootstrap 3.2.0\js\bootstrap.js" />
-    <Content Include="Styles\Bootstrap 3.2.0\js\bootstrap.min.js" />
     <Content Include="Styles\formulario.css" />
     <Content Include="Styles\formulario_emergente.css" />
-    <Content Include="Styles\formulario_OLD1.css" />
     <Content Include="Styles\jquery-ui.css" />
     <Content Include="Styles\jquery-ui.min.css" />
     <Content Include="Styles\Login\login-principal.css" />
@@ -568,12 +561,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap-theme.css.map" />
-    <Content Include="Styles\Bootstrap 3.2.0\css\bootstrap.css.map" />
-    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Styles\fuentes\.DS_Store" />
     <Content Include="Styles\fuentes\daxcompact-bold-webfont.eot" />
     <Content Include="Styles\fuentes\daxcompact-bold-webfont.svg" />

@@ -516,8 +516,9 @@ function Validar_HoraDevolucion() {
 //Funcion para activar el Datepecker usando Jquery UI PARA MANTENIMIENTO
 $(function () {
     $.datepicker.setDefaults($.datepicker.regional["es"]);
-    $(".datepicker").datepicker();
-    firstDay: 1
+    $(".datepicker").datepicker({
+        firstDay: 1
+    });
 });
 
 //Funcion para validar campos para nuevo registro al click en "grabar."

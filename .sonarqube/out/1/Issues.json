@@ -75,48 +75,6 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 82,
-                  "startColumn": 9,
-                  "endLine": 83,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 162,
-                  "startColumn": 9,
-                  "endLine": 163,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
                   "startLine": 61,
                   "startColumn": 9,
                   "endLine": 62,
@@ -138,51 +96,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 143,
+                  "startLine": 82,
                   "startColumn": 9,
-                  "endLine": 144,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1542",
-          "level": "warning",
-          "message": "Rename function 'Actualizar_Movimiento' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 151,
-                  "startColumn": 28,
-                  "endLine": 151,
-                  "endColumn": 49
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 183,
-                  "startColumn": 9,
-                  "endLine": 184,
+                  "endLine": 83,
                   "endColumn": 18
                 }
               }
@@ -214,18 +130,60 @@
           }
         },
         {
-          "ruleId": "S1542",
+          "ruleId": "S2737",
           "level": "warning",
-          "message": "Rename function 'Actualizar_Libro' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 16,
+                  "startLine": 143,
+                  "startColumn": 9,
+                  "endLine": 144,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 9,
+                  "endLine": 163,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1542",
+          "level": "warning",
+          "message": "Rename function 'Actualizar_Movimiento' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 151,
                   "startColumn": 28,
-                  "endLine": 16,
-                  "endColumn": 44
+                  "endLine": 151,
+                  "endColumn": 49
                 }
               }
             }
@@ -256,6 +214,48 @@
           }
         },
         {
+          "ruleId": "S1542",
+          "level": "warning",
+          "message": "Rename function 'Actualizar_Libro' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 28,
+                  "endLine": 16,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 109,
+                  "endLine": 16,
+                  "endColumn": 116
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1654",
           "level": "warning",
           "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
@@ -268,6 +268,27 @@
                   "startColumn": 50,
                   "endLine": 95,
                   "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 43,
+                  "endLine": 17,
+                  "endColumn": 48
                 }
               }
             }
@@ -319,18 +340,18 @@
           }
         },
         {
-          "ruleId": "S2737",
+          "ruleId": "S1654",
           "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 206,
-                  "startColumn": 9,
-                  "endLine": 207,
-                  "endColumn": 18
+                  "startLine": 18,
+                  "startColumn": 92,
+                  "endLine": 18,
+                  "endColumn": 104
                 }
               }
             }
@@ -390,6 +411,27 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
+                  "startLine": 18,
+                  "startColumn": 144,
+                  "endLine": 18,
+                  "endColumn": 155
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
                   "startLine": 97,
                   "startColumn": 144,
                   "endLine": 97,
@@ -432,153 +474,6 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 98,
-                  "startColumn": 68,
-                  "endLine": 98,
-                  "endColumn": 75
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 98,
-                  "startColumn": 143,
-                  "endLine": 98,
-                  "endColumn": 149
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 99,
-                  "startColumn": 122,
-                  "endLine": 99,
-                  "endColumn": 124
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 16,
-                  "startColumn": 109,
-                  "endLine": 16,
-                  "endColumn": 116
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 17,
-                  "startColumn": 43,
-                  "endLine": 17,
-                  "endColumn": 48
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 92,
-                  "endLine": 18,
-                  "endColumn": 104
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 144,
-                  "endLine": 18,
-                  "endColumn": 155
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1654",
-          "level": "warning",
-          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
                   "startLine": 19,
                   "startColumn": 43,
                   "endLine": 19,
@@ -621,9 +516,51 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
+                  "startLine": 98,
+                  "startColumn": 68,
+                  "endLine": 98,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
                   "startLine": 19,
                   "startColumn": 143,
                   "endLine": 19,
+                  "endColumn": 149
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 143,
+                  "endLine": 98,
                   "endColumn": 149
                 }
               }
@@ -655,6 +592,69 @@
           }
         },
         {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 122,
+                  "endLine": 99,
+                  "endColumn": 124
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 9,
+                  "endLine": 184,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 9,
+                  "endLine": 207,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2737",
           "level": "warning",
           "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
@@ -667,6 +667,48 @@
                   "startColumn": 9,
                   "endLine": 228,
                   "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 9,
+                  "endLine": 249,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1542",
+          "level": "warning",
+          "message": "Rename function 'validacionContadorCodLibro' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 28,
+                  "endLine": 238,
+                  "endColumn": 54
                 }
               }
             }
@@ -739,90 +781,6 @@
           }
         },
         {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 248,
-                  "startColumn": 9,
-                  "endLine": 249,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 271,
-                  "startColumn": 9,
-                  "endLine": 272,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1542",
-          "level": "warning",
-          "message": "Rename function 'validacionContadorCodLibro' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 238,
-                  "startColumn": 28,
-                  "endLine": 238,
-                  "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1542",
-          "level": "warning",
-          "message": "Rename function 'Listar_Movimiento' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 261,
-                  "startColumn": 28,
-                  "endLine": 261,
-                  "endColumn": 45
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S107",
           "level": "warning",
           "message": "Function has 25 parameters, which is greater than the 7 authorized.",
@@ -852,9 +810,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 294,
+                  "startLine": 271,
                   "startColumn": 9,
-                  "endLine": 295,
+                  "endLine": 272,
                   "endColumn": 18
                 }
               }
@@ -907,6 +865,27 @@
           }
         },
         {
+          "ruleId": "S1542",
+          "level": "warning",
+          "message": "Rename function 'Listar_Movimiento' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 261,
+                  "startColumn": 28,
+                  "endLine": 261,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2737",
           "level": "warning",
           "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
@@ -915,9 +894,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 316,
+                  "startLine": 294,
                   "startColumn": 9,
-                  "endLine": 317,
+                  "endLine": 295,
                   "endColumn": 18
                 }
               }
@@ -957,9 +936,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 340,
+                  "startLine": 316,
                   "startColumn": 9,
-                  "endLine": 341,
+                  "endLine": 317,
                   "endColumn": 18
                 }
               }
@@ -999,9 +978,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 362,
+                  "startLine": 340,
                   "startColumn": 9,
-                  "endLine": 363,
+                  "endLine": 341,
                   "endColumn": 18
                 }
               }
@@ -1020,9 +999,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 387,
+                  "startLine": 362,
                   "startColumn": 9,
-                  "endLine": 388,
+                  "endLine": 363,
                   "endColumn": 18
                 }
               }
@@ -1062,10 +1041,73 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
+                  "startLine": 387,
+                  "startColumn": 9,
+                  "endLine": 388,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
                   "startLine": 429,
                   "startColumn": 9,
                   "endLine": 430,
                   "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 455,
+                  "startColumn": 9,
+                  "endLine": 456,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1542",
+          "level": "warning",
+          "message": "Rename function 'Registrar_Prestamo' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 399,
+                  "startColumn": 28,
+                  "endLine": 399,
+                  "endColumn": 46
                 }
               }
             }
@@ -1104,9 +1146,9 @@
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 455,
+                  "startLine": 497,
                   "startColumn": 9,
-                  "endLine": 456,
+                  "endLine": 498,
                   "endColumn": 18
                 }
               }
@@ -1129,48 +1171,6 @@
                   "startColumn": 28,
                   "endLine": 464,
                   "endColumn": 54
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 497,
-                  "startColumn": 9,
-                  "endLine": 498,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1542",
-          "level": "warning",
-          "message": "Rename function 'Registrar_Prestamo' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 399,
-                  "startColumn": 28,
-                  "endLine": 399,
-                  "endColumn": 46
                 }
               }
             }
@@ -1275,27 +1275,6 @@
                   "startLine": 597,
                   "startColumn": 9,
                   "endLine": 598,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 626,
-                  "startColumn": 9,
-                  "endLine": 627,
                   "endColumn": 18
                 }
               }
@@ -1474,6 +1453,48 @@
           }
         },
         {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 626,
+                  "startColumn": 9,
+                  "endLine": 627,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 647,
+                  "startColumn": 9,
+                  "endLine": 648,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1654",
           "level": "warning",
           "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
@@ -1537,27 +1558,6 @@
           }
         },
         {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 647,
-                  "startColumn": 9,
-                  "endLine": 648,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1654",
           "level": "warning",
           "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
@@ -1570,27 +1570,6 @@
                   "startColumn": 59,
                   "endLine": 583,
                   "endColumn": 74
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2737",
-          "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 671,
-                  "startColumn": 9,
-                  "endLine": 672,
-                  "endColumn": 18
                 }
               }
             }
@@ -1633,6 +1612,48 @@
                   "startColumn": 13,
                   "endLine": 447,
                   "endColumn": 111
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 671,
+                  "startColumn": 9,
+                  "endLine": 672,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2737",
+          "level": "warning",
+          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
+                "region": {
+                  "startLine": 693,
+                  "startColumn": 9,
+                  "endLine": 694,
+                  "endColumn": 18
                 }
               }
             }
@@ -1726,18 +1747,18 @@
           }
         },
         {
-          "ruleId": "S2737",
+          "ruleId": "S1542",
           "level": "warning",
-          "message": "Add logic to this catch clause or eliminate it and rethrow the exception automatically.",
+          "message": "Rename function 'Actualizar_Parrafo' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
                 "region": {
-                  "startLine": 693,
-                  "startColumn": 9,
-                  "endLine": 694,
-                  "endColumn": 18
+                  "startLine": 682,
+                  "startColumn": 28,
+                  "endLine": 682,
+                  "endColumn": 46
                 }
               }
             }
@@ -1759,27 +1780,6 @@
                   "startColumn": 9,
                   "endLine": 721,
                   "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1542",
-          "level": "warning",
-          "message": "Rename function 'Actualizar_Parrafo' to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/Users/alex1/Documents/BIBL/16-08-23/ROJO/sln_BIBL_Mantenimiento/CapaNegocio/cls_Metodos.vb",
-                "region": {
-                  "startLine": 682,
-                  "startColumn": 28,
-                  "endLine": 682,
-                  "endColumn": 46
                 }
               }
             }

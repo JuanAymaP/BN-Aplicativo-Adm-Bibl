@@ -35,7 +35,6 @@
 
 #bn-contenidos #cuerpo h2 {
     color: #343434;
-    font: 18px/39px 'daxcompact-regularregular';
     height: 39px;
     text-align: center;
     font: 22px 'daxcompact-boldregular';
@@ -48,7 +47,7 @@
 #bn-contenidos #cuerpo form label {
     color: #444444;
     cursor: pointer;
-    font: 13px/23px arial;
+    font: 13px arial;
     text-align: right;
     float: left;
     padding: 0px 5px 0px 30px; /*centro los labels y los texboxes*/
@@ -172,7 +171,7 @@
 
     #bn-contenidos #cuerpo form p.tributos {
         color: #444444;
-        font:  12px/20px arial;
+        font:  12px arial;
         padding: 0px 0px 9px 0px;
     }
 

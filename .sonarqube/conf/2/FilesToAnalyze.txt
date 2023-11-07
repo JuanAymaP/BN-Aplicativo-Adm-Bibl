@@ -146,15 +146,8 @@ C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Ma
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x64\SqlServerSpatial140.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x86\msvcr120.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.css
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.min.css
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.css
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.min.css
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\js\bootstrap.js
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\js\bootstrap.min.js
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario.css
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario_emergente.css
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\formulario_OLD1.css
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\jquery-ui.css
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\jquery-ui.min.css
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Login\login-principal.css
@@ -188,12 +181,6 @@ C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Ma
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Lista_Prestamos.rdlc
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Lista_PrestamosxOficina.rdlc
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Reportes\rpt_Ficha_Inventario_Libro.rdlc
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap-theme.css.map
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\css\bootstrap.css.map
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.eot
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.svg
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.ttf
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\Bootstrap 3.2.0\fonts\glyphicons-halflings-regular.woff
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\.DS_Store
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.eot
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\Biblioteca_Mant\Styles\fuentes\daxcompact-bold-webfont.svg
