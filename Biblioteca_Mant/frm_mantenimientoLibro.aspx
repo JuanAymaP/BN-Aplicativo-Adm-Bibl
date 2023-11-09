@@ -17,7 +17,10 @@
             <div id="Content_Datos">
                 <fieldset class="Datos_Personales" style="margin-bottom: 20px; width: 663px;">
                     <legend class="Titulo_Cuadro" style="width: 6%">DATOS</legend>
-                    <table style="width: 656px;">
+                    <table style="width: 656px;" aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 82px; height: 26px;">
                                 <asp:Label ID="lbl_codRegistro" runat="server" Text="Código Registro:"></asp:Label>
@@ -182,7 +185,10 @@
                             </td>
                         </tr>
                     </table>
-                    <table style="width: 656px">
+                    <table style="width: 656px" aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td align="left" class="style2" style="width: 68px">N° ISBN:</td>
                             <td style="width: 169px">
@@ -303,7 +309,10 @@
                 <fieldset class="Datos_Buscar">
                     <legend class="Titulo_Cuadro">BÚSQUEDA POR:</legend>
                     <div id="errorDiv"></div>
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td>
                                 <asp:DropDownList ID="cboxBusqueda" runat="server" Width="180px" AutoPostBack="true" BackColor="#FFFF9E" Height="25px">
@@ -506,7 +515,10 @@
             <legend class="Titulo_Cuadro">DATOS DEL SISTEMA</legend>
             <input type="button" id="btn_Mostrar" name="btn_Mostrar" value="Mostrar" runat="server" />
             <input type="button" id="btn_Ocultar" name="btn_Ocultar" value="Ocultar" runat="server" />
-            <table id="tbl_Datos_Sistemas">
+            <table id="tbl_Datos_Sistemas" aria-label="Tabla1">
+                <tr>
+                    <th></th>
+                </tr>
                 <tr>
                     <td>
                         <asp:Label ID="lbl_TFechaSist_Ing" runat="server" Text="Fecha Sist. Ingreso.:"></asp:Label>

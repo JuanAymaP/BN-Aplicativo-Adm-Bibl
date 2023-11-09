@@ -64,7 +64,10 @@
                 </div>
                 
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_lector" runat="server">
-                    <table style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
+                    <table aria-label="Tabla1" style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr style="width: 400px;">
                             <td style="height: 26px; width: 87px; vertical-align: top">
                                 <asp:Label ID="lbl_TOficina" runat="server" Text="* Elegir:" style="vertical-align:middle"></asp:Label>
@@ -88,7 +91,10 @@
                         </tr>
                     </table>
 
-                    <table style="display: inline-block">
+                    <table aria-label="Tabla1" style="display: inline-block" aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 174px">
                                 <div class="btn-BuscarLector">
@@ -113,7 +119,10 @@
                         </tr>
                     </table>
 
-                    <table style="display: inline-block">
+                    <table aria-label="Tabla1" style="display: inline-block" aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <td>
                             <legend class="Titulo_Cuadro" style="align-items:center;" >Foto Lector</legend>
                              <asp:Image ID="imgLector" Width="99px" Height="139px" ImageUrl="Imagenes/img_usuario.jpg" runat="server" />
@@ -204,7 +213,10 @@
                 <!--VIEJO-->
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_libro" runat="server">      
                     <!--NUEVO-->
-                    <table style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
+                    <table aria-label="Tabla1" style="width: 300px; vertical-align: top; display:inline-block; margin-top: 70px;">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr style="width: 400px;">
                             <td style="height: 26px; width: 183px; vertical-align: top">
                                 <asp:Label ID="Label15" runat="server" Text="* Elegir:"></asp:Label>
@@ -248,7 +260,10 @@
                         </tr>
                     </table>
 
-                    <table style="display: inline-block; margin-left: 100px">
+                    <table aria-label="Tabla1" style="display: inline-block; margin-left: 100px">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td>
                                 <legend class="Titulo_Cuadro" style="align-items: center;">Imagen Portada</legend>
@@ -342,14 +357,18 @@
                 <!--3. Prestamos, dev, otros-->
                 <div class="Datos_Buscar" style="width: 1000px; background-color: beige;">            
                 <fieldset class="Datos_Personales" style="background-color: #c8e4f7; margin-bottom: 0px; padding-top: -100px; height: 273px; width: 190px; display: inline-block" id="fs_prestLibro" runat="server">
-                        <div style="display: inline-block;">
+                    <legend hidden="hidden"></legend>    
+                    <div style="display: inline-block;">
                             <asp:Label class="Titulo_Cuadro" ID="Label3" runat="server" Text="Libro"></asp:Label>
                         </div>
                         <div style="display: block;">
                             <img id="cph_Base_Image2" alt="libro" src="Imagenes/img_02libro.jpg" style="height: 30px; width: 25px; padding-left: 0px; padding-top: 0px;"/>
                         </div>
                         <div style="display: inline-block;">
-                            <table style="width: 190px; display: inline-table;">
+                            <table aria-label="Tabla1" style="width: 190px; display: inline-table;">
+                                <tr>
+                                    <th></th>
+                                </tr>
                                 <tr>
                                     <td style="width: 58px; height: 28px;">
                                         <asp:Label ID="Label8" runat="server" Text="Cód Registro:"></asp:Label>
@@ -373,6 +392,7 @@
 
                 <!--LECTOR-->
                 <fieldset class="Datos_Personales" style="background-color: #ffd1cc; margin-bottom:0px; margin-top: 10px; height:273px; width: 120px; display: inline-block" id="fs_prestLector" runat="server">               
+                    <legend hidden="hidden"></legend>
                     <div style="display:inline-block; height:10px">
                         <asp:Label class="Titulo_Cuadro" Id="Label17" runat="server" text="Lector"></asp:Label>
                     </div>
@@ -381,7 +401,10 @@
                     </div>
                     
                     <div style="display:inline-block;">
-                        <table style="width: 190px; display: inline-table;">
+                        <table aria-label="Tabla1" style="width: 190px; display: inline-table;">
+                            <tr>
+                                <th></th>
+                            </tr>
                             <tr>
                                 <td style="width: 58px">
                                     <asp:Label ID="lbl_codRegistro" runat="server" Text="Cód Empleado / DNI:"></asp:Label>
@@ -400,9 +423,11 @@
                             </tr>
                         </table>
                     </div>    
-                </fieldset> 
+                </fieldset>
+
                     <!--PRESTAMO-->
                     <fieldset class="Datos_Personales" style="background-color: #e6fcf2; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; height: 273px; width: 200px; display: inline-block" id="fs_prestamo" runat="server">
+                        <legend hidden="hidden"></legend>
                         <div style="display: inline-block;">
                             <asp:Label class="Titulo_Cuadro" ID="lbl_TituloPrestamo" runat="server" Text="Nuevo Préstamo"></asp:Label>
                         </div>
@@ -410,7 +435,10 @@
                             <img id="cph_Base_Image3" alt="prestamo" src="Imagenes/img_03prestamo.jpg" style="height: 30px; width: 25px; padding-left: 0px"/>
                         </div>
                         <div style="display: inline-block;">
-                            <table style="width: 271px; display: inline-table;">
+                            <table aria-label="Tabla1" style="width: 271px; display: inline-table;">
+                                <tr>
+                                    <th></th>
+                                </tr>
                                 <tr>
                                     <td style="width: 600px">
                                         <asp:Label ID="lblCodPrestamo" runat="server" Text="*Código de Préstamo:"></asp:Label>
@@ -489,7 +517,10 @@
                 <fieldset class="Datos_Buscar" id="fs_buscar" runat="server" style="width: 150px;">
                     <legend class="Titulo_Cuadro">BUSCAR POR:</legend>
                     
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td>
                                 <asp:DropDownList ID="cboxBusqueda" runat="server" Width="120px" BackColor="#FFFF9E" Height="25px" AutoPostBack="true">
@@ -536,7 +567,7 @@
 
                     <!--BUSCAR-->
                     <fieldset class="Datos_Buscar" id="fs_botones" runat="server" style="width: 150px;">
-          
+                    <legend hidden="hidden"></legend>
                     <div class="Datos_Botones"  style="margin-bottom: 13px; width: 180px;">
                                         <div class="btn-group">
                                             <asp:Button ID="btnGrabar" runat="server" Text="Grabar." />
@@ -698,7 +729,11 @@
             
             <!--AQUIII-->
                 <fieldset class="Datos_Buscar" style="width: 900px; background-color: beige;" id="fs_seleccionados" runat="server">
-                    <table>
+                    <legend hidden="hidden"></legend>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="height: 26px; width: 181px; text-align:start">
                                 <asp:Label ID="Label5" runat="server" Text="* Apellidos y nombres seleccionados:"></asp:Label>

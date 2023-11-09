@@ -10,7 +10,8 @@
             <div id="Content_Datos">
                 <div class="tab" style="width: 670px; margin-bottom: -3px;">
                 </div>
-                <fieldset class="Datos_Personales" style="margin-bottom: 20px;">                  
+                <fieldset class="Datos_Personales" style="margin-bottom: 20px;">
+                        <legend hidden="hidden"></legend>
                         &nbsp;                   
                         &nbsp; 
                         &nbsp;              
@@ -31,7 +32,7 @@
                     
                    
                         <br />
-                        <a href="mailto:biblioteca@bn.com.pe"><font color="blue">biblioteca@bn.com.pe</font></a>
+                        <a href="mailto:biblioteca@bn.com.pe">biblioteca@bn.com.pe</a>
                         <br />
                         <br />
                         <asp:Label ID="Label12" runat="server" Text="Telef.: 5192000"></asp:Label>
@@ -39,16 +40,11 @@
                         <br />
                         <asp:Label ID="Label8" runat="server" Text="Anexo:  95-059"></asp:Label>
                         &nbsp;
-                    
-                    
                         &nbsp;
                         &nbsp;
-                    
-                    <%--<center>--%>
                         &nbsp;<asp:Label ID="Label3" runat="server"><i>(Información actualizada al mes de Febrero del 2023)</i></asp:Label>
-                    <%--</center>--%>
                    
-                        <asp:Label ID="Label9" runat="server" Text="División de Desarrollo de Sistemas - BANCO DE LA NACION" Visible="false"></asp:Label>&nbsp;</center>
+                        <asp:Label ID="Label9" runat="server" Text="División de Desarrollo de Sistemas - BANCO DE LA NACION" Visible="false"></asp:Label>&nbsp;
                     
                         <asp:Label ID="lbl_Copyright" runat="server" Visible="false"></asp:Label>
                         &nbsp;

@@ -21,7 +21,10 @@
             <div id="Content_Datos">
                 <fieldset class="Datos_Personales" style="margin-bottom:20px; width: 663px;">
                     <legend class="Titulo_Cuadro" style="width: 10%">PÁRRAFO</legend>
-                    <table style="width: 656px">
+                    <table style="width: 656px" aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 80px">
                                 <asp:Label ID="lbl_fechaCompra" runat="server" Text="Nombre del párrafo:"></asp:Label>

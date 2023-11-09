@@ -284,7 +284,6 @@ D:\Percy2022\Proyectos\BIBLIOTECA\Bibl-Rojo\2023\Junio\14-06-23\ROJO\sln_BIBL_Ma
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\bin\Release\CapaDatos.dll
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\bin\Release\CapaDatos.pdb
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\bin\Release\CapaDatos.xml
-C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\obj\Release\CapaDatos.vbproj.AssemblyReference.cache
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\obj\Release\CapaDatos.Resources.resources
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\obj\Release\CapaDatos.vbproj.GenerateResource.cache
 C:\Users\alex1\Documents\BIBL\16-08-23\ROJO\sln_BIBL_Mantenimiento\CapaDatos\obj\Release\CapaDatos.vbproj.CoreCompileInputs.cache

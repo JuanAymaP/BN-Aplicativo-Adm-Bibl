@@ -5,7 +5,8 @@
 
 
 	<fieldset class="Datos_Buscar" style="width: 900px; background-color:none; border-style: none;" id="fs_libro" runat="server">
-			<ul class="align">
+		<legend hidden="hidden"></legend>	
+		<ul class="align">
 				<li>
 					<figure class='book'>
 
@@ -444,9 +445,6 @@ a {
 
 .page>li {
 	background: -webkit-linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
-	background: -moz-linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
-	background: -ms-linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
-	background: linear-gradient(left, #e1ddd8 0%, #fffbf6 100%);
 	box-shadow: inset 0px -1px 2px rgba(50, 50, 50, 0.1), inset -1px 0px 1px rgba(150, 150, 150, 0.2);
 	border-radius: 0px 5px 5px 0px;
 }

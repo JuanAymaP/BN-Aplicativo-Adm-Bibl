@@ -2,41 +2,35 @@
     height: 100%;
     width: 100%;
     max-width: 100%;
-    min-width:100%;
-    /*    padding-left: 200px;*/
+    min-width: 100%;
     margin: 0;
     background-color: #F0F0F0;
-    font: 12px/12px 'daxcompact-regularregular';
+    font-size: 12px;
+    font-family: 'daxcompact-regularregular', sans-serif;
 }
 
 /*----Estilo para la seccion cabecera-------*/
-
 div#contenedor_principal {
     min-height: calc(100% - 4rem);
-/*    min-width:100vw;*/
 }
 
 div#contenedor_cabecera {
-    /*height: 30px;*/
     background-color: white;
-/*    box-shadow: inset 0px 0px 15px 0 gray;*/
     margin-bottom:10px;
-/*    display: flex;*/
 }
 
 div#subcabecera_imagenes {
     display: flex; 
-  /*  margin:0 auto; */
     width:1340px;
 }
 
-div#subcabecera_opciones{ 
+div#subcabecera_opciones { 
     background-color:gainsboro;
     display: flex;
-   padding:5px;
+    padding:5px;
 }
 
-div#sub_subcabecera_opciones{
+div#sub_subcabecera_opciones {
     width:900px;
     margin:0 auto;
     display:flex;
@@ -44,10 +38,10 @@ div#sub_subcabecera_opciones{
 
 div#contenedor_cuerpo {
     margin: 0 auto;
-    /*    background-color: orange;*/
     width: 1200px;
     display: flex;
 }
+
 /*----Estilo para la seccion Menu-------*/
 div#subcuerpo_menú {
     text-align: center;
@@ -57,7 +51,7 @@ div#subcuerpo_menú {
     box-shadow: inset 0 0 15px 0 gray;
     width: 200px;
     height: 350px;
-    border-radius: 7px 0 0 7px; /*arriba_izq arriba_der abajo_der abajo_izq */
+    border-radius: 7px 0 0 7px;
     font-weight:bold;
 }
 
@@ -80,17 +74,13 @@ div#subcuerpo_menú {
         padding: 10px;
         text-decoration: none;
         border-radius: 7px;
-        border: 1px solid grey;
-
-        
+        border: 1px solid grey; 
     }
 
         div#subcuerpo_menú a:hover {
-            /*background-color: #ccc;*/
             background-color: #f50a1d;
             box-shadow: inset 0 0 15px 0 gray;
-            color: white;
-            
+            color: white;      
         }
 
 .btnSeleccionado {
@@ -100,75 +90,61 @@ div#subcuerpo_menú {
 }
 
 div#subcuerpo_formulario {
-    /*position:absolute;*/
     margin: 0;
     padding: 10px;
     background-color: #E8E8E8;
-    /*background-image: linear-gradient(to right, gray, white, gray);*/
     box-shadow: inset 0 0 15px 0 gray;
     width: 1000px;
-    border-radius: 0 7px 7px 7px; /*arriba_izq arriba_der abajo_der abajo_izq */
+    border-radius: 0 7px 7px 7px;
 }
-
-
 
 #Content_General {
     width: 1000px;
     margin: 0 auto 0 auto;
-    /*    background-color: lightgreen;*/
 }
 
 #Content_Datos {
     width: 680px;
     margin: 0 auto 0 auto;
-    /*    background-color: pink;*/
     float: left;
 }
 
 #Content_Fotos {
     width: 300px;
-    /*    background-color: lightblue;*/
     float: right;
 }
 
 .Datos_Personales {
-        width: 650px;
-        border: 1px gray solid;
-        /*   margin: 0 auto 0 auto;*/
-        /* background-color: beige; */
-        background-color: beige;
+    width: 650px;
+    border: 1px gray solid;
+    background-color: beige;
 }
 
 .Datos_Buscar {
     width: 270px;
     border: 1px gray solid;
-    /* margin: 0 auto 0 auto;*/
     background-color: #EBEBEB;
     margin-left: 0px;
 }
 
 .Datos_Botones {
     width: 280px;
-    /*margin: 0 auto 0 auto;*/
     border: 1px gray solid;
     background-color: beige;
     display: flex;
 }
 
-
 .Datos_Fotos {
     width: 180px;
-     border: 1px gray solid;
+    border: 1px gray solid;
     margin: 0 auto 0 auto;
     background-color: beige;
     float: left;
 }
 
-
 .Datos_Devolucion {
     margin-top:-10px;
     border: 1px Gray solid;
-    /* margin: 0 auto 0 auto;*/
     background-color: #EBEBEB;
 }
 
@@ -177,7 +153,8 @@ div#subcuerpo_formulario {
     white-space: nowrap;
     margin-left: 7px;
     color: blue;
-    font: 14px/23px 'daxcompact-regularregular';
+    font-size: 14px/23px;
+    font-family: 'daxcompact-regularregular', sans-serif;
     font-weight: bold;
     border: 0px;
     padding: 0px;
@@ -189,11 +166,6 @@ footer {
     height: 4rem;
     background-color: #e2e2e2
 }
-/*------------------*/
-
-h1 {
-  /*  padding: 0px;*/
-}
 
 h2 {
     font-size:12px;
@@ -202,14 +174,11 @@ h2 {
 
 /*Controla estilo de las etiquetas "span" en general*/
 span {
-    /*color: #EA1E00;*/
     color: #373737;
-    /*font: 16px/22px arial;*/
     padding: 0px;
-    /*margin-left:5px;*/
-    font: 12px/12px 'daxcompact-regularregular';
+    font-size: 12px;
+    font-family: 'daxcompact-regularregular', sans-serif;
 }
-
 
 /*Estilos Icono de funcionalidades*/
 .Ico {
@@ -221,51 +190,43 @@ span {
 
 /*Estilos Logo BN*/
 .icono_BN {
-    /*    height: 67px;
-    width: 198px;*/
     height: 61px;
     width: 195px;
     top: 188px;
     left: -22px;
     padding: 0 20px;
 }
-/*Estilos boton "Buscar"*/
 
- .btnBuscar:enabled {
-    /*background-color: tomato;  Green background */
+/*Estilos boton "Buscar"*/
+.btnBuscar:enabled {
     background: url(../imagenes/img_Enviar.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
-    color: white; /* White text */
-    padding: 4px 18px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    /*width: 90px; Set a width if needed */
-    font: 16px 'daxcompact-boldregular';
+    color: white;
+    padding: 4px 18px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'daxcompact-regularregular', sans-serif;
     text-align: center;
 }
 
 .btnBuscar:disabled {
-    /*background-color: tomato;  Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
-    color: white; /* White text */
-    padding: 4px 18px; /* Some padding */
-    cursor: not-allowed; /* Pointer/hand icon */
-    /* width: 90px; Set a width if needed */
-    font: 16px 'daxcompact-boldregular';
+    color: white;
+    padding: 4px 18px;
+    cursor: not-allowed;
+    font-size: 16px;
+    font-family: 'daxcompact-regularregular', sans-serif;
     text-align: center;
 }
 
 .btnMasOchodias:enabled {
-    /*background-color: tomato;  Green background */
     background: url(../imagenes/img_Enviar.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
-    color: white; /* White text */
-    cursor: pointer; /* Pointer/hand icon */
-    /*width: 90px; Set a width if needed */
-    font: 13px 'daxcompact-boldregular';
+    color: white;
+    cursor: pointer;
+    font-size: 13px; 
+    font-family: 'daxcompact-boldregular', sans-serif;
     text-align: center;
     width: 50px;
     height: 25px;
@@ -273,15 +234,12 @@ span {
 }
 
 .btnMasOchodias:disabled {
-    /*background-color: tomato;  Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
     color: white; /* White text */
-    /*padding: 4px 18px;*/ /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    /*width: 90px; Set a width if needed */
-    font: 13px 'daxcompact-boldregular';
+    font-size: 13px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     text-align: center;
     width: 50px;
     height: 25px;
@@ -290,15 +248,13 @@ span {
 
 /*Estilos botones de accion*/
 .btn_Accion:enabled {
-    /*background-color: tomato;  Green background */
     background: url(../imagenes/img_Enviar.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
     color: white; /* White text */
     padding: 4px 18px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    /*width: 90px; Set a width if needed */
-    font: 16px 'daxcompact-boldregular';
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     text-align: center;
     border: 1px solid black;
     width:200px;
@@ -307,15 +263,13 @@ span {
 }
 
 .btn_Accion:disabled {
-    /*background-color: tomato;  Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) repeat;
-    /*border: 1px solid black;  Green border */
     border-radius: 7px;
     color: white; /* White text */
     padding: 4px 18px; /* Some padding */
     cursor: not-allowed; /* Pointer/hand icon */
-    /* width: 90px; Set a width if needed */
-    font: 16px 'daxcompact-boldregular';
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     text-align: center;
 }
 
@@ -333,13 +287,12 @@ span {
 
 .tooltip_Ayuda_Corto {
     margin: 0 auto 0 auto;
-    /*margin*/
     position: relative;
     display: inline-block;
 }
 
     .tooltip_Ayuda_Corto .tiptext_Ayuda_Corto {
-        font-family: Calibri;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 11.5px;
         visibility: hidden;
         width: 150px;
@@ -384,7 +337,7 @@ span {
 }
 
     .tooltip_Ayuda_Largo .tiptext_Ayuda_Largo {
-        font-family: Calibri;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 11.5px;
         visibility: hidden;
         width: 230px;
@@ -431,14 +384,12 @@ select:disabled {
 
 /*Botones de accion*/
 .btn-group input:enabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_Enviar.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 120px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    font: 16px 'daxcompact-boldregular';
+    cursor: pointer;
+    width: 120px;
+    display: block;
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     color: #fff;
     margin: 10px;
     text-align: center;
@@ -447,15 +398,13 @@ select:disabled {
 }
 
 .btn-group input:disabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    color: white; /* White text */
-    /*padding: 4px 18px;  Some padding */
-    width: 120px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
+    color: white;
+    width: 120px;
+    display: block;
     cursor: not-allowed;
-    font: 16px 'daxcompact-boldregular';
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -464,15 +413,13 @@ select:disabled {
 
 /*Botones de accion*/
 .btn-BuscarLector input:enabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_Enviar.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    color: white; /* White text */
-    /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 150px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    font: 16px 'daxcompact-boldregular';
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -480,16 +427,13 @@ select:disabled {
 }
 
 .btn-BuscarLector input:disabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    color: white; /* White text */
-    /*padding: 4px 18px;  Some padding */
-    width: 150px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
+    color: white;
+    width: 150px;
+    display: block;
     cursor: not-allowed;
-    font: 16px 'daxcompact-boldregular';
-    color: #fff;
+    font-size: 16px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -497,15 +441,13 @@ select:disabled {
 }
 
 .btn-HistorialPrestamo input:enabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_Enviar.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    color: white; /* White text */
-    /*padding: 4px 18px;  Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 150px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    font: 12px 'daxcompact-boldregular';
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    display: block;
+    font-size: 12px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
@@ -513,46 +455,35 @@ select:disabled {
 }
 
 .btn-HistorialPrestamo input:disabled {
-    /*background-color: tomato;*/ /*Green background */
     background: url(../imagenes/img_EnviarDesact.jpg) no-repeat;
-    /*border: 1px solid black; Green border */
-    color: white; /* White text */
-    /*padding: 4px 18px;  Some padding */
-    width: 150px; /*Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
+    color: white;
+    width: 150px;
+    display: block;
     cursor: not-allowed;
-    font: 12px 'daxcompact-boldregular';
+    font-size: 12px;
+    font-family: 'daxcompact-boldregular', sans-serif;
     margin: 10px;
     text-align: center;
     border-radius: 7px;
     height: 38px;
 }
 
-/* Add a background color on hover
-    .btn-group input:hover {
-        background-color: maroon;
-    }*/
-.btn-group {
-    /*    margin: 10px;*/
-    /*border: 1px solid black;*/
-    /*background-color: beige;*/
-}
-
 textarea {
     background-color: #F0F0F0;
-    font: 12px/12px 'Arial';
+    font-size: 12px/12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 textarea:enabled {
     background-color: white;
-    font: 12px/12px 'Arial';
+    font-size: 12px/12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
 input[type=text]:read-only, textarea:read-only {
-    /*background-color: lightgrey;*/
     background-color: #ebebe4;
 }
 
@@ -566,7 +497,8 @@ input[type=text]:read-only, textarea:read-only {
 
     /* Style the buttons inside the tab */
     .tab button {
-        font: 14px 'daxcompact-boldregular';
+        font-size: 14px;
+        font-family: 'daxcompact-boldregular', sans-serif;
         background-color: #e4e4ba;
         float: left;
         border: 1px solid gray;
@@ -574,7 +506,6 @@ input[type=text]:read-only, textarea:read-only {
         cursor: pointer;
         padding: 10px 10px;
         transition: 0.3s;
-        /*font-size: 17px;*/
         border-radius:5px 5px 0 0;
     }
 
@@ -601,11 +532,7 @@ input[type=text]:read-only, textarea:read-only {
     border-top: none;
 }
 
-
-
     div#calendario table {
-        /*background-color: #eee;*/
-        /*background-image: linear-gradient(to top, gainsboro, white, gainsboro); Lo comente hoy*/
         background-color: #eee;
         color: black;
         display: block;
@@ -617,10 +544,7 @@ input[type=text]:read-only, textarea:read-only {
         height: 5px;
     }
 
-div#calendario table th tr td {
-    /*background-color: #eee;*/
-    /*background-image: linear-gradient(to top, gainsboro, white, gainsboro); Lo comente hoy*/
-    
+div#calendario table th tr td { 
     background-color: #eee;
     color: black;
     display: block;
@@ -633,27 +557,21 @@ div#calendario table th tr td {
 }
 
 .my-fixed-item { /*banner WS usuario*/
-    /*position: fixed;*/
     position: absolute;
     top: 0px;
     width: 100%;
     height: 50px;
     text-align: center;
-    /*  word-wrap: break-word;*/
     background-color: #CD1818;
     z-index: 1;
 }
 
 /*Estilos para la foto de usuario del WS*/
-/*.tablaWS {*/
 .div_WSDatosUsuario { /* tamaño y alineación del div datos usuario*/
-    /*    width: 100%;*/
-    /*    margin: 0 0 0 70%;*/
-    /*    margin: 0 auto;*/
     text-align: left;
     float: left; /*Necesario para que la imagen de usuario no se ubique abajo*/
 }
-    /*  .tablaWS span {*/
+
     .div_WSDatosUsuario span {
         color: white;
     }
@@ -668,7 +586,7 @@ div#calendario table th tr td {
     height: 50px;
     overflow: hidden;
     position: relative;
-    border-radius: 50%; /*Estilo para mostrar circular la Foto WS*/
+    border-radius: 50%;
 
     margin: 0 auto;
     display: inline-block;
@@ -678,7 +596,7 @@ div#calendario table th tr td {
         position: absolute;
         left: -100%;
         right: -100%;
-        top: -60%; /*Aqui cambia el espacio superior que se le da a la Foto WS*/
+        top: -60%;
         bottom: -100%;
         margin: auto;
         min-height: 100%;

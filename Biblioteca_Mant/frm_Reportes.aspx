@@ -74,9 +74,12 @@
                 </div>
                 <!--a.LECTOR-->
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_a1BusqCodEmpleado" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">Ingrese Cód de empleado:</h1>
-                    <table>
-
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td colspan="2">
 
@@ -113,16 +116,20 @@
                     </table>
                 </fieldset>
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_a2BusqAvanzada" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">POR DECIDIR</h1>
                 </fieldset>
 
                 <!--b.LIBROS-->
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_b1BusqPorNumReg" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">Ingrese nro Registro:</h1>
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td colspan="2">
-
                                 <asp:TextBox ID="txt_valorLibro1" runat="server" Width="152px" BackColor="#FFFF9E" Height="25px"></asp:TextBox>
                                 <input id="btn_Limpiar_ReporteBusquedaLibro" type="button" value="x" title="Borra la casilla de búsqueda" runat="server" /><!--Limpia todo -->
                             </td>
@@ -159,8 +166,12 @@
                     </table>
                 </fieldset>
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_b2BusqAvanzada" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">REALICE SELECCIONES:</h1>
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 70px; vertical-align: top;">
                                 <asp:Label ID="Label18" runat="server" Text="* Fecha de "></asp:Label>
@@ -186,8 +197,10 @@
                             </td>
                         </tr>
                     </table>
-                    <table>
-
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 219px">
                                 <asp:Label ID="Label22" runat="server" Text="* Cód. Clasificación:"></asp:Label>
@@ -240,7 +253,10 @@
                                 </div>
 
                                 <div style="margin: 15px auto; width: 261px;">
-                                    <table>
+                                    <table aria-label="Tabla1">
+                                        <tr>
+                                            <th></th>
+                                        </tr>
                                         <tr>
                                             <td>
                                                 <asp:Label ID="Label26" runat="server" Text="* Formato salida:"></asp:Label>
@@ -283,9 +299,12 @@
 
                 <!--c.PRESTAMOS-->
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_c1BusqPorNum" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">Ingrese nro Préstamo:</h1>
-                    <table>
-
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td colspan="2">
 
@@ -321,8 +340,12 @@
                     </table>
                 </fieldset>
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_c2BusqAvanzada" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">REALICE SELECCIONES:</h1>
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 185px; vertical-align: top;">
                                 <asp:Label ID="Label3" runat="server" Text="* Fecha de Préstamo:  "></asp:Label>
@@ -343,7 +366,10 @@
                             </td>
                         </tr>
                     </table>
-                    <table>
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="width: 219px">
                                 <asp:Label ID="Label8" runat="server" Text="* Estado del préstamo:"></asp:Label>
@@ -382,7 +408,10 @@
 
                         <tr>
                             <div style="margin: 0px auto; width: 261px;">
-                                <table style="margin-left: 230px">
+                                <table aria-label="Tabla1" style="margin-left: 230px">
+                                    <tr>
+                                        <th></th>
+                                    </tr>
                                     <tr>
                                         <td>
                                             <asp:Label ID="Label14" runat="server" Text="* Formato salida:"></asp:Label>
@@ -425,9 +454,12 @@
 
 
                 <fieldset class="Datos_Buscar" style="width: 652px; background-color: beige;" id="fs_e1Otros" runat="server">
+                    <legend hidden="hidden"></legend>
                     <h1 class="Titulo_Cuadro">Seguimientos busqueda Web:</h1>
-                    <table>
-
+                    <table aria-label="Tabla1">
+                        <tr>
+                            <th></th>
+                        </tr>
                         <tr>
                             <td style="vertical-align: top;">
                                 <asp:DropDownList ID="DropDownList10" runat="server" Width="400px">
@@ -449,7 +481,10 @@
                                     <asp:Button ID="btn_verFichaBusqWeb" runat="server" Text="2.Ver reporte" />
                                 </div>
                                 <div style="margin: 15px auto; width: 261px;">
-                                    <table>
+                                    <table aria-label="Tabla1">
+                                        <tr>
+                                            <th></th>
+                                        </tr>
                                         <tr>
                                             <td>
                                                 <asp:Label ID="Label38" runat="server" Text="* Formato salida:"></asp:Label>
